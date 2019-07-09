@@ -1,0 +1,19 @@
+{% for section in page.sidebar.sections %}
+    <div class="pad-top-small">
+        {% if section.title %}
+            <h4>{{ section.title | improve }}</h4>
+        {% endif %}
+        {% if section.intro %}
+            <p><strong>{{ section.intro | improve }}</strong></p>
+        {% endif %}
+        {% if section.items %}
+            <nav class="u-styled-lists">
+                <ul>
+                    {% for item in section.items %}
+                        <li><a class="nav-item" href="{{ item.url | relative_url }}">{{ item.title | improve }}</a></li>
+                    {% endfor %}
+                </ul>
+            </nav>
+        {% endif %}
+    </div>
+{% endfor %}

@@ -1,0 +1,54 @@
+###################
+# Environment
+###################
+.env
+
+###################
+# Dependencies
+###################
+/node_modules/
+.bundle/
+yarn-error.log
+/vendor/bundle/
+
+###################
+# Build artefacts
+###################
+/dist/
+.sass-cache/
+/assets/styles/design/
+/assets/js/design/
+/jekyll/.jekyll-metadata
+/jekyll/dist/
+/jekyll/.git-metadata/
+/styleguide/
+
+###################
+# Backups
+###################
+*.bak
+
+
+###################
+# Editor
+###################
+*.sublime-workspace
+*.sublime-project
+.idea
+.Rhistory
+
+###################
+# Platform specific
+###################
+
+# OSX
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.bat
+*.ps1
+tmp/
