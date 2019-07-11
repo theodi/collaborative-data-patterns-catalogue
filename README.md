@@ -63,8 +63,8 @@ Linting is enforced on a pre-push hook via [Husky](https://github.com/typicode/h
 ## Project setup
 
 ```
-git clone git@github.com:theodi/open-standards-guidebook.git
-cd open-standards-guidebook
+git clone git@github.com:theodi/collaborative-data-patterns-catalogue.git
+cd collaborative-data-patterns-catalogue
 cp .env.example .env
 yarn install
 bundle install --path vendor/bundle
