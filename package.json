@@ -9,7 +9,7 @@
   "scripts": {
     "build": "yarn build:assets && yarn build:jekyll",
     "build:assets": "vue-cli-service build",
-    "build:jekyll": "JEKYLL_ENV='production' bundle exec jekyll build",
+    "build:jekyll": "cross-env JEKYLL_ENV='production' bundle exec jekyll build",
     "build:fractal": "yarn build:assets && fractal build",
     "docs:toc": "./scripts/docs/gh-md-toc README.md",
     "generate:component": "hygen fractal-component new",
