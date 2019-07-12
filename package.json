@@ -22,8 +22,8 @@
     "project:apply-env": "./scripts/project/apply-env",
     "project:configure": "./scripts/project/configure",
     "project:release": "./scripts/deploy/release",
-    "serve": "concurrently 'yarn serve:assets' 'yarn serve:fractal' 'yarn serve:jekyll'",
-    "serve:jekyll": "JEKYLL_ENV=development bundle exec jekyll serve --config _config.yml,_config.dev.yml  --trace",
+    "serve": "concurrently -r -k \"yarn serve:assets\" \"yarn serve:fractal\" \"yarn serve:jekyll\"",
+    "serve:jekyll": "cross-env JEKYLL_ENV=development bundle exec jekyll serve --config _config.yml,_config.dev.yml --trace",
     "serve:assets": "vue-cli-service serve",
     "serve:fractal": "fractal start"
   },
@@ -66,6 +66,7 @@
     "commander": "^2.19.0",
     "concurrently": "^4.1.1",
     "copy-webpack-plugin": "^5.0.2",
+    "cross-env": "^5.2.0",
     "eslint": "^6.0.1",
     "eslint-config-prettier": "^6.0.0",
     "eslint-plugin-html": "^6.0.0",
