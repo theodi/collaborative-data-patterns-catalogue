@@ -4,9 +4,10 @@
 
 .callout {
   @include trim();
+  padding: spacing(medium);
 
-  padding: spacing(base);
-  margin: spacing(base 0);
+  border-left: 4px solid palette(primary);
+  margin: spacing(medium);
   background: palette(grey);
 
   @include respond-to(medium) {
