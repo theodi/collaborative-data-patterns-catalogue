@@ -107,27 +107,5 @@
 @import "utils/uppercase";
 @import "utils/visibility";
 
-
-
-body.debug {
-  &::after { // fixed elem that shows which bp the viewport is at
-    position: fixed;
-    z-index: 999;
-    right: 0;
-    bottom: 0;
-    padding: 17px 25px;
-    background-color: rgba(0, 0, 0, 0.3);
-    color: white;
-    font-size: 15px;
-    font-weight: 700;
-    text-transform: uppercase;
-
-    @each $config in $breakpoints-map {
-      $name: nth($config, 1);
-
-      @include respond-to($name) {
-        content: $name;
-      }
-    }
-  }
-}
+// Debug
+@import "debug";
