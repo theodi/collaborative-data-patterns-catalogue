@@ -22,7 +22,7 @@
     "project:apply-env": "./scripts/project/apply-env",
     "project:configure": "./scripts/project/configure",
     "project:release": "./scripts/deploy/release",
-    "serve": "concurrently -r -k \"yarn serve:assets\" \"yarn serve:fractal\" \"yarn serve:jekyll\"",
+    "serve": "concurrently \"yarn serve:assets\" \"yarn serve:fractal\" \"yarn serve:jekyll\"",
     "serve:jekyll": "cross-env JEKYLL_ENV=development bundle exec jekyll serve --config _config.yml,_config.dev.yml --trace",
     "serve:assets": "vue-cli-service serve",
     "serve:fractal": "fractal start"
