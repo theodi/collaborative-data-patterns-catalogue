@@ -4,7 +4,7 @@ title: Modular Scale
 
 Font sizing is based on a modular scale, and utilises the [modularscale-sass](https://github.com/modularscale/modularscale-sass) plugin to split 2 threads, mobile and desktop. Mobile uses a [17px / 1.200 ratio](http://www.modularscale.com/?17&px&1.200), desktop uses a [15px / 1.333 ratio](http://www.modularscale.com/?15&px&1.333).  
 
-`tools/_font-ratio.scss` is where these parameteres are defined and can be tweaked. Docs on the available options can be found [here](https://github.com/modularscale/modularscale-sass).
+`tools/_font-ratio.scss` is where these parameters are defined and can be tweaked. Docs on the available options can be found [here](https://github.com/modularscale/modularscale-sass).
 
 Within Sass modular scale output is declared using the `ms()` helper function. This function takes a number to define whereabouts you want to be on the scale tier, and an optional `$thread` definition, this is commonly used to change threads across breakpoints, for example:
 
