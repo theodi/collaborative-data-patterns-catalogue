@@ -20,7 +20,7 @@ keep_files: ['dist']
 #
 ###
 url: https://patterns.theodi.org
-name: Collaborative Data Patterns Catalogue
+name: Patterns Catalogue
 # Meta robots value
 robots: index, follow # change to noindex to block
 issue_app_url: 'https://open-standards-guidebook.herokuapp.com/'
