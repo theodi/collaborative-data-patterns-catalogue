@@ -10,8 +10,8 @@
 .m-masthead-nav__item {
   @include link() {
     display: inline-block;
-    padding: spacing(4 8 6 8);
-    border: 2px solid transparent;
+    padding: spacing(20 13);
+    border-bottom: 4px solid transparent;
     margin-right: spacing(2);
     color: palette(white);
     font-size: ms(0);
@@ -23,14 +23,10 @@
     }
 
     &.is--active {
-      display: inline-block;
-      padding: spacing(4 8 6 8);
-      border: solid 2px palette(primary);
-      background: palette(primary);
-      background-image: linear-gradient(to bottom, tint(palette(primary), "lighten"), palette(primary));
-      border-radius: rem-calc(2);
+      position: relative;
+      border-bottom: 4px solid palette(secondary);
+      background: #403f3f; // TODO: styleguide?
       color: white;
-      font-weight: 500;
       font-weight: 600;
       text-align: center;
       text-decoration: none;
