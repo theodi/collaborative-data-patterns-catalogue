@@ -36,7 +36,7 @@
                         {% endfor %}
                     </nav>
                 </div>
-                <div class="is-visible is-hidden--medium u-text-center">
+                <div class="is-visible is-hidden--medium">
                     <button class="burger" data-toggle="#mobile-nav" aria-controls="mobile-nav">
                         <span class="g g--no-gutters align-v-center">
                             <span class="g__cell">
@@ -60,10 +60,11 @@
             ">{{ item.title | improve }}</a>
         {% endfor %}
         <hr class="m-nav-mobile__separator">
-        {% for item in site.data.top_aux_nav %}
-            <a href="{{ item.url | relative_url }}" class="m-nav-mobile__item
-            {% if page.url contains item.url %}is--active{% endif %}
-            ">{{ item.title | improve }}</a>
-        {% endfor %}
+        <div class="u-trim--all">
+            <p>
+                <b>Something missing?</b><br>
+                <a class="link link--bold link--primary" href="{{ site.data.contributing.repo_url }}/issues" data-modal="#modal-suggestion">{{ site.data.contributing.cta_text }}</a>
+            </p>
+        </div>
     </nav>
 </div>
