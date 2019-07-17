@@ -5,7 +5,7 @@
 .m-nav-mobile {
   display: none;
   padding: spacing(20 25);
-  background: palette(primary);
+  background: palette(white);
 
   &.is--open {
     display: block;
@@ -16,26 +16,22 @@
   display: block;
 
   @include link() {
-    padding: spacing(3 0);
-    color: white;
-    font-size: ms(0);
-    font-weight: regular;
-  }
-
-  @include link-hover() {
-    color: tint(white, "darken");
+    padding: spacing(7 0);
+    color: palette(secondary);
+    font-size: ms(4);
+    font-weight: bold;
   }
 
   &.is--active {
     @include link() {
-      font-weight: bold;
+      color: palette(grey-dark);
       text-decoration: none;
     }
   }
 }
 
 .m-nav-mobile__separator {
-  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-top: 1px solid palette(grey);
   border-bottom: none;
   margin: 12px 0;
   border-radius: 0;
