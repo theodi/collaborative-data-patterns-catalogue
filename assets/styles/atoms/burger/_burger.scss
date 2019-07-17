@@ -8,7 +8,7 @@
 // (---) bottom -> &::after
 
 // Burger
-@mixin burger($width: 20px, $height: 2px, $gutter: 3px, $color: palette(white), $border-radius: 0, $transition-duration: 250ms) {
+@mixin burger($width: 20px, $height: 2px, $gutter: 3px, $color: palette(secondary), $border-radius: 0, $transition-duration: 250ms) {
   $burger-height: $height !global;
   $burger-gutter: $gutter !global;
 
@@ -100,8 +100,8 @@
 
 .burger {
   display: inline-block;
-  padding: 0.3em;
-  background: palette(grey-dark);
+  padding: spacing(15);
+  background: palette(black);
 
   &:hover {
     cursor: pointer;
@@ -117,6 +117,14 @@
 
 .burger__icon {
   @include burger;
+}
+
+.burger.is--active {
+  background: palette(white);
+
+  .burger__text {
+    color: black;
+  }
 }
 
 .burger.is--active .burger__icon {
