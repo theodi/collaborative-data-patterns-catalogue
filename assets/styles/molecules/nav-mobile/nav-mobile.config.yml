@@ -4,20 +4,14 @@ context:
     open: true
     items:
     -
-      title: Introduction
-      active: false
-    -
-      title: Creating Impact
+      title: Home
       active: true
     -
-      title: Creating Open Standards
-      active: false
-    -
-      title: The Standards Community
-      active: false
-    -
-      title: How to use this guide
+      title: Patterns
       active: false
     -
       title: About
+      active: false
+    -
+      title: Contribute
       active: false
