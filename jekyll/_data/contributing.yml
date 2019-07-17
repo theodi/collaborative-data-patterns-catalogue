@@ -1,7 +1,7 @@
 ####
 # contributing.yml: data relating to contributing to this guide
 ####
-repo_url: 'https://github.com/theodi/open-standards-guidebook'
+repo_url: 'https://github.com/theodi/collaborative-data-patterns-catalogue'
 cta_text: 'Suggest a change or addition'
 # Custom labels must be created in GH first
 labels:
