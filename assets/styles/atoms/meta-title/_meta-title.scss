@@ -11,17 +11,17 @@
 
   &,
   & > a {
-    color: palette(secondary);
+    color: palette(primary);
   }
 
   > a {
     @include link() {
-      color: palette(secondary);
+      color: palette(primary);
       text-decoration: none;
     }
 
     @include link-hover() {
-      color: palette(secondary);
+      color: palette(primary);
       text-decoration: underline;
     }
   }
