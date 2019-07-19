@@ -11,6 +11,9 @@ props:
   grey:
     value: '#f3f3f4'
     comment: 'Grey: - Example Usage: Section divider background and dividing lines lines'
+  grey-mid:
+    value: '#3c3c3c'
+    comment: 'Grey Mid - Example Usage: Hero elements'
   grey-dark:
     value: '#333333'
     comment: 'Grey Dark - Example Usage: Header and footer background'
