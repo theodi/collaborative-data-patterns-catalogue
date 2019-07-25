@@ -24,8 +24,8 @@
 
     &.is--active {
       position: relative;
-      border-bottom: 4px solid palette(secondary);
-      background: #403f3f; // TODO: styleguide?
+      border-top: 4px solid palette(accent);
+      background-color: palette(grey-off-dark);
       color: white;
       font-weight: 600;
       text-align: center;

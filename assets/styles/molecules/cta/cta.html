@@ -1,4 +1,11 @@
-<div class="m-cta u-inverse">
+<div class="m-cta
+    {% if color == 'white' %}
+        m-cta--white
+        u-text-right
+    {% else %}
+        m-cta--primary
+        u-inverse 
+    {% endif %}">
     <div class="wrapper">
         {{ cta.message }}
     </div>

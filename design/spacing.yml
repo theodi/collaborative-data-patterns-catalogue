@@ -2,6 +2,9 @@ global:
   category: 'Spacing Units'
   type: 'number'
 props:
+  xsmall:
+    value: 6
+    comment: 'xsmall'
   small:
     value: 12
     comment: 'small'

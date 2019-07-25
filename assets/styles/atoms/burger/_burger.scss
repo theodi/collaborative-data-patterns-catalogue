@@ -8,12 +8,12 @@
 // (---) bottom -> &::after
 
 // Burger
-@mixin burger($width: 20px, $height: 2px, $gutter: 3px, $color: palette(secondary), $border-radius: 0, $transition-duration: 250ms) {
+@mixin burger($width: 20px, $height: 2px, $gutter: 3px, $color: palette(primary), $border-radius: 0, $transition-duration: 250ms) {
   $burger-height: $height !global;
   $burger-gutter: $gutter !global;
 
   position: relative;
-  margin-top: $height + $gutter;
+  margin-top: $height + $gutter - 1;
   margin-bottom: $height + $gutter;
   user-select: none;
 
@@ -100,7 +100,7 @@
 
 .burger {
   display: inline-block;
-  padding: spacing(15);
+  padding: spacing(24 15 20 15);
   background: palette(black);
 
   &:hover {

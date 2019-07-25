@@ -6,12 +6,12 @@
   @include trim();
   padding: spacing(medium);
 
-  border-left: 4px solid palette(primary);
+  border-left: 4px solid palette(secondary);
   margin: spacing(medium);
   background: palette(grey);
 
   @include respond-to(medium) {
-    padding: spacing(medium);
+    padding: spacing(large);
   }
 
   > *:first-child {

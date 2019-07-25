@@ -18,11 +18,11 @@ context:
     modifier: m-nav--large
     items:
     -
-      title: What are Open Standards for Data?
+      title: Nav Item 1
     -
-      title: Types of Open Data Standards
+      title: Nav Item 2
     -
-      title: Why use Open Standards for Data
+      title: Nav Item 3
 
   # Nav Meta Title
   metatitle:

@@ -5,15 +5,24 @@
   }
 </style>
 
-{% render '@cta-tray' %}
+{% render '@cta' with { color: 'white' } %}
 
 {% render '@masthead' %}
-{% render '@hero-home' %}
+{% render '@hero' with { hero: { heading: 'Home title' } } %}
 
-<section class="pad-top-medium pad-top-xlarge--medium pad-bottom-medium pad-bottom-xlarge--medium">
-    <div class="wrapper">
-        {% render '@section-listing' %}
+<section class="pad-top-medium pad-top-xlarge--medium pad-bottom-medium pad-bottom-xlarge--medium wrapper">
+    <div class="m-section-listing">
+        <div class="g">
+            <div class="g__cell g__cell-12 g__cell-8--large ">
+                <h2>Section title</h2>
+
+                <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.</p>
+            </div>
+        </div>
     </div>
+
+    {% render '@section-listing' %}
+    
 </section>
 
 <section class="island island--grey pad-top-medium pad-top-xlarge--medium pad-bottom-medium pad-bottom-xlarge--medium">
@@ -21,20 +30,24 @@
         <div class="g">
             <div class="g__cell g__cell-12 g__cell-6--medium g__cell-4--large">
                 <div class="u-trim--all">
-                    <h5 class="u-text-color--black"><a class="link" href="#">About Open Standards</a></h5>
+                    <h5 class="u-text-color--black"><a class="link" href="#">Fermentum fringilla bibendum</a></h5>
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo</p>
+
+                {% render '@btn' with { modifier : 'btn--secondary' } %}
             </div>
 
             <div class="g__cell g__cell-12 g__cell-6--medium g__cell-4--large">
                 <div class="u-trim--all">
-                    <h5 class="u-text-color--black"><a class="link" href="#">Help &amp; Support</a></h5>
+                    <h5 class="u-text-color--black"><a class="link" href="#">Vulputate euismod elit inceptos</a></h5>
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo</p>
+
+                {% render '@btn' with { modifier : 'btn--secondary' } %}
             </div>
         </div>
     </div>
 </section>
 
-{% render '@cta' %}
+{% render '@cta'%}
 {% render '@footer' %}

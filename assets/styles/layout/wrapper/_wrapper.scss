@@ -7,14 +7,13 @@
 $_wrapper-max-width: 1200;
 
 // Gutter width of the wrapper to aid legibility on smaller devices.
-$_wrapper-padding: 25;
 
 .wrapper {
   position: relative;
   width: 100%;
   max-width: rem-calc($_wrapper-max-width);
-  padding-right: rem-calc($_wrapper-padding);
-  padding-left: rem-calc($_wrapper-padding);
+  padding-right: spacing(base);
+  padding-left: spacing(base);
   margin: 0 auto;
   clear: both;
 }

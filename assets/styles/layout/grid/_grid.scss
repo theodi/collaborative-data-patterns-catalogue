@@ -10,8 +10,8 @@ $_grid-column-count: 12;
   flex: 0 1 auto;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-right: - rem-calc($_wrapper-padding);
-  margin-left: - rem-calc($_wrapper-padding);
+  margin-right: - spacing(base);
+  margin-left: - spacing(base);
 }
 
 .g .g {
@@ -23,8 +23,8 @@ $_grid-column-count: 12;
 .g__cell {
   box-sizing: border-box;
   flex: 0 0 auto;
-  padding-right: rem-calc($_wrapper-padding);
-  padding-left: rem-calc($_wrapper-padding);
+  padding-right: spacing(base);
+  padding-left: spacing(base);
 
   & & {
     padding-right: 0;
@@ -96,8 +96,8 @@ $_grid-column-count: 12;
 .g--margin-gutters > .g__cell {
   padding-right: 0;
   padding-left: 0;
-  margin-right: 25px;
-  margin-left: 25px;
+  margin-right: spacing(base);
+  margin-left: spacing(base);
 }
 
 

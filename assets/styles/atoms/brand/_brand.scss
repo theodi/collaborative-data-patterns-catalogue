@@ -3,15 +3,19 @@
 // ==========================================================================
 
 .brand {
-  display: block;
-  margin: 0;
-  color: white;
-  font-size: ms(3);
-  font-weight: bold;
-  line-height: 1.15;
-  text-decoration: none;
+  @include link() {
+    display: inline-block;
+    margin: 0;
+    color: white;
+    font-size: ms(1);
+    font-weight: bold;
+    line-height: 1.15;
+    text-decoration: none;
+    padding: spacing(18) spacing(base);
 
-  @include respond-to(medium) {
-    font-size: ms(4, $thread: desktop);
+    @include respond-to(medium) {
+      font-size: ms(4, $thread: desktop);
+      padding: 0;
+    }
   }
 }

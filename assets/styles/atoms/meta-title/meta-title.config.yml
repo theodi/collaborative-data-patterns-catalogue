@@ -1,4 +1,11 @@
 title: "Meta Title"
+collated: false
 context:
   metatitle:
     message: Meta Title
+variants:
+  -
+    name: White
+    preview: "@preview-dark"
+    context:
+      modifier: white

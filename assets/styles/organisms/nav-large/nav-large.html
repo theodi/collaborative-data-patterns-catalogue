@@ -1,13 +1,19 @@
 {% if metatitle %}
-    {% include '@meta-title'%}
-{% endif %}
-
-{% if navTitle %}
-    <div class="u-trim--all pad-bottom-small pad-bottom--medium">
-        <h2>{{ navTitle}}</h2>
+    <div class="pad-bottom-xsmall">
+        {% include '@meta-title' %}
     </div>
 {% endif %}
 
+{% if navtitle %}
+    <div class="u-trim--all">
+        <h2 class="h4">{{ navtitle }}</h2>
+    </div>
+{% endif %}
+
+{% if navintro %}
+    <p>{{ navintro }}</p>
+{% endif %}
+
 {% for item in nav.items %}
-    <a href="#" class="nav-item nav-item--large {% if item.active %}is--active{% endif %}">{{ item.title }}</a>
+    <a href="#" class="nav-item {% if item.active %}is--active{% endif %}">{{ item.title }}</a>
 {% endfor %}

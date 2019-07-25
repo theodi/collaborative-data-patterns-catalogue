@@ -13,8 +13,8 @@ context:
       title: This is a grey-dark inversed island
       inverse: true
     -
-      class: island--grey-dark
-      title: This is a grey-dark inversed island
+      class: island--grey-off-dark
+      title: This is a grey-off-dark inversed island
       inverse: true
     -
       class: island--grey

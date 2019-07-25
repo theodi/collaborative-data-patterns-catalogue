@@ -4,14 +4,11 @@ context:
     breadcrumb:
         items:
             -
-                title: Guide
+                title: Home
                 active: false
             -
-                title: Introduction
+                title: About
                 active: false
             -
-                title: Case Studies
-                active: false
-            -
-                title: General Transit Feed Specification (GTFS)
+                title: Content page
                 active: true

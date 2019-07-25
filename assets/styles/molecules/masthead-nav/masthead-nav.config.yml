@@ -5,10 +5,10 @@ context:
     items:
     -
       title: Home
-      active: false
+      active: true
     -
       title: Patterns
-      active: true
+      active: false
     -
       title: About
       active: false

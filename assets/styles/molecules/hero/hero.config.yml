@@ -2,7 +2,7 @@ title: "Hero "
 status: "ready"
 context:
   hero:
-    heading: General Transit Feed Specification (GTFS)
+    heading: Page Title
     sidenav: true
     breadcrumbs: true
     lowernav: false
@@ -10,29 +10,31 @@ context:
     modifier: m-nav--large
     items:
     -
-      title: What are Open Standards for Data?
+      title: Fusce dapibus, tellus ac cursus commodo
     -
-      title: Types of Open Data Standards
+      title: Tortor mauris condimentum nibh 
     -
-      title: Why use Open Standards for Data
-    -
-      title: The Open Standards process
-    -
-      title: Case Studies
+      title: Ut fermentum massa justo sit amet risus
   metatitle:
-    message: Lorem
-  pill:
-    message: Case Study
+    message: Introduction
+  navtitle: Getting started
+  navintro: Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum..
+  # pill:
+  #   message: Case Study
   lede:
-    message: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum'
+    message: 'Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.'
 
 variants:
-    -
-        name: soundcloud
-        context:
-            modifier: soundcloud
-
-    -
-        name: infographic
-        context:
-            modifier: infographic
+  -
+    name: With background image
+    context:
+      wrapperModifier: bg
+      backgroundImage: https://images.unsplash.com/6/blurred_lines.jpeg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80
+  -
+    name: soundcloud
+    context:
+      modifier: soundcloud
+  -
+    name: infographic
+    context:
+      modifier: infographic

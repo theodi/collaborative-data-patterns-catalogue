@@ -2,4 +2,9 @@ title: "CTA"
 status: "ready"
 context:
   cta:
-    message: Something missing? <a class="link link--bold" href="#">edit this page</a> or <a class="link link--bold" href="#">suggest new content</a>
+    message: Something missing? <a class="link link--bold" href="#">Suggest a change or addition</a>
+variants:
+  -
+    name: white
+    context:
+      color: white

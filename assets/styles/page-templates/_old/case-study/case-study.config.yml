@@ -6,7 +6,7 @@ context:
     noPad: true
   # Hero Context
   hero:
-    heading: General Transit Feed Specification (GTFS)
+    heading: Page Title
     breadcrumbs: true
     sidenav: true
 
@@ -16,7 +16,7 @@ context:
 
   # Hero Lede
   lede:
-    message: 'A case study of General Transit Feed Specification (GTFS) and General Transit Feed Specification Real-Time (GTFS-RT) extension to support organisations developing or thinking of developing open standards for data.
+    message: 'A case study of Page Title and General Transit Feed Specification Real-Time (GTFS-RT) extension to support organisations developing or thinking of developing open standards for data.
 Our standards case studies provide a summary of the history, development process, governance and key actors involved in the development of an open standard for data.'
 
   # Nav Context
@@ -24,11 +24,11 @@ Our standards case studies provide a summary of the history, development process
     modifier: m-nav--large
     items:
     -
-      title: What are Open Standards for Data?
+      title: Nav Item 1
     -
-      title: Types of Open Data Standards
+      title: Nav Item 2
     -
-      title: Why use Open Standards for Data
+      title: Nav Item 3
 
   # Nav Metatitle
   metatitle:

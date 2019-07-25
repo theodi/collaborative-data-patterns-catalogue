@@ -1,5 +1,8 @@
-<div class="m-hero__wrapper">
-    <div class="m-hero {{ modifier }}">
+<div class="m-hero__wrapper {% if wrapperModifier %}m-hero__wrapper--{{ wrapperModifier }} {% endif %} island--grey-off-dark u-inverse"
+        {% if backgroundImage %}
+            style="background-image: url({{ backgroundImage }});"
+        {% endif %}>
+    <div class="m-hero">
         <div class="wrapper">
             {% if hero.breadcrumbs %}
                 <div class="pad-bottom">

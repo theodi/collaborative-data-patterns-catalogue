@@ -6,17 +6,16 @@ context:
     sidenav: false
     breadcrumbs: false
     lowernav: true
-  navTitle: Introduction to Open Standards
   nav:
     pill: true
     modifier: m-nav--large
     items:
     -
-      title: What are Open Standards for Data?
+      title: Fusce dapibus, tellus ac cursus commodo
     -
-      title: Types of Open Data Standards
+      title: Tortor mauris condimentum nibh 
     -
-      title: Why use Open Standards for Data
+      title: Ut fermentum massa justo sit amet risus
   metatitle: false
   pill: false
   lede:
