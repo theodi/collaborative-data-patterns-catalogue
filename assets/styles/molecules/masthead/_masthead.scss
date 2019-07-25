@@ -3,15 +3,15 @@
 // ==========================================================================
 
 .m-masthead {
-  background: palette(grey-dark);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background: palette(grey-dark);
 
   @include respond-to(medium) {
-    padding-top: spacing(medium);
     display: block;
     padding: spacing(base base 0 base);
+    padding-top: spacing(medium);
   }
 
   @media print {

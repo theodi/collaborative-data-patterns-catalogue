@@ -7,16 +7,22 @@ context:
           title: Find patterns
           items:
           -
-            title: In vitae mauris
+            title: Entries
             description: Short description nulla eu molestie massa. Pellentesque fermentum urna pretium nulla lacinia gravida. Aenean in aliquet mauris.
           -
-            title: Vestibulum congue ligula
+            title: First time contributions
             description: Short description nulla eu molestie massa. Pellentesque fermentum urna pretium nulla lacinia gravida. Aenean in aliquet mauris.
           -
-            title: Quis suscipit tortor
+            title: Making changes
             description: Short description nulla eu molestie massa. Pellentesque fermentum urna pretium nulla lacinia gravida. Aenean in aliquet mauris.
           -
-            title: Sed justo
+            title: Reviews
+            description: Short description nulla eu molestie massa. Pellentesque fermentum urna pretium nulla lacinia gravida. Aenean in aliquet mauris.
+          -
+            title: Evidence
+            description: Short description nulla eu molestie massa. Pellentesque fermentum urna pretium nulla lacinia gravida. Aenean in aliquet mauris.
+          -
+            title: Expertise and rights
             description: Short description nulla eu molestie massa. Pellentesque fermentum urna pretium nulla lacinia gravida. Aenean in aliquet mauris.
 variants:
     -
