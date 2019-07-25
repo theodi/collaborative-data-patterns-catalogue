@@ -5,30 +5,35 @@
   }
 </style>
 
-{% render '@cta' with { color: 'white' } %}
-
+{% render '@cta-tray' %}
 {% render '@masthead' %}
-{% render '@hero' with { hero: { heading: 'Home title' } } %}
+{% include '@hero' %}
 
-<section class="pad-top-medium pad-top-xlarge--medium pad-bottom-medium pad-bottom-xlarge--medium wrapper">
-    <div class="m-section-listing">
+<section class="pad-top-medium pad-top-xlarge--medium pad-bottom-medium pad-bottom-xlarge--medium">
+    <div class="wrapper">
         <div class="g">
-            <div class="g__cell g__cell-12 g__cell-8--large ">
-                <h2>Section title</h2>
+            <div class="g__cell g__cell-12 g__cell-8--medium">
+                <div class="u-trim--all">
+                    <h3>Section title</h3>
+                </div>
 
-                <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.</p>
+                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+            </div>
+
+            <div class="g__cell g__cell-12 g__cell-4--medium">
+                <div class="m-sidebar site-content">
+                    <h3>Sidebar</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                </div>
             </div>
         </div>
     </div>
-
-    {% render '@section-listing' %}
-    
 </section>
 
 <section class="island island--grey pad-top-medium pad-top-xlarge--medium pad-bottom-medium pad-bottom-xlarge--medium">
     <div class="wrapper">
         <div class="g">
-            <div class="g__cell g__cell-12 g__cell-6--medium g__cell-4--large pad-bottom">
+            <div class="g__cell g__cell-12 g__cell-6--medium g__cell-4--large">
                 <div class="u-trim--all">
                     <h5 class="u-text-color--black"><a class="link" href="#">Fermentum fringilla bibendum</a></h5>
                 </div>
@@ -37,7 +42,7 @@
                 {% render '@btn' with { modifier : 'btn--secondary' } %}
             </div>
 
-            <div class="g__cell g__cell-12 g__cell-6--medium g__cell-4--large pad-bottom">
+            <div class="g__cell g__cell-12 g__cell-6--medium g__cell-4--large">
                 <div class="u-trim--all">
                     <h5 class="u-text-color--black"><a class="link" href="#">Vulputate euismod elit inceptos</a></h5>
                 </div>
@@ -49,5 +54,5 @@
     </div>
 </section>
 
-{% render '@cta'%}
+{% render '@cta' %}
 {% render '@footer' %}

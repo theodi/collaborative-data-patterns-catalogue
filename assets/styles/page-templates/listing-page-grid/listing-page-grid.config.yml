@@ -6,29 +6,11 @@ context:
     noPad: true
   # Hero Context
   hero:
-    lowernav: true
+    heading: All patterns
 
   # Hero Lede
   lede:
     message: 'Some introductory text lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vulputate magna velit. Vestibulum fermentum fermentum libero. Vestibulum dui dui, pulvinar bibendum nulla eget, lacinia fermentum lorem.'
-
-  # Nav Context
-  nav:
-    modifier: m-nav--large
-    items:
-    -
-      title: Nav Item 1
-    -
-      title: Nav Item 2
-    -
-      title: Nav Item 3
-
-  # Nav Title
-  navtitle: Introduction to Open Standards
-
-  # Nav Meta Title
-  metatitle:
-    message: Getting Started
 
   # Section Listings
   sections:
