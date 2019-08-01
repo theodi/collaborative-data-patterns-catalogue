@@ -18,11 +18,11 @@ props:
     value: '#3c3c3c'
     comment: 'Grey Off Dark - Example Usage: Contrast in masthead'
   primary:
-    value: '#ff6700'
-    comment: 'Primary orange: - Example Usage: Used as primary link colour and CTA quick edit bar'
+    value: '#722EA5'
+    comment: 'Primary purple: - Example Usage: Used as primary link colour and CTA quick edit bar'
   secondary:
-    value: '#178cff'
-    comment: 'Secondary blue: - Example Usage: Case study label'
+    value: '#1DD3A7'
+    comment: 'Secondary teal: - Example Usage: '
   accent:
     value: '#e6007c'
     comment: 'Accent pink: - Example Usage: masthead nav active state'

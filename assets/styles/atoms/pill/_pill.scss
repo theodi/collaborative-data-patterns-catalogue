@@ -6,9 +6,15 @@
   display: inline-block;
   padding: spacing(3 6);
   margin-bottom: spacing(5);
-  background: palette(accent);
+  background: palette(primary);
   color: white;
   font-size: ms(-1);
   font-weight: 600;
   text-transform: uppercase;
+}
+
+
+.pill--secondary {
+  background: palette(secondary);
+
 }

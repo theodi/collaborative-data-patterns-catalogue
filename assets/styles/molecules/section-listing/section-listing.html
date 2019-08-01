@@ -7,6 +7,11 @@
     {% if section.description %}
         <p>{{ section.description }}</p>
     {% endif %}
+    {% if section.subtitle %}
+    <div class="u-trim--all pad-top--medium">
+        <h3>{{ section.subtitle }}</h3>
+    </div>
+    {% endif %}
 
         <div class="g pad-top-small pad-top--medium">
             {% for item in section.items %}

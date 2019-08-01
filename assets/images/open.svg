@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="17" height="13" viewBox="0 0 17 13">
+  <defs>
+    <clipPath id="clip-Artboard_1">
+      <rect width="17" height="13"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <rect width="17" height="13" fill="#fff"/>
+    <g id="Group_153" data-name="Group 153" transform="translate(-1180 -1124)">
+      <g id="Group_132" data-name="Group 132" transform="translate(5 6)">
+        <rect id="Rectangle_93" data-name="Rectangle 93" width="5" height="2" transform="translate(1175 1118)" fill="#ff6700"/>
+        <rect id="Rectangle_94" data-name="Rectangle 94" width="5" height="2" transform="translate(1175 1123) rotate(-90)" fill="#ff6700"/>
+      </g>
+      <g id="Group_135" data-name="Group 135" transform="translate(2372 2255) rotate(180)">
+        <rect id="Rectangle_93-2" data-name="Rectangle 93" width="5" height="2" transform="translate(1175 1118)" fill="#ff6700"/>
+        <rect id="Rectangle_94-2" data-name="Rectangle 94" width="5" height="2" transform="translate(1175 1123) rotate(-90)" fill="#ff6700"/>
+      </g>
+      <g id="Group_133" data-name="Group 133" transform="translate(2315 -58) rotate(90)">
+        <rect id="Rectangle_93-3" data-name="Rectangle 93" width="5" height="2" transform="translate(1182 1118)" fill="#ff6700"/>
+        <rect id="Rectangle_94-3" data-name="Rectangle 94" width="5" height="2" transform="translate(1182 1123) rotate(-90)" fill="#ff6700"/>
+      </g>
+      <g id="Group_134" data-name="Group 134" transform="translate(62 2312) rotate(-90)">
+        <rect id="Rectangle_93-4" data-name="Rectangle 93" width="5" height="2" transform="translate(1175 1118)" fill="#ff6700"/>
+        <rect id="Rectangle_94-4" data-name="Rectangle 94" width="5" height="2" transform="translate(1175 1123) rotate(-90)" fill="#ff6700"/>
+      </g>
+    </g>
+  </g>
+</svg>

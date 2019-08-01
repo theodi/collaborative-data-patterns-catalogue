@@ -6,9 +6,10 @@
   @include trim();
   padding: spacing(medium);
 
-  border-left: 4px solid palette(secondary);
-  margin: spacing(medium);
-  background: palette(grey);
+  border-left: 4px solid palette(primary);
+  margin-top: spacing(medium);
+  margin-bottom: spacing(medium);
+  background-color:  palette(grey);
 
   @include respond-to(medium) {
     padding: spacing(large);
@@ -28,4 +29,9 @@
       margin-bottom: 0;
     }
   }
+}
+
+.callout--clear {
+  background-color: transparent;
+  border: 1px solid palette(grey);
 }

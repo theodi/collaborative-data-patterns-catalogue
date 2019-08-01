@@ -7,8 +7,8 @@ context:
                 title: Home
                 active: false
             -
-                title: About
+                title: Link
                 active: false
             -
-                title: Content page
+                title: Current page
                 active: true

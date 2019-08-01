@@ -39,3 +39,17 @@
     }
   }
 }
+
+
+.meta-title--secondary {
+  &,
+  & > a {
+    color: palette(secondary);
+  }
+
+  > a {
+    @include link() {
+      color: palette(secondary);
+    }
+  }
+}

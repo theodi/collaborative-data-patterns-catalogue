@@ -8,7 +8,7 @@
 // (---) bottom -> &::after
 
 // Burger
-@mixin burger($width: 20px, $height: 2px, $gutter: 3px, $color: palette(primary), $border-radius: 0, $transition-duration: 250ms) {
+@mixin burger($width: 20px, $height: 2px, $gutter: 3px, $color: palette(secondary), $border-radius: 0, $transition-duration: 250ms) {
   $burger-height: $height !global;
   $burger-gutter: $gutter !global;
 

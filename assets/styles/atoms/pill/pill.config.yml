@@ -2,3 +2,9 @@ title: "Pill"
 context:
   pill: 
     message: Pill Example
+variants:
+  -
+    name: Secondary
+    context:
+      pill: 
+        modifier: secondary

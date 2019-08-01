@@ -5,7 +5,14 @@ context:
     message: Meta Title
 variants:
   -
+    name: Secondary
+    preview: "@preview-dark"
+    context:
+      metatitle:
+          modifier: secondary
+  -
     name: White
     preview: "@preview-dark"
     context:
-      modifier: white
+      metatitle:
+          modifier: white

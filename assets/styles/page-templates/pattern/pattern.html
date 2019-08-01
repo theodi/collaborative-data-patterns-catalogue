@@ -5,54 +5,85 @@
   }
 </style>
 
-{% render '@cta-tray' %}
+{% render '@cta--white' %}
 {% render '@masthead' %}
-{% include '@hero' %}
 
 <section class="pad-top-medium pad-top-xlarge--medium pad-bottom-medium pad-bottom-xlarge--medium">
     <div class="wrapper">
         <div class="g">
-            <div class="g__cell g__cell-12 g__cell-8--medium">
-                <div class="u-trim--all">
-                    <h3>Section title</h3>
-                </div>
 
-                <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo.</p>
+            <div class="g__cell g__cell-12 g__cell-3--medium">
             </div>
-
-            <div class="g__cell g__cell-12 g__cell-4--medium">
-                <div class="m-sidebar site-content">
-                    <h3>Sidebar</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <div class="g__cell g__cell-12 g__cell-9--medium">
+                <div class="pad-bottom-medium">
+                    {% render '@breadcrumb' %}
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-<section class="island island--grey pad-top-medium pad-top-xlarge--medium pad-bottom-medium pad-bottom-xlarge--medium">
-    <div class="wrapper">
         <div class="g">
-            <div class="g__cell g__cell-12 g__cell-6--medium g__cell-4--large">
-                <div class="u-trim--all">
-                    <h5 class="u-text-color--black"><a class="link" href="#">Fermentum fringilla bibendum</a></h5>
-                </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo</p>
 
-                {% render '@btn' with { modifier : 'btn--secondary' } %}
+            <div class="g__cell g__cell-12 g__cell-3--medium">
+                <h3>All categories</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
             </div>
+            <div class="g__cell g__cell-12 g__cell-9--medium">
 
-            <div class="g__cell g__cell-12 g__cell-6--medium g__cell-4--large">
                 <div class="u-trim--all">
-                    <h5 class="u-text-color--black"><a class="link" href="#">Vulputate euismod elit inceptos</a></h5>
+                    <h1>Pattern title</h1>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim aminim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex commodo</p>
 
-                {% render '@btn' with { modifier : 'btn--secondary' } %}
+                <p class="lede">Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+
+
+                <div class="callout">
+                    <h2 class="h4">Problem</h2>
+                    <p>Vamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est.</p>
+                </div>
+
+                <div class="callout">
+                    <h2 class="h4">Context</h2>
+                    <p>Vamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est.</p>
+                </div>
+
+                <div class="callout callout--clear">
+                    <div class="g">
+                        <div class="g__cell g__cell-12 g__cell-7--large">
+                            <h2 class="h4">Image block title</h2>
+                            <p>Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur. </p>
+                        </div>
+                        <div class="g__cell g__cell-12 g__cell-5--large">
+                            <figure>
+                                <a href="#" data-modal="#modal-pattern">
+                                    <img src="https://source.unsplash.com/300x400">
+                                </a>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="callout callout--clear">
+                    <h2 class="h4">Block title</h2>
+                    <p>Vamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla. Duis mollis, est.</p>                    
+                </div>
+                
+                {% render '@section-listing' %}
+
+
             </div>
         </div>
     </div>
 </section>
+
+<div class="m-modal" id="modal-pattern" aria-hidden="true">
+    <div class="wrapper">
+        <div class="m-modal__inner">
+            <button class="m-modal__close" aria-controls="modal-pattern" data-modal="#modal-pattern"></button>
+            <img src="https://source.unsplash.com/900x1200">
+        </div>
+    </div>
+</div>
+
 
 {% render '@cta' %}
 {% render '@footer' %}

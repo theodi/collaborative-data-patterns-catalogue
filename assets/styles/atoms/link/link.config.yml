@@ -1,7 +1,6 @@
 title: "Links"
 context:
-    link:
-        message: This is a standard link item
+    message: This is a standard link item
 variants:
     -
         name: plain

@@ -1,4 +1,4 @@
-title: "Hero "
+title: "Hero"
 status: "ready"
 context:
   hero:
@@ -17,10 +17,12 @@ context:
       title: Ut fermentum massa justo sit amet risus
   metatitle:
     message: Introduction
+    modifier: secondary
   navtitle: Getting started
   navintro: Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas faucibus mollis interdum..
   # pill:
   #   message: Case Study
+  #   modifier: secondary
   lede:
     message: 'Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.'
 
