@@ -1,21 +1,18 @@
 const path = require('path');
-const fs = require('fs');
 const ManifestPlugin = require('webpack-manifest-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 // const whitelister = require("purgecss-whitelister");
 const sane = require('sane');
 const CopyPlugin = require('copy-webpack-plugin');
-const theo = require('theo');
-const globby = require('globby');
 
-const resolve = (subPath) => path.resolve(process.env.PWD, subPath);
+const generateDesignTokens = require('./scripts/lib/generateDesignTokens');
+const transformDesignToken = require('./scripts/lib/transformDesignToken');
 
 const isProduction = process.env.NODE_ENV === 'production';
 
 require('colors');
 
 const pkg = require('./package.json');
-
 
 if (!pkg.buildConfig) {
     console.error("Error: looks like this project hasn't been configured yet".red);
@@ -48,36 +45,6 @@ const config = {
     },
 };
 
-
-const getDesignTokens = (dir) => globby.sync(resolve(dir));
-
-const transformDesignToken = (filePath, opts) => {
-
-    const{
-        abs,
-    } = {
-        abs: false,
-        ...opts,
-    };
-
-    const filename = path.basename(filePath);
-    const slug = filename.split('.')[0];
-
-    theo.convert({
-        transform: {
-            type: "web",
-            file: abs ? filePath : resolve(`design/${filePath}`),
-        },
-        format: {
-            type: "map.scss"
-        }
-    })
-        .then(scss => {
-            fs.writeFileSync(resolve(`assets/styles/design/${slug}.map.scss`), scss);
-            console.log(`Wrote design token ${slug} to Scss`);
-        });
-}
-
 module.exports = {
     runtimeCompiler: false,
     outputDir: 'jekyll/dist',
@@ -96,8 +63,7 @@ module.exports = {
         headers: { 'Access-Control-Allow-Origin': '*' },
         disableHostCheck: true,
         before(app, server) {
-
-            getDesignTokens('design/*.yml').map(filePath => transformDesignToken(filePath, { abs: true }));
+            generateDesignTokens();
 
             const jekyllWatcher = sane(path.join(__dirname, config.watchDir), { glob: ['**/*'] });
 
