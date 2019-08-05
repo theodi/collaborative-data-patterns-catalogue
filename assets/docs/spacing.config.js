@@ -1,14 +1,12 @@
-const loadToken = require('./loadToken');
+const loadToken = require("./loadToken");
 
 try {
-    const data = loadToken('spacing');
-    module.exports = {
-        context: {
-            spacing: data.props,
-        },
-    };
-
+  const data = loadToken("spacing");
+  module.exports = {
+    context: {
+      spacing: data.props,
+    },
+  };
 } catch (e) {
-    console.log(e);
+  console.log(e);
 }
-
