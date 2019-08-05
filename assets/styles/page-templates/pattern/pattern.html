@@ -12,9 +12,9 @@
     <div class="wrapper">
         <div class="g">
 
-            <div class="g__cell g__cell-12 g__cell-3--medium">
+            <div class="g__cell g__cell-12 g__cell-4--medium">
             </div>
-            <div class="g__cell g__cell-12 g__cell-9--medium">
+            <div class="g__cell g__cell-12 g__cell-8--medium">
                 <div class="pad-bottom-medium">
                     {% render '@breadcrumb' %}
                 </div>
@@ -22,11 +22,12 @@
         </div>
         <div class="g">
 
-            <div class="g__cell g__cell-12 g__cell-3--medium">
+            <div class="g__cell g__cell-12 g__cell-4--medium">
                 <h3>All categories</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                
+                {% render '@accordion-nav' %}
             </div>
-            <div class="g__cell g__cell-12 g__cell-9--medium">
+            <div class="g__cell g__cell-12 g__cell-8--medium">
 
                 <div class="u-trim--all">
                     <h1>Pattern title</h1>
@@ -54,8 +55,9 @@
                         </div>
                         <div class="g__cell g__cell-12 g__cell-5--large">
                             <figure>
-                                <a href="#" data-modal="#modal-pattern">
+                                <a href="#" class="u-relative" data-modal="#modal-pattern">
                                     <img src="https://source.unsplash.com/300x400">
+                                    <span class="m-expander u-absolute u-sticky--bottom u-sticky--right">Expand</span>
                                 </a>
                             </figure>
                         </div>
@@ -68,7 +70,7 @@
                 </div>
                 
                 {% render '@section-listing' %}
-
+                {% render '@prev-next' %}
 
             </div>
         </div>

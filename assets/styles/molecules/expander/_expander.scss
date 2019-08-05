@@ -1,0 +1,22 @@
+.m-expander {
+    display: inline-block;
+    color: palette(black);
+    background-color: white;
+    padding: spacing(10 35 10 10);
+    font-weight: bold;
+
+    @include link-hover {
+        color: palette(primary);
+    }
+
+    &:after {
+        content: "";
+        background-image: url("../images/open.svg");
+        background-repeat: no-repeat;
+        width: spacing(17);
+        height: spacing(13);
+        position: absolute;
+        right: spacing(10);
+        top: calc(50% - 7px);
+    }
+}

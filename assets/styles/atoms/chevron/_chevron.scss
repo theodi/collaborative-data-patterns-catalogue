@@ -26,6 +26,10 @@
   transform: rotate(90deg);
 }
 
+.chevron--right {
+  transform: rotate(-90deg);
+}
+
 .chevron--white {
   border-top: rem-calc(5) solid palette(white);
 }

@@ -73,6 +73,7 @@
 
 // Molecules
 @import "molecules/accordion/accordion";
+@import "molecules/accordion-nav/accordion-nav";
 @import "molecules/breadcrumb/breadcrumb";
 @import "molecules/hero/hero";
 @import "molecules/hero-home/hero-home";
@@ -87,6 +88,8 @@
 @import "molecules/modal/modal";
 @import "molecules/person/person";
 @import "molecules/sidebar/sidebar";
+@import "molecules/expander/expander";
+@import "molecules/prev-next/prev-next";
 
 // Forms
 @import "forms/form/form";
