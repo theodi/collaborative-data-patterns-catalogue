@@ -1,5 +1,5 @@
 <template>
-  <ais-instant-search :search-client="searchClient" index-name="indexName">
+  <ais-instant-search :search-client="searchClient" :index-name="indexName">
     <ais-configure
       :hits-per-page.camel="10"
       :attributes-to-snippet.camel="['description']"
