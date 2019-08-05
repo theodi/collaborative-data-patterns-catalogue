@@ -20,7 +20,7 @@
                     GA: '{{ site.ga }}',
                     ALGOLIA: {
                         APPLICATION_ID: {{ site.env['ALGOLIA_APPLICATION_ID'] | jsonify }},
-                        API_KEY: {{ site.env['ALGOLIA_API_KEY'] | jsonify }},
+                        API_KEY: {{ site.env['ALGOLIA_SEARCH_API_KEY'] | jsonify }},
                         INDEX_NAME: {{ site.env['ALGOLIA_INDEX_NAME'] | jsonify }},
                     },
                 },
