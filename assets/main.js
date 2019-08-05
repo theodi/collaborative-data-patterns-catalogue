@@ -6,8 +6,10 @@ import bindAjaxForms from "./js/ajaxForm";
 import bindSearch from "./js/search/index";
 import bindEventTracking from "./js/eventTracking";
 
-function init() {
-  bindSearch();
+function init(APP) {
+  if (APP.CONFIG.ALGOLIA) {
+    APP.SEARCH = bindSearch(APP.CONFIG.ALGOLIA); // eslint-disable-line no-param-reassign
+  }
   bindToggles();
   bindAjaxForms();
   bindEventTracking();
@@ -17,4 +19,4 @@ function init() {
   document.documentElement.classList.add("js-loaded");
 }
 
-window.addEventListener("DOMContentLoaded", init);
+window.addEventListener("DOMContentLoaded", () => init(window.APP));
