@@ -1,84 +1,84 @@
 .m-accordion-nav {
-    border-bottom: 1px solid palette(grey-light);
+  border-bottom: 1px solid palette(grey-light);
 }
 
 .m-accordion-nav__item {
-    @include link {
-        display: block;
-        border-top: 1px solid palette(grey-light);
-        margin: 0;
-        color: palette(black);
-        text-decoration: none;
-        padding: spacing(20 15);
-        font-weight: bold;
-        transition: all 250ms;
-    }
+  @include link {
+    display: block;
+    padding: spacing(20 15);
+    border-top: 1px solid palette(grey-light);
+    margin: 0;
+    color: palette(black);
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 250ms;
+  }
 
-    @include link-hover {
-        color: palette(primary);
-        background-color: palette(grey-light);
-
-        .chevron {
-            border-top-color: palette(primary);
-        }
-    }
-
-    &.is--open {
-        @include link {
-            background-color: palette(grey-light);
-        }
-    }
+  @include link-hover {
+    background-color: palette(grey-light);
+    color: palette(primary);
 
     .chevron {
-        border-top-color: palette(black);
-        margin: rem-calc(10 15 0 0);
-        float: right;
-        transition: border 250ms;
+      border-top-color: palette(primary);
     }
+  }
+
+  &.is--open {
+    @include link {
+      background-color: palette(grey-light);
+    }
+  }
+
+  .chevron {
+    border-top-color: palette(black);
+    margin: rem-calc(10 15 0 0);
+    float: right;
+    transition: border 250ms;
+  }
 }
 
 .m-accordion-nav--level2 {
 
-    &.is--open {
-        border-left: 1px solid palette(grey-light);
-        border-right: 1px solid palette(grey-light);
-    }
+  &.is--open {
+    border-right: 1px solid palette(grey-light);
+    border-left: 1px solid palette(grey-light);
+  }
 
-    .m-accordion-nav__item {
-        @include link {
-            font-weight: normal;
-            padding-left: spacing(25);
-        }
+  .m-accordion-nav__item {
+    @include link {
+      padding-left: spacing(25);
+      font-weight: normal;
     }
+  }
 }
 
 .m-accordion-nav--level3 {
   font-size: ms(-1);
 
-    .m-accordion-nav__item {
+  .m-accordion-nav__item {
 
-        @include link {
-            color: palette(primary);
-            padding: spacing(10 15 10 25);
-        }
-
-        .chevron {
-            border-top-color: palette(primary);
-            margin: rem-calc(6 4 0 0);
-            float: left;
-        }
-
-        &.is--active {
-            @include link {
-                background-color: palette(primary);
-                color: white;
-                font-weight: bold
-            }
-
-            .chevron {
-                border-top-color: palette(white);
-            }
-        }
-
+    @include link {
+      padding: spacing(10 15 10 25);
+      color: palette(primary);
     }
+
+    .chevron {
+      border-top-color: palette(primary);
+      margin: rem-calc(6 4 0 0);
+      float: left;
+    }
+
+    &.is--active {
+      @include link {
+        background-color: palette(primary);
+        color: white;
+        font-weight: bold
+      }
+
+      .chevron {
+        border-top-color: palette(white);
+      }
+    }
+
+  }
 }

@@ -1,72 +1,72 @@
 .m-prev-next {
-    border-top: 1px solid palette(grey);
-    border-bottom: 1px solid palette(grey);
-    padding: spacing(medium 0);
-    @include clearfix();
+  padding: spacing(medium 0);
+  border-top: 1px solid palette(grey);
+  border-bottom: 1px solid palette(grey);
+  @include clearfix();
 }
 
 .m-prev-next__item {
 
-    @include link {
-        display: inline-block;
-        position: relative;
-        float: left;
-        font-weight: normal;
-        text-decoration: none;
-        color: black;
+  @include link {
+    position: relative;
+    display: inline-block;
+    color: black;
+    float: left;
+    font-weight: normal;
+    text-decoration: none;
 
-        &:before {
-            content: "";
-            position: absolute;
-            top: rem-calc(9);
-            display: inline-block;
-            width: 0;
-            height: 0;
-            border-top: rem-calc(5) solid palette(primary);
-            border-right: rem-calc(4) solid transparent;
-            border-left: rem-calc(4) solid transparent;
-        }
+    &:before {
+      position: absolute;
+      top: rem-calc(9);
+      display: inline-block;
+      width: 0;
+      height: 0;
+      border-top: rem-calc(5) solid palette(primary);
+      border-right: rem-calc(4) solid transparent;
+      border-left: rem-calc(4) solid transparent;
+      content: "";
     }
+  }
 
-    @include link-hover() {
-        .m-prev-next__item-dir {
-            color: palette(primary);
-        }
+  @include link-hover() {
+    .m-prev-next__item-dir {
+      color: palette(primary);
     }
+  }
 }
 
 
 
 .m-prev-next__item--prev {
 
-    @include link {
-        padding-left: rem-calc(20);
+  @include link {
+    padding-left: rem-calc(20);
 
-        &:before {
-            transform: rotate(90deg);
-            left: 0;
-        }
+    &:before {
+      left: 0;
+      transform: rotate(90deg);
     }
+  }
 }
 
 
 
 .m-prev-next__item--next {
 
-    @include link {
-        float: right;
-        padding-right: rem-calc(20);
+  @include link {
+    padding-right: rem-calc(20);
+    float: right;
 
-        &:before {
-            transform: rotate(-90deg);
-            right: 0;
-        }
+    &:before {
+      right: 0;
+      transform: rotate(-90deg);
     }
+  }
 }
 
 
 .m-prev-next__item-dir {
-    font-weight: bold;
-    color: palette(primary);
-    text-decoration: underline;
+  color: palette(primary);
+  font-weight: bold;
+  text-decoration: underline;
 }

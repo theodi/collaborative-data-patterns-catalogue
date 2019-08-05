@@ -1,22 +1,22 @@
 .m-expander {
-    display: inline-block;
-    color: palette(black);
-    background-color: white;
-    padding: spacing(10 35 10 10);
-    font-weight: bold;
+  display: inline-block;
+  padding: spacing(10 35 10 10);
+  background-color: white;
+  color: palette(black);
+  font-weight: bold;
 
-    @include link-hover {
-        color: palette(primary);
-    }
+  @include link-hover {
+    color: palette(primary);
+  }
 
-    &:after {
-        content: "";
-        background-image: url("../images/open.svg");
-        background-repeat: no-repeat;
-        width: spacing(17);
-        height: spacing(13);
-        position: absolute;
-        right: spacing(10);
-        top: calc(50% - 7px);
-    }
+  &:after {
+    position: absolute;
+    top: calc(50% - 7px);
+    right: spacing(10);
+    width: spacing(17);
+    height: spacing(13);
+    background-image: url("../images/open.svg");
+    background-repeat: no-repeat;
+    content: "";
+  }
 }
