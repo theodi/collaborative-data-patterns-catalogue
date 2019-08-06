@@ -7,7 +7,7 @@
         {% endif %}
     </div>
     <div class="is-visible is-hidden--medium pad-left">
-        <button class="burger" data-toggle="#mobile-nav" aria-controls="mobile-nav">
+        <button class="burger" data-toggle=".m-nav-mobile__toggled" aria-controls="mobile-nav">
             <span class="g g--no-gutters align-v-center align-end">
                 <span class="g__cell">
                     <span class="burger__text">Menu</span>
@@ -18,9 +18,9 @@
             </span>
         </button>
     </div>
-    <div class="m-masthead-nav-container is-hidden is-visible--medium">
+    <div class="m-masthead-nav-container">
         <div class="wrapper">
-            <nav class="m-masthead-nav">
+            <nav class="m-masthead-nav is-hidden is-visible--medium  is-hidden is-visible--medium">
                 {% for item in site.data.main_nav %}
                     <a href="{{ item.url | relative_url }}" class="m-masthead-nav__item
                     {% if page.url contains item.url %}is--active{% endif %}
@@ -28,11 +28,13 @@
                 {% endfor %}
             </nav>
         </div>
-        <div id="search"></div>
+        <div class="m-nav-mobile__toggled" aria-hidden="true">
+            <div id="search"></div>
+        </div>
     </div>
 </div>
 <div class="is-visible is-hidden--medium">
-    <nav class="m-nav-mobile" id="mobile-nav" aria-hidden="true">
+    <nav class="m-nav-mobile m-nav-mobile__toggled" id="mobile-nav" aria-hidden="true">
         {% for item in site.data.main_nav %}
             <a href="{{ item.url | relative_url }}" class="m-nav-mobile__item
             {% if page.url contains item.url %}is--active{% endif %}

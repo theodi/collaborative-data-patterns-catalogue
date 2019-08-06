@@ -21,11 +21,11 @@ function toggle({ trigger, target, opts }) {
 function bindToggle(trigger, opts) {
   const targetAttribute = opts.selector.slice(1, -1);
   const targetSelector = trigger.getAttribute(targetAttribute);
-  const target = document.querySelector(targetSelector);
+  const targets = [...document.querySelectorAll(targetSelector)];
 
   trigger.addEventListener("click", (e) => {
     e.preventDefault();
-    toggle({ trigger, target, opts });
+    targets.forEach((target) => toggle({ trigger, target, opts }));
   });
 }
 

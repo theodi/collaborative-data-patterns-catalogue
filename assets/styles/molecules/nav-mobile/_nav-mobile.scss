@@ -5,13 +5,22 @@
 .m-nav-mobile {
   position: relative;
   z-index: 1;
-  display: none;
   padding: spacing(20 25);
   background: palette(white);
+}
+
+
+.m-nav-mobile__toggled {
+  display: none;
 
   &.is--open {
     display: block;
   }
+
+  @include respond-to(medium) {
+    display: block;
+  }
+
 }
 
 .m-nav-mobile__item {

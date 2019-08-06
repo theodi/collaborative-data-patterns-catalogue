@@ -1,18 +1,29 @@
 /* Algolia search styling */
 
-$_searchbox-width: 250;
+$_searchbox-width: 280;
 
 .ais-InstantSearch {
+  background-color: white;
+
+  @include respond-to(medium) {
+    background-color: transparent;
+  }
 }
 
 .ais-SearchBox {
+  padding: spacing(base base 0 base);
 }
 
 .ais-SearchBox-form {
-  position: absolute;
-  top: spacing(10);
-  right: spacing(20);
+  position: relative;
   width: rem-calc($_searchbox-width);
+  max-width: 100%;
+
+  @include respond-to(medium) {
+    position: absolute;
+    top: spacing(10);
+    right: spacing(20);
+  }
 
   @include respond-to(xlarge) {
     right: auto;
@@ -23,6 +34,7 @@ $_searchbox-width: 250;
 
 .ais-SearchBox-input {
   width: rem-calc($_searchbox-width);
+  max-width: 100%;
   height: rem-calc(41);
   padding: spacing(10 10 8);
   border: 1px solid palette(grey-light);
@@ -38,7 +50,7 @@ $_searchbox-width: 250;
   top: 0;
   right: 0;
   height: rem-calc(41);
-  padding: spacing(11 12 7);
+  padding: spacing(11 20 7);
   border: solid 2px palette(primary);
   background: palette(primary);
   background-image: linear-gradient(to bottom, tint(palette(primary), "lighten"), palette(primary));
@@ -57,8 +69,16 @@ $_searchbox-width: 250;
 }
 
 .ais-Hits {
-  padding: spacing(base);
+  padding: spacing(0 base base base);
   background-color: white;
+
+  @include respond-to(medium) {
+    padding-top: spacing(base);
+  }
+}
+
+.ais-Hits-list {
+  padding: 0;
 }
 
 .ais-Hits-item {
