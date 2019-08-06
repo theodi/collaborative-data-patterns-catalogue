@@ -12,6 +12,10 @@ $_searchbox-width: 280;
 
 .ais-SearchBox {
   padding: spacing(base base 0 base);
+
+  @include respond-to(medium) {
+    padding: 0;
+  }
 }
 
 .ais-SearchBox-form {
