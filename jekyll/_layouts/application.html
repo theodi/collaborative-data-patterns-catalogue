@@ -61,18 +61,15 @@
     {% comment %} Global CTA with default content injected {% endcomment %}
     {% capture cta_text %}
         <div class="u-trim--all">
-            <p>Something missing? <a class="link link--bold link--primary" href="{{ site.data.contributing.repo_url }}/issues" data-modal="#modal-suggestion">{{ site.data.contributing.cta_text }}</a></p>
+            <p class="small">Something missing? <a class="link link--bold link--primary" href="{{ site.data.contributing.repo_url }}/issues" data-modal="#modal-suggestion">{{ site.data.contributing.cta_text }}</a></p>
         </div>
     {% endcapture %}
     {% comment %} Global CTA Above Masthead {% endcomment %}
-    <div class="is-hidden is-visible--medium">
+
     {% include cta.html content=cta_text color="white" %}
-    </div>
 
     {% comment %} Global Masthead {% endcomment %}
     {% include masthead.html %}
-    {% comment %} @todo @mat Will get replaced by search {% endcomment %}
-    <div id="search"></div>
     {% comment %} Site Content {% endcomment %}
     <main id="site-body">
         {{ content }}

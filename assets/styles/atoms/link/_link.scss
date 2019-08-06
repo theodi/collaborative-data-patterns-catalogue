@@ -5,6 +5,7 @@ a,
 .link {
   text-decoration: underline;
   text-decoration-skip: ink;
+  transition: color 250ms;
 
   @include link() {
     color: palette(primary);

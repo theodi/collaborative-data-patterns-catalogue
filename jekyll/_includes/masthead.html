@@ -1,55 +1,34 @@
 <div class="m-masthead">
-    <div class="wrapper">
-        <div class="g">
-            <div class="g__cell g__cell-12 g__cell-7--large g__cell-order-2 g__cell-order-1--large">
-                <div class="pad-bottom-small u-text-left--medium u-text-color--white">
-                    {% if page.url == '/' %}
-                        <h1 class="brand">{{ site.name | widont }}</h1>
-                    {% else %}
-                        <a href="{{ site.baseurl }}/" class="brand">{{ site.name | widont }}</a>
-                    {% endif %}
-                </div>
-            </div>
-            <!-- TODO: Remove this entirely? Aux nav not needed anymore?
-            <div class="g__cell g__cell-12 g__cell-5--large align-right--large u-text-right--large is-hidden is-visible--medium g__cell-order-1 g__cell-order-2--large">
-                <div class="u-text-color--white">
-                    <nav>
-                        {% for item in site.data.top_aux_nav %}
-                            <a href="{{ item.url | relative_url }}" class="nav-item nav-item--inline
-                            {% if page.url contains item.url %}is--active{% endif %}
-                            ">{{ item.title | improve }}</a>
-                        {% endfor %}
-                    </nav>
-                </div>
-            </div>
-            -->
+    <div class="wrapper--medium">
+        {% if page.url == '/' %}
+            <h1 class="brand">{{ site.name | widont }}</h1>
+        {% else %}
+            <a href="{{ site.baseurl }}/" class="brand">{{ site.name | widont }}</a>
+        {% endif %}
+    </div>
+    <div class="is-visible is-hidden--medium pad-left">
+        <button class="burger" data-toggle="#mobile-nav" aria-controls="mobile-nav">
+            <span class="g g--no-gutters align-v-center align-end">
+                <span class="g__cell">
+                    <span class="burger__text">Menu</span>
+                </span>
+                <span class="g__cell">
+                    <span class="burger__icon"></span>
+                </span>
+            </span>
+        </button>
+    </div>
+    <div class="m-masthead-nav-container is-hidden is-visible--medium">
+        <div class="wrapper">
+            <nav class="m-masthead-nav">
+                {% for item in site.data.main_nav %}
+                    <a href="{{ item.url | relative_url }}" class="m-masthead-nav__item
+                    {% if page.url contains item.url %}is--active{% endif %}
+                    ">{{ item.title | improve }}</a>
+                {% endfor %}
+            </nav>
         </div>
-
-        <div class="g">
-            <div class="g__cell g__cell-12">
-                <div class="is-hidden is-visible--medium">
-                    <nav class="m-masthead-nav">
-                        {% for item in site.data.main_nav %}
-                            <a href="{{ item.url | relative_url }}" class="m-masthead-nav__item
-                            {% if page.url contains item.url %}is--active{% endif %}
-                            ">{{ item.title | improve }}</a>
-                        {% endfor %}
-                    </nav>
-                </div>
-                <div class="is-visible is-hidden--medium">
-                    <button class="burger" data-toggle="#mobile-nav" aria-controls="mobile-nav">
-                        <span class="g g--no-gutters align-v-center">
-                            <span class="g__cell">
-                                <span class="burger__text">Menu</span>
-                            </span>
-                            <span class="g__cell">
-                                <span class="burger__icon"></span>
-                            </span>
-                        </span>
-                    </button>
-                </div>
-            </div>
-        </div>
+        <div id="search"></div>
     </div>
 </div>
 <div class="is-visible is-hidden--medium">
@@ -59,12 +38,5 @@
             {% if page.url contains item.url %}is--active{% endif %}
             ">{{ item.title | improve }}</a>
         {% endfor %}
-        <hr class="m-nav-mobile__separator">
-        <div class="u-trim--all">
-            <p>
-                <b>Something missing?</b><br>
-                <a class="link link--bold link--primary" href="{{ site.data.contributing.repo_url }}/issues" data-modal="#modal-suggestion">{{ site.data.contributing.cta_text }}</a>
-            </p>
-        </div>
     </nav>
 </div>

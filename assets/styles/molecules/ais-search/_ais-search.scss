@@ -1,0 +1,101 @@
+/* Algolia search styling */
+
+$_searchbox-width: 250;
+
+.ais-InstantSearch {
+}
+
+.ais-SearchBox {
+}
+
+.ais-SearchBox-form {
+    position: absolute;
+    top: spacing(10);
+    right: spacing(20);
+    width: rem-calc($_searchbox-width);
+
+    @include respond-to(xlarge) {
+        right: auto;
+        left: rem-calc(1200 - $_searchbox-width - 20);
+    }
+
+}
+
+.ais-SearchBox-input {
+    border: 1px solid palette(grey-light);
+    border-radius: 2px;
+    background-color: white;
+    font-size: ms(-1);
+    line-height: 1.44;
+    width: rem-calc($_searchbox-width);
+    padding: spacing(10 10 8);
+    height: rem-calc(41);
+}
+
+.ais-SearchBox-submit,
+.ais-SearchBox-reset {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: spacing(11 12 7);
+    height: rem-calc(41);
+    border: solid 2px palette(primary);
+    border-radius: 0px 2px 2px 0px;
+    background: palette(primary);
+    background-image: linear-gradient(to bottom, tint(palette(primary), "lighten"), palette(primary));
+
+    @include link-hover() {
+        border-color: tint(palette(primary), "darken");
+        background: tint(palette(primary), "darken");
+    }
+
+    svg {
+        fill: white;
+        width: rem-calc(14);
+        height: rem-calc(14);
+    }
+}
+
+.ais-Hits {
+    background-color: white;
+    padding: spacing(base);
+}
+
+.ais-Hits-item {
+
+    border-bottom: 1px solid palette(grey);
+    padding-bottom: spacing(base);
+    padding-left: 0;
+
+    &:before {
+        display: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.ais-Hits-title {
+    text-decoration: underline;
+    color: palette(primary);
+    transition: color 250ms;
+
+    @include link-hover() {
+        color: black;
+    }
+}
+
+.ais-Snippet {
+    mark {
+        background-color: palette(primary);
+        color: white;
+    }
+}
+
+.ais-PoweredBy {
+    background-color: white;
+    text-align: center;
+    padding-bottom: spacing(base);
+}

@@ -7,8 +7,8 @@ p {
   margin: 1em 0;
   font-size: ms(0);
   line-height: 1.44;
+}
 
-  @include respond-to(medium) {
-    line-height: 1.44;
-  }
+p.small {
+  font-size: ms(-1);
 }
