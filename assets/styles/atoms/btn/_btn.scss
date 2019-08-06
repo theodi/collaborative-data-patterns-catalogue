@@ -22,7 +22,6 @@
   @include link() {
     border: solid 2px palette(primary);
     background: palette(primary);
-    // @todo extract
     background-image: linear-gradient(to bottom, tint(palette(primary), "lighten"), palette(primary));
     color: white;
     font-size: ms(-1);

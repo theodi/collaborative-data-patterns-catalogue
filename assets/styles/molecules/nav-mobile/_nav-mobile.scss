@@ -3,11 +3,11 @@
 // ==========================================================================
 
 .m-nav-mobile {
+  position: relative;
+  z-index: 1;
   display: none;
   padding: spacing(20 25);
   background: palette(white);
-  position: relative;
-  z-index: 1;
 
   &.is--open {
     display: block;

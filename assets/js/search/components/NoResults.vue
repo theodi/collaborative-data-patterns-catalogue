@@ -1,6 +1,8 @@
 <template>
-  <div v-if="hasNoResults">
-    No results found
+  <div class="ais-NoResults" v-if="hasNoResults">
+    <div class="wrapper pad-bottom">
+      Sorry we couldn&rsquo;t find any results for your query.
+    </div>
   </div>
 </template>
 
