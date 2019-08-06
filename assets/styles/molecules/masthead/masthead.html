@@ -1,12 +1,14 @@
 <div class="m-masthead">
-    <div>
+    <div class="wrapper--medium">
         {% render '@brand' %}
-    </div>
+    </div>  
     <div class="is-visible is-hidden--medium pad-left">
         {% render '@burger--active' %}
     </div>
-    <div class="is-hidden is-visible--medium">
-        {% render '@masthead-nav' %}
+    <div class="wrapper">
+        <div class="is-hidden is-visible--medium">
+            {% render '@masthead-nav' %}
+        </div>
     </div>
 </div>
 <div class="is-visible is-hidden--medium">

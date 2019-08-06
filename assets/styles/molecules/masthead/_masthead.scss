@@ -10,7 +10,7 @@
 
   @include respond-to(medium) {
     display: block;
-    padding: spacing(base base 0 base);
+    padding-top: spacing(base);
     padding-top: spacing(medium);
   }
 

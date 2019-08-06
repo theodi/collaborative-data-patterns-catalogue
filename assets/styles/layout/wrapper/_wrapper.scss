@@ -17,3 +17,15 @@ $_wrapper-max-width: 1200;
   margin: 0 auto;
   clear: both;
 }
+
+.wrapper--medium {
+    @include respond-to(medium) {
+      position: relative;
+      width: 100%;
+      max-width: rem-calc($_wrapper-max-width);
+      padding-right: spacing(base);
+      padding-left: spacing(base);
+      margin: 0 auto;
+      clear: both;
+    }
+}
