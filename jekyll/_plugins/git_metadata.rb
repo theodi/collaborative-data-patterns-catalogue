@@ -5,7 +5,7 @@
 module Jekyll
   module GitMetadata
     class Generator < Jekyll::Generator
-      @@path_prefix = 'src/'
+      @@path_prefix = 'jekyll/'
 
       def page_data(relative_path = nil)
 
