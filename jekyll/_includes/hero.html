@@ -1,13 +1,11 @@
-<div class="m-hero__wrapper {% if heroBg %}m-hero__wrapper--bg {% endif %} island--grey-off-dark u-inverse"
-        {% if heroBg %}
-            style="background-image: url({{ heroBg }});"
+<div class="m-hero__wrapper {% if page.hero.bg %}m-hero__wrapper--bg {% endif %} island--grey-off-dark u-inverse"
+        {% if page.hero.bg %}
+            style="background-image: url({{ page.hero.bg | rev | relative_url }});"
         {% endif %}>
     <div class="m-hero">
         <div class="wrapper">
-            {% if hero.breadcrumbs %}
-                <div class="pad-bottom">
-                    {% include breadcrumbs.html %}
-                </div>
+            {% if page.hero.show_breadcrumb %}
+                {% include breadcrumbs.html %}
             {% endif %}
             <div class="g">
                 <div class="g__cell g__cell-12 g__cell-8--medium">
@@ -18,20 +16,42 @@
                     </div>
                 </div>
 
-                {% if layout.hero.nav.position == 'side' and page.show_nav %}
-                        <div class="g__cell g__cell-12 g__cell-4--medium pad-top-medium pad-top-reset--medium">
-                        {% include section-nav.html %}
+                <div class="g__cell g__cell-12 g__cell-4--medium pad-top-medium pad-top-reset--medium">
+                    {% if page.hero.nav.meta %}
+                        <span class="meta-title meta-title--secondary">{{ page.hero.nav.meta }}</span>
+                    {% endif %}
+                    {% if page.hero.nav.title %}
+                    <div class="u-trim--all">
+                        <h2 class="h4">{{ page.hero.nav.title }}</h2>
                     </div>
-                {% endif %}
-            </div>
+                    {% endif %}
 
-            {% if layout.hero.nav.position == 'lower' and page.show_nav %}
-                <div class="g pad-top-medium">
-                    <div class="g__cell g__cell-12">
-                        {% include section-nav.html %}
-                    </div>
+                    {% if page.hero.nav.description %}
+                        <p>{{ page.hero.nav.description }}</p>
+                    {% endif %}
+
+                    {% if page.hero.nav.items.size %}
+                    <nav>
+                        {% for item in page.hero.nav.items %}
+                            {% if item.title and item.url %}
+                                {% assign itemPage = item %}
+                            {% else %}
+                                {% assign path = item %}
+
+                                {% comment %}Add a .md file extension if missing {% endcomment %}
+                                {% unless path contains '.md' or path contains '.html' %}
+                                    {% assign path = path | append:'.md' %}
+                                {% endunless %}
+                                {% assign itemPage = site.pages | where:'path', path | first %}
+                            {% endif %}
+                            {% if itemPage %}
+                                <a href="{{ itemPage.url | relative_url | strip }}" class="nav-item">{{ itemPage.title }}</a>
+                            {% endif %}
+                        {% endfor %}
+                    </nav>
+                    {% endif %}
                 </div>
-            {% endif %}
+            </div>
         </div>
     </div>
 </div>

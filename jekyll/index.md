@@ -23,7 +23,7 @@ sections:
       Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
   - type: grid # full, grid, short
     title: Browse pattern categories
-    titleSize: small
+    title_size: small
     items:
       - about/index
       - about/index

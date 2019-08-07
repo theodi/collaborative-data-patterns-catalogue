@@ -71,8 +71,13 @@
     {% comment %} Global Masthead {% endcomment %}
     {% include masthead.html %}
     {% comment %} Site Content {% endcomment %}
+
     <main id="site-body">
+        
+        {% include hero.html %}
+        
         {{ content }}
+        
     </main>
 
     <div class="pad-top-medium pad-top-large--medium pad-bottom-medium pad-bottom-xlarge--medium island island--grey u-hide-print">

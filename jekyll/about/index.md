@@ -1,6 +1,7 @@
 ---
 title: About
-show_intro_sentence: false
+hero:
+  show_breadcrumb: true
 nav:
   title: About
 
