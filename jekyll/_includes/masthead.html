@@ -20,11 +20,12 @@
     </div>
     <div class="m-masthead-nav-container">
         <div class="wrapper">
-            <nav class="m-masthead-nav is-hidden is-visible--medium  is-hidden is-visible--medium">
+            <nav class="m-masthead-nav is-hidden is-visible--medium is-hidden is-visible--medium">
                 {% for item in site.data.main_nav %}
                     <a href="{{ item.url | relative_url }}" class="m-masthead-nav__item
-                    {% if page.url contains item.url %}is--active{% endif %}
-                    ">{{ item.title | improve }}</a>
+                    {% if page.url == item.url %}is--active{% endif %}
+
+                    {% if item.url != '/' and page.url contains item.url  %}is--active{% endif %}">{{ item.title | improve }}</a>
                 {% endfor %}
             </nav>
         </div>
@@ -37,8 +38,9 @@
     <nav class="m-nav-mobile m-nav-mobile__toggled" id="mobile-nav" aria-hidden="true">
         {% for item in site.data.main_nav %}
             <a href="{{ item.url | relative_url }}" class="m-nav-mobile__item
-            {% if page.url contains item.url %}is--active{% endif %}
-            ">{{ item.title | improve }}</a>
+            {% if page.url == item.url %}is--active{% endif %}
+
+            {% if item.url != '/' and page.url contains item.url  %}is--active{% endif %}">{{ item.title | improve }}</a>
         {% endfor %}
     </nav>
 </div>
