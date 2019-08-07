@@ -31,6 +31,18 @@
       font-weight: normal;
     }
   }
+
+  .u-inverse & {
+    @include link() {
+      color: white;
+    }
+    @include link() {
+      @include link-hover() {
+        color: palette(secondary);
+      }
+    }
+
+  }
 }
 
 .m-breadcrumb__separator {

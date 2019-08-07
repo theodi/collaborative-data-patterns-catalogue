@@ -32,7 +32,7 @@
     }
 
     @include link-hover() {
-      color: white;
+      color: palette(secondary);
     }
   }
 }

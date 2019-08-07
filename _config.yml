@@ -68,4 +68,13 @@ defaults:
         order: 1000
       show_toc: true
       show_nav: true
-      show_intro_sentence: true
+
+###
+# Collections
+#
+# This is used for patterns pages
+###
+
+collections:
+  - categories
+  - patterns
