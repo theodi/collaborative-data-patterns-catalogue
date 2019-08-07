@@ -25,13 +25,12 @@ $_searchbox-width: 280;
 
   @include respond-to(medium) {
     position: absolute;
-    top: spacing(10);
+    top: spacing(20);
     right: spacing(20);
   }
 
   @include respond-to(xlarge) {
-    right: auto;
-    left: rem-calc(1200 - $_searchbox-width - 20);
+    right: calc(50vw - #{rem-calc(600)} + #{rem-calc(26)})
   }
 
 }
@@ -83,6 +82,7 @@ $_searchbox-width: 280;
 
 .ais-Hits-list {
   padding: 0;
+  @extend .wrapper;
 }
 
 .ais-Hits-item {
