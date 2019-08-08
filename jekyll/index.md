@@ -9,7 +9,7 @@ hero:
       Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
     items:
       - about/index
-      - patterns/index
+      - patterns
       - contribute/index
   bg: img/twitter-card.png
 description: >- 

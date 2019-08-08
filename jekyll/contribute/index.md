@@ -1,4 +1,5 @@
 ---
+layout: content-page
 title: Contribute
 hero:
   show_breadcrumb: true

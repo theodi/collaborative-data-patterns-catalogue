@@ -1,11 +1,9 @@
 ---
 layout: application
-breadcrumbs: true
 hero:
   nav:
     position: side
 ---
-
 
 <div id="site-content" class="site-content">
     <div class="pad-top-medium pad-top-xlarge--medium pad-bottom-medium pad-bottom-xlarge--medium">
@@ -14,27 +12,39 @@ hero:
                 {% include section-listing.html type=section.type %}
             {% endfor %}
 
+            {% assign list_title = 'All patterns in this section' %}
 
-            {% if page.list_type == "categories" %}
+            {% if page.list_title %}
+                {% assign list_title = page.list_title %}
+            {% endif %}
+
+            {% if page.category %}
+                {% assign items = site.patterns | where: "category", page.category | sort: 'nav_order' %}
+            {% else %}
+                {% assign items = site.categories | sort: 'nav_order' %}
+            {% endif %}
+
+
                 <div class="m-section-listing {% if modifier %}{{ modifier }}{% endif %}">
                     <div class="u-trim--all">
-                        <h2 class="h4">Browse pattern categories</h2>
+                        <h2 class="h4">{{ list_title }}</h2>
                     </div>
 
                     <div class="g pad-top-small pad-top--medium">
-                            {% for category in site.data.categories %}
+
+                            {% for item in items %}
                             <div class="g__cell
                                         g__cell-12
                                         {% if modifier != 'm-section-listing--short' and modifier != 'm-section-long-full' %}
                                             g__cell-6--medium
                                             g__cell-4--large
                                         {% endif %}">
-                                <h4 class="m-section-listing__title"><a class="link" href="{{ category.url }}">{{ category.title }}</a></h4>
-                                <p>{{ category.description }}</p>
+                                <h4 class="m-section-listing__title"><a class="link" href="{{ item.url }}">{{ item.title }}</a></h4>
+                                <p>{{ item.description }}</p>
                             </div>
                         {% endfor %}
                     </div>
-            {% endif %}
+                </div>
 
         </div>
     </div>

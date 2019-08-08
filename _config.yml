@@ -53,28 +53,42 @@ title_image: ''
 ga: 'UA-116481314-1'
 
 ###
-# Default front matter
-#
-# This allows us to not have to set these value in every page template
-###
-
-defaults:
-  -
-    scope:
-      path: '' # an empty string here means all files in the project
-    values:
-      layout: content-page
-      nav:
-        order: 1000
-      show_toc: true
-      show_nav: true
-
-###
 # Collections
 #
 # This is used for patterns pages
 ###
 
 collections:
-  - categories
-  - patterns
+  categories:
+    layout: listing
+    output: true
+    permalink: /patterns/:name
+  patterns:
+    layout: pattern
+    output: true
+    permalink: /patterns/:categories/:name
+
+###
+# Default front matter
+#
+# This allows us to not have to set these value in every page template
+###
+
+defaults:
+  - scope:
+      path: ''
+      type: 'categories'
+    values:
+        layout: 'listing'
+  - scope:
+      path: ''
+      type: 'patterns'
+    values:
+        layout: 'pattern'
+  - scope:
+      path: '' # an empty string here means all files in the project
+    values:
+      nav:
+        order: 1000
+      # show_toc: true
+      # show_nav: true

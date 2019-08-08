@@ -24,4 +24,5 @@ sections:
     #     - about/index
     #     - contribute/index
 list_type: categories
+list_title: "Browse pattern categories"
 ---
