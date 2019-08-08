@@ -1,5 +1,6 @@
 .m-accordion-nav {
   border-bottom: 1px solid palette(grey-light);
+  width: 100%;
 }
 
 .m-accordion-nav__item {
@@ -23,9 +24,13 @@
     }
   }
 
-  &.is--open {
+  &.is--active {
     @include link {
       background-color: palette(grey-light);
+    }
+
+    .chevron {
+      transform: rotate(180deg);
     }
   }
 
@@ -33,27 +38,17 @@
     border-top-color: palette(black);
     margin: rem-calc(10 15 0 0);
     float: right;
-    transition: border 250ms;
+    transition: all 250ms;
   }
 }
 
 .m-accordion-nav--level2 {
+  font-size: ms(-1);
+  display: none;
 
   &.is--open {
-    border-right: 1px solid palette(grey-light);
-    border-left: 1px solid palette(grey-light);
+    display: block;
   }
-
-  .m-accordion-nav__item {
-    @include link {
-      padding-left: spacing(25);
-      font-weight: normal;
-    }
-  }
-}
-
-.m-accordion-nav--level3 {
-  font-size: ms(-1);
 
   .m-accordion-nav__item {
 

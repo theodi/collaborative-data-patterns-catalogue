@@ -4,7 +4,7 @@
             <div class="g">
                 <div class="g__cell">
                     <div class="u-trim--all">
-                        <span class="m-nav-tray__title">Page Contents <div class="chevron chevron--white  chevron--down "></div></span>
+                        <span class="m-nav-tray__title">Patterns: <span class="m-nav-tray__title-inner">{{ include.title }}</span> <div class="chevron chevron--white chevron--down "></div></span>
                     </div>
                 </div>
             </div>
@@ -14,7 +14,7 @@
         <div class="wrapper">
             <div class="m-nav m-nav--large g__cell g__cell-12">
                 <div class="g">
-                    {% include toc.html html=content item_class="nav-item--white" %}
+                    {% include pattern-nav.html %}
                 </div>
             </div>
         </div>

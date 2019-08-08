@@ -2,14 +2,21 @@
 layout: application
 ---
 
-<section class="pad-top-medium pad-top-xlarge--medium pad-bottom-medium pad-bottom-xlarge--medium">
+{% include nav-tray.html title=page.title %}
+
+<section class="pad-top-large pad-top-xlarge--large pad-bottom-large pad-bottom-xlarge--large">
     <div class="wrapper">
         <div class="g">
 
-            <div class="g__cell g__cell-12 g__cell-4--medium">
+            <div class="g__cell g__cell-12 g__cell-4--large pad-bottom-medium is-hidden is-visible--large">
+                <h3>All categories</h3>
+                
+                {% include pattern-nav.html %}
             </div>
-            <div class="g__cell g__cell-12 g__cell-8--medium">
+            <div class="g__cell g__cell-12 g__cell-8--large">
+
                 <div class="pad-bottom-medium">
+                    
                     {% comment %} Hardcoded to get around pages vs collections issue {% endcomment %}
 
                     {% assign category = site.categories | where: 'category', page.category | first %}
@@ -24,16 +31,6 @@ layout: application
                         <span class="m-breadcrumb__item is--active">{{ page.title }}</span>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="g">
-
-            <div class="g__cell g__cell-12 g__cell-4--medium">
-                <h3>All categories</h3>
-                
-                {% include pattern-nav.html %}
-            </div>
-            <div class="g__cell g__cell-12 g__cell-8--medium">
 
                 <div class="u-trim--all">
                     <h1>{{ page.title }}</h1>
@@ -52,7 +49,6 @@ layout: application
 
                 {{ content | improve }}
 
-
                 {% assign range = page.examples.size | minus:1 %}
 
                 {% for i in (0..range) %}
@@ -62,13 +58,50 @@ layout: application
                     {% include example.html example=example id=i %}
 
                 {% endfor %}
-                
-                SECTION LISTING - RELATED PATTERNS<Br>
-                {% include prevnext.html %}
 
             </div>
         </div>
+
+        {% comment %} Related items {% endcomment %}
+
+        {% if page.related %}
+
+        <div class="m-section-listing grid">
+            <div class="u-trim--all">
+                <h2 class="h4">Related patterns</h2>
+            </div>
+
+            <div class="g pad-top-small pad-top--large">
+
+                {% for item in page.related %}
+
+                    {% assign itemPage = site.patterns | where:'slug', item | first %}
+                    
+                    {% if itemPage %}
+                        <div class="g__cell
+                                    g__cell-12
+                                    g__cell-6--large
+                                    g__cell-4--large
+                                    pad-bottom--small
+                                    {% if page.related.size > 3 %}
+                                        pad-bottom-medium--large
+                                    {% endif %}">
+                                <h4 class="m-section-listing__title"><a class="link" href="{{ itemPage.url | strip | relative_url }}">{{ itemPage.title | improve }}</a></h4>
+                            {% if itemPage.description %}
+                                <p>{{ itemPage.description | improve }}</p>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+
+        {% endif %}
+
+        {% include prevnext.html %}
+
     </div>
+
 </section>
 
 {% for i in (0..range) %}

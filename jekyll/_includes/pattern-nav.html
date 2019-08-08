@@ -1,19 +1,24 @@
-<nav class="m-accordion-nav" role="navigation">
-    <a href="#" class="m-accordion-nav__item">Menu item one <b class="chevron"></b></a>
-    <a href="#" class="m-accordion-nav__item is--open">Menu item two <b class="chevron chevron--up"></b></a>
+{% assign categories = site.categories | sort: 'nav_order' %}
 
-    <nav class="m-accordion-nav--level2 is--open">
-        <a href="#" class="m-accordion-nav__item">Euismod Magna Aenean <b class="chevron"></b></a>
-        <a href="#" class="m-accordion-nav__item is--open">Mollis Nibh Cras <b class="chevron chevron--up"></b></a>
+<nav class="m-accordion-nav u-hide-print" role="navigation">
 
-        <nav class="m-accordion-nav--level3">
-            <a href="#" class="m-accordion-nav__item is--active"><b class="chevron chevron--right"></b> Pattern title</a>
-            <a href="#" class="m-accordion-nav__item"><b class="chevron chevron--right"></b> Mollis Nibh Cras</a>
-            <a href="#" class="m-accordion-nav__item"><b class="chevron chevron--right"></b> Commodo Risus</a>
-        </nav>
+{% for category in categories %}
 
-        <a href="#" class="m-accordion-nav__item">Commodo Risus <b class="chevron"></b></a>
+    {% assign items = site.patterns | where: "category", category.slug | sort: 'nav_order' %}
+
+    <a href="{{ category.url }}"
+        class="m-accordion-nav__item {% if category.slug == page.category %} is--active {% endif %}"
+        {% if items.size > 0 %} data-toggle="#pattern-nav-{{ forloop.index }}" aria-controls="#pattern-nav-{{ forloop.index }}" {% endif %}>
+        {{ category.title }} <b class="chevron"></b></a>
+    
+    {% if items.size > 0 %}
+    <nav class="m-accordion-nav--level2 {% if category.slug == page.category %} is--open {% endif %}" {% if category.slug != page.category %} aria-hidden="true" {% endif %} id="pattern-nav-{{ forloop.index }}">
+        {% for item in items %}
+            <a href="{{ item.url }}" class="m-accordion-nav__item {% if item.path == page.path %} is--active {% endif %}">{{ item.title }} <b class="chevron chevron--right"></b></a>
+        {% endfor %}
     </nav>
-    <a href="#" class="m-accordion-nav__item">Menu item three <b class="chevron"></b></a>
-    <a href="#" class="m-accordion-nav__item">Menu item four <b class="chevron"></b></a>
+    {% endif %}
+
+
+{% endfor %}
 </nav>

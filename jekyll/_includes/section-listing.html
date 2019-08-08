@@ -1,5 +1,7 @@
 <div class="m-section-listing {{ section.type }}">
+    {% if section.meta %}
     <span class="meta-title">{{ section.meta }}</span>
+    {% endif %}
     <div class="u-trim--all">
         <h2 {% if section.title_size == "small" %}class="h4"{% endif %}>{{ section.title | improve }}</h2>
     </div>

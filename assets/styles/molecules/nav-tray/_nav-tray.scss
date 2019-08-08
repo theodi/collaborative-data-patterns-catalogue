@@ -39,60 +39,21 @@
   }
 }
 
+.m-nav-tray__title-inner {
+  font-weight: normal;
+}
+
 
 .m-nav-tray__inner {
   display: none;
   padding: spacing(25 0);
-  background: tint(palette(primary), "darken");
+  background: white;
 
   &.is--open {
     display: block;
   }
 
 
-  // Gross list overrides cos we can't reach into inner markup in this section
-  ul {
-    width: 100%;
-    padding: 0;
-    margin: spacing(5 0 10 0);
-
-    @include respond-to(medium) {
-      column-count: 2;
-    }
-
-    li {
-      break-inside: avoid;
-      font-size: ms(0);
-
-      @include respond-to(medium) {
-        font-size: ms(0);
-      }
-    }
-
-    ul {
-      display: block;
-      padding: 0;
-      margin: spacing(12 0 0 0);
-      column-count: 1;
-
-
-      li {
-        break-inside: auto;
-
-        &::before {
-          margin-right: rem-calc(5);
-          margin-bottom: rem-calc(3);
-          content: "\00BB";
-        }
-
-        a {
-          @include link() {
-            display: inline-block;
-          }
-        }
-      }
-    }
-  }
 }
 
 .m-nav-tray__close {
