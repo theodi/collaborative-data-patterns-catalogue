@@ -1,6 +1,6 @@
 .m-accordion-nav {
-  border-bottom: 1px solid palette(grey-light);
   width: 100%;
+  border-bottom: 1px solid palette(grey-light);
 }
 
 .m-accordion-nav__item {
@@ -43,8 +43,8 @@
 }
 
 .m-accordion-nav--level2 {
-  font-size: ms(-1);
   display: none;
+  font-size: ms(-1);
 
   &.is--open {
     display: block;
@@ -72,6 +72,7 @@
 
       .chevron {
         border-top-color: palette(white);
+      transform: rotate(-90deg);
       }
     }
 
