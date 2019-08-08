@@ -18,7 +18,7 @@ function toggle({ trigger, target, opts }) {
   }
 }
 
-function bindToggle(trigger, opts) {
+function bindToggles(trigger, opts) {
   const targetAttribute = opts.selector.slice(1, -1);
   const targetSelector = trigger.getAttribute(targetAttribute);
   const targets = [...document.querySelectorAll(targetSelector)];
@@ -44,5 +44,5 @@ export default function initToggle(selector = "[data-toggle]", opts) {
 
   const toggleElements = document.querySelectorAll(selector);
 
-  [...toggleElements].forEach((item) => bindToggle(item, options));
+  [...toggleElements].forEach((item) => bindToggles(item, options));
 }

@@ -2,6 +2,7 @@ import "./styles/main.scss";
 
 import bindFootnotes from "littlefoot";
 import bindToggles from "./js/toggle";
+import bindModals from "./js/modals";
 import bindSearch from "./js/search/index";
 import bindEventTracking from "./js/eventTracking";
 
@@ -10,6 +11,7 @@ function init(APP) {
     APP.SEARCH = bindSearch(APP.CONFIG.ALGOLIA); // eslint-disable-line no-param-reassign
   }
   bindToggles();
+  bindModals();
   bindEventTracking();
   bindFootnotes();
 

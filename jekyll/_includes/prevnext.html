@@ -1,0 +1,33 @@
+{% assign items = site.patterns | where: "category", page.category | sort: 'nav_order' %}
+
+{% assign prev = false %}
+{% assign next = false %}
+
+{% for i in items %}
+
+  {% if i.title == page.title %}
+
+    {% unless forloop.first %}
+      {% assign prev_index = forloop.index | minus:2 %}
+      {% assign prev = items[prev_index] %}
+    {% endunless %}
+
+    {% unless forloop.last %}
+      {% assign next = items[forloop.index] %}
+    {% endunless %}
+
+  {% endif %}
+
+
+{% endfor %}
+
+{% if items.size > 1 %}
+<nav class="m-prev-next">
+  {% if prev %}
+    <a href="{{ prev.url }}" class="m-prev-next__item m-prev-next__item--prev"><span class="m-prev-next__item-dir">Previous:</span> {{ prev.title }}</a>
+  {% endif %}
+  {% if next %}
+    <a href="{{ next.url }}" class="m-prev-next__item m-prev-next__item--next"><span class="m-prev-next__item-dir">Next:</span> {{ next.title }}</a>
+  {% endif %}
+</nav>
+{% endif %}
