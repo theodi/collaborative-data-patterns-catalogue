@@ -58,6 +58,7 @@ ga: 'UA-116481314-1'
 # This is used for patterns pages
 ###
 
+collections_dir: collections
 collections:
   categories:
     layout: listing
