@@ -24,7 +24,7 @@
     }
   }
 
-  &.is--open {
+  &.is--active {
     @include link {
       background-color: palette(grey-light);
     }

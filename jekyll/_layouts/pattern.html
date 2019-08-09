@@ -1,8 +1,9 @@
 ---
 layout: application
 ---
-
-{% include nav-tray.html title=page.title %}
+<div class="is-hidden--large">
+    {% include nav-tray.html title=page.title %}
+</div>
 
 <section class="pad-top-large pad-top-xlarge--large pad-bottom-large pad-bottom-xlarge--large">
     <div class="wrapper">
@@ -11,7 +12,7 @@ layout: application
             <div class="g__cell g__cell-12 g__cell-4--large pad-bottom-medium is-hidden is-visible--large">
                 <h3>All categories</h3>
                 
-                {% include pattern-nav.html %}
+                {% include pattern-nav.html nav_id="desktop" %}
             </div>
             <div class="g__cell g__cell-12 g__cell-8--large">
 

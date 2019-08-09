@@ -5,7 +5,7 @@ const blurClass = "is--modal-active";
 
 const options = {
   beforeIn({ opts }) {
-    opts.activeElement = document.activeElement;
+    opts.activeElement = document.activeElement; // eslint-disable-line no-param-reassign
   },
   afterIn: ({ target }) => {
     pageContainer.classList.add(blurClass);

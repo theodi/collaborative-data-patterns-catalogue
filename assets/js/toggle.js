@@ -1,4 +1,4 @@
-function toggle({ trigger, target, opts }) {
+function toggle({ trigger, target, opts, index }) {
   const wasHidden = target.getAttribute("aria-hidden") === "true";
 
   if (wasHidden) {
@@ -7,7 +7,11 @@ function toggle({ trigger, target, opts }) {
     opts.beforeOut({ trigger, target, opts });
   }
 
-  trigger.classList.toggle(opts.triggerActiveClass);
+  // As we're sometimes binding multiple toggles to one trigger, we only need to change the class for the first item in the loop
+  if (index < 1) {
+    trigger.classList.toggle(opts.triggerActiveClass);
+  }
+
   target.classList.toggle(opts.targetActiveClass);
   target.setAttribute("aria-hidden", !wasHidden);
 
@@ -25,7 +29,9 @@ function bindToggles(trigger, opts) {
 
   trigger.addEventListener("click", (e) => {
     e.preventDefault();
-    targets.forEach((target) => toggle({ trigger, target, opts }));
+    targets.forEach((target, index) =>
+      toggle({ trigger, target, opts, index })
+    );
   });
 }
 
