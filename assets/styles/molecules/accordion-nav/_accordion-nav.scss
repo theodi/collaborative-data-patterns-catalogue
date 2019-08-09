@@ -24,7 +24,7 @@
     }
   }
 
-  &.is--active {
+  &.is--open {
     @include link {
       background-color: palette(grey-light);
     }
@@ -72,7 +72,7 @@
 
       .chevron {
         border-top-color: palette(white);
-      transform: rotate(-90deg);
+        transform: rotate(-90deg);
       }
     }
 
