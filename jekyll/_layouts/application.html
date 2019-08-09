@@ -78,34 +78,34 @@
         
     </main>
 
-    <div class="pad-top-medium pad-top-large--medium pad-bottom-medium pad-bottom-xlarge--medium island island--grey u-hide-print">
+    {% if page.footer.items.size %}
+
+    <section class="island island--grey pad-top-medium pad-top-xlarge--medium pad-bottom-medium pad-bottom-xlarge--medium">
         <div class="wrapper">
             <div class="g">
-                {% for item in site.data.footer_aux_nav %}
-
-                    {% comment %}Is this a custom item (has title and url) {% endcomment %}
-                    {% if item.title and item.url %}
-                        {% assign itemPage = item %}
-                    {% else %}
-                        {% assign path = item %}
-
-                        {% comment %}Add a .md file extension if missing {% endcomment %}
-                        {% unless path contains '.md' or path contains '.html' %}
-                            {% assign path = path | append:'.md' %}
-                        {% endunless %}
-                        {% assign itemPage = site.pages | where:'path', path | first %}
-                    {% endif %}
-
-                    {% if itemPage %}
-                        <div class="g__cell g__cell-12 g__cell-6--medium g__cell-4--large">
-                            <a class="link link--black" href="{{ itemPage.url | relative_url }}"><strong>{{ itemPage.title | improve  }}</strong></a>
-                            <p>{{ itemPage.description | improve  }}</p>
+                {% for item in page.footer.items %}
+                    <div class="g__cell g__cell-12 g__cell-6--medium g__cell-4--large pad-bottom">
+                        <div class="u-trim--all">
+                            {% if item.button_text %}
+                                <h5 class="u-text-color--black">{{ item.title | improve }}</h5>
+                            {% else %}
+                                <h5 class="u-text-color--black"><a href="{{ item.url | relative_url }}">{{ item.title | improve }}</a></h5>
+                            {% endif %}
                         </div>
-                    {% endif %}
+                        <p>{{ item.description | improve  }}</p>
+
+                        {% if item.button_text %}
+                        <a href="{{ item.url | relative_url }}" class="btn">{{ item.button_text }}</a>
+                        {% endif %}
+                    </div>
                 {% endfor %}
             </div>
         </div>
-    </div>
+    </section>
+
+
+
+    {% endif %}
 
     {% comment %} Global CTA Above Footer {% endcomment %}
     {% include cta.html content=cta_text color="primary" %}

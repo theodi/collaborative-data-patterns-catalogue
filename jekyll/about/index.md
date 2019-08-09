@@ -32,26 +32,32 @@ sidebar:
         -          
           title: When to use open standards
           url: /introduction/when-to-use-open-standards-for-data
-
         -          
           title: Types of open standards for data
           url: /introduction/types-of-open-standards-for-data
-
     - intro: Our research on open standards for data
       items:
         -          
           title: User experiences of open standards for data
           url: https://docs.google.com/document/d/1E5uARrZf5AJUIF_DJz-42_793EY_Dwk7n7B3bMn3x5A/edit?usp=sharing
-
         -          
           title: Exploring the development and impact of open standards for data
           url: https://docs.google.com/document/d/1Sab5YMVj4PVqLjZD35hX8FTnMeeP6gLGG0xszuRMIaM/edit?usp=sharing
-
     - intro: Find existing open standards for data
       items:
         -          
           title: How To Find Open Standards
           url: /find-existing-standards/how-to-find-open-standards
+footer:
+  items:
+    - url: patterns/index
+      button_text: Browse patterns
+      title: Tempor tincidunt leo
+      description: Nullam condimentum massa a est volutpat gravida. Donec hendrerit orci arcu, eu fermentum arcu malesuada nec.
+    - url: /contribute/
+      button_text: Contribute
+      title: Vulputate euismod elit inceptos
+      description: Phasellus condimentum, dolor pellentesque elementum gravida, nulla lorem ullamcorper felis, quis sodales nibh tellus a magna.
 ---
 
 ## This is a subheader
