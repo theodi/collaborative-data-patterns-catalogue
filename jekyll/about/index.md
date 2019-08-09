@@ -3,9 +3,6 @@ layout: content-page
 title: About
 hero:
   show_breadcrumb: true
-nav:
-  title: About
-
 description: 'This guidebook helps people and organisations create, develop and adopt open standards for data. It supports a variety of users, including policy leads, domain experts and technologists.'
 sidebar:
   sections:
@@ -58,6 +55,22 @@ footer:
       button_text: Contribute
       title: Vulputate euismod elit inceptos
       description: Phasellus condimentum, dolor pellentesque elementum gravida, nulla lorem ullamcorper felis, quis sodales nibh tellus a magna.
+downloads:
+  # Top level - can include an optional title and description
+  items:
+  - title: Where to find the canvas
+    description: >-
+      Short description nulla eu molestie massa. Pellentesque fermentu lorem ipsum dolor sit amet consectetuer adipicising elit
+    # Download items, template will autodetect if this is a downloadable item or external link
+    items:
+    - title: Open Standards for Data Canvas
+      # Example external link
+      url: http://example.com
+    - title: 'Open Standards for Data Canvas [pdf]'
+      # Example download item, asset stored relative to page file
+      url: ./open-standards-for-data.pdf
+    - title: 'Open Standards for Data Canvas: GTFS Example [pdf]'
+      url: ./gtfs-example.pdf
 ---
 
 ## This is a subheader
@@ -69,3 +82,22 @@ In sed mauris ac quam efficitur gravida sollicitudin nec dolor. Phasellus condim
 * Donec vel metus vel erat volutpat condimentum.
 * Nunc condimentum erat sit amet dictum dapibus.
 * Curabitur at urna id turpis finibus laoreet nec ac dolor.
+
+
+## A markdown heading
+
+Standards are used in every sector across the world to capture agreements on physical items, concepts, ideas, digital products, and processes.
+
+
+<div class="callout" markdown="1">
+Everyday standards include:
+* standards for electrical sockets that allow any appliance to plug in seamlessly
+* standard for addresses that makes post delivery more efficient
+* standard units of measurement for drinks that makes bar service faster and easier
+* standardised sizes for nuts and bolts that makes buying and selling more cost effective
+</div>
+
+
+## Heading
+
+Back to markdown here

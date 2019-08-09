@@ -28,5 +28,18 @@ sections:
       - about/index
       - about/index
       - about/index
-      - about/index
+      - title: Domain experts
+        url: 'https://google.com'
+        description: >-
+         Short description nulla eu molestie massa. Pellentesque fermentum urna pretium nulla lacinia gravida. Aenean in aliquet mauris.
+footer:
+  items:
+    - url: patterns/index
+      button_text: Browse patterns
+      title: Tempor tincidunt leo
+      description: Nullam condimentum massa a est volutpat gravida. Donec hendrerit orci arcu, eu fermentum arcu malesuada nec.
+    - url: /contribute/
+      button_text: Contribute
+      title: Vulputate euismod elit inceptos
+      description: Phasellus condimentum, dolor pellentesque elementum gravida, nulla lorem ullamcorper felis, quis sodales nibh tellus a magna.
 ---

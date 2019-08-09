@@ -75,20 +75,25 @@ collections:
 ###
 
 defaults:
-  - scope:
+  -
+    scope:
       path: ''
       type: 'categories'
     values:
-        layout: 'listing'
-  - scope:
+      layout: 'listing'
+      show_intro_sentence: false
+  -
+    scope:
       path: ''
       type: 'patterns'
     values:
-        layout: 'pattern'
-  - scope:
+      layout: 'pattern'
+      show_intro_sentence: false
+  -
+    scope:
       path: '' # an empty string here means all files in the project
     values:
       nav:
         order: 1000
-      # show_toc: true
-      # show_nav: true
+      show_intro_sentence: false
+      

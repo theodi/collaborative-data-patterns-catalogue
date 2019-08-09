@@ -1,18 +1,18 @@
 ---
 # The Page Title
 title: Listing Page Example
-# Use the listing layout
+# Use the listing layout, category pages default to listing layout
 layout: listing
+
+# The order to show in navigation
+nav_order: 2
 
 # The lede text for this page
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 
-# The following default to true, and only need setting explicitly if you want
-# to set them as false
-#
-# show_toc: false # Show / hide the table of contents
-# show_nav: false # Show / hide the section nav in the hero
-# show_intro_sentence: false # Show / hide the intro sentence
+# The following default to false, and only need setting explicitly if you want
+# to set them as true
+# show_intro_sentence: true # Show / hide the intro sentence
 # intro_sentence: This is a custom intro sentence that will be used in preference to the global one
 #   defined in site.data.snippets.intro_sentence
 
@@ -78,4 +78,11 @@ sections:
         url: '#'
         description: >-
          Short description nulla eu molestie massa. Pellentesque fermentum urna pretium nulla lacinia gravida. Aenean in aliquet mauris.
+
+# Set a category to automatically list all patterns within that category
+category:
+# If category is not set, should we show the list of pattern categories
+show_categories_list: true
+# Set the title for the automatic listing, defaults to "All patterns in this category"
+list_title: "Browse pattern categories"
 ---

@@ -14,7 +14,7 @@ hero:
                 {% include section-listing.html type=section.type %}
             {% endfor %}
 
-            {% assign list_title = 'All patterns in this section' %}
+            {% assign list_title = 'All patterns in this category' %}
 
             {% if page.list_title %}
                 {% assign list_title = page.list_title %}
@@ -22,7 +22,7 @@ hero:
 
             {% if page.category %}
                 {% assign items = site.patterns | where: "category", page.category | sort: 'nav_order' %}
-            {% else %}
+            {% else if page.show_categories_list %}
                 {% assign items = site.categories | sort: 'nav_order' %}
             {% endif %}
 

@@ -1,18 +1,33 @@
 ---
-category: data-model
-title: Linkable Changeset
-nav_order: 1
+# The Page Title
+title: Editing pattern
+# Use the pattern layout, category pages default to pattern layout so this is not required
+layout: pattern
+# The pattern category
+category: editing
+
+# The order to show in navigation
+nav_order: 2
+
+# The lede text for this page (optional)
 description: >- 
     Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum.
+# The problem text for this pattern
 problem: >- 
     Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum.
+# The context text for this pattern
 context: >- 
     Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum.
+# Examples of solutions for this pattern
 examples:
     -
+        # Example title
         title: Example 1
+        # Example thumbnail image
         thumbnail: https://source.unsplash.com/300x400
+        # Example large image, shown in modal
         large_image: https://source.unsplash.com/900x1200
+        # Example description (optional)
         description: >-
             Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur.
     -
@@ -21,6 +36,18 @@ examples:
         large_image: https://source.unsplash.com/800x1200
         description: >-
             Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur.
+    -
+        title: Example with no description
+        thumbnail: https://source.unsplash.com/800x600
+        large_image: https://source.unsplash.com/1600x1200
+# Related patterns, use the slug only
+related:
+    - linkable-changeset
+    - test-pattern
 ---
+
+# Page content
+
+## Shown between context and examples to allow freeform content for Solution and Discussion content
 
 Cras mattis consectetur purus sit amet ferm'entum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur.

@@ -1,6 +1,0 @@
-####
-# footer_aux_nav.yml: defines the items for the auxillary site  navigation just above the footer of the page
-####
-
-- patterns
-- about/index
