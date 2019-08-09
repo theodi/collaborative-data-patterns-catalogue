@@ -20,6 +20,10 @@ examples:
         large_image: https://source.unsplash.com/800x1200
         description: >-
             Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur.
+    -
+        title: Example with no description
+        thumbnail: https://source.unsplash.com/800x600
+        large_image: https://source.unsplash.com/1600x1200
 related:
     - linkable-changeset
     - test-pattern
