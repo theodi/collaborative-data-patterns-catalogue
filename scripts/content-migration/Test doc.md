@@ -1,4 +1,4 @@
-<!----- Conversion time: 5.823 seconds.
+<!----- Conversion time: 9.24 seconds.
 
 
 Using this Markdown file:
@@ -11,7 +11,7 @@ Using this Markdown file:
 Conversion notes:
 
 * Docs to Markdown version 1.0β17
-* Thu Aug 15 2019 04:06:34 GMT-0700 (PDT)
+* Tue Aug 20 2019 03:04:53 GMT-0700 (PDT)
 * Source doc: https://docs.google.com/a/theodi.org/open?id=1UhiFuuO3ySth6qzfMmcGqIvkGRRgZhoBTnkzFU_QBQs
 * This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server.
 
@@ -83,6 +83,9 @@ By keeping a log of changes and associating them with records, the history of a 
 ## Examples
 
 
+### OpenLibraries
+
+
 
 <p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Test-document0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
@@ -90,7 +93,10 @@ By keeping a log of changes and associating them with records, the history of a 
 ![alt_text](images/Test-document0.png "image_tooltip")
 
 
-(OpenLibraries)
+Open Libraries description text
+
+
+### Wikidata
 
 
 
@@ -100,7 +106,7 @@ By keeping a log of changes and associating them with records, the history of a 
 ![alt_text](images/Test-document1.png "image_tooltip")
 
 
-(wikidata)
+Wikidata description text
 
 
 ## Related patterns
@@ -158,12 +164,20 @@ While gamification has been successfully applied in a number of collaborative pr
 ## Examples
 
 
+### eBird example 1
+
+
 
 <p id="gdcalert3" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Test-document2.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert4">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
 
 
 ![alt_text](images/Test-document2.png "image_tooltip")
-(eBird)
+
+
+eBird description 1
+
+
+### eBird example 2
 
 
 
@@ -171,7 +185,12 @@ While gamification has been successfully applied in a number of collaborative pr
 
 
 ![alt_text](images/Test-document3.png "image_tooltip")
-(eBird)
+
+
+eBird description 2
+
+
+### Zooniverse
 
 
 
@@ -179,7 +198,12 @@ While gamification has been successfully applied in a number of collaborative pr
 
 
 ![alt_text](images/Test-document4.png "image_tooltip")
-(Zooniverse)
+
+
+Zooniverse description
+
+
+### Mozilla Voice example 1
 
 
 
@@ -187,7 +211,12 @@ While gamification has been successfully applied in a number of collaborative pr
 
 
 ![alt_text](images/Test-document5.png "image_tooltip")
-(Mozilla Voice)
+
+
+Mozilla Voice description 1
+
+
+### Mozilla Voice example 2
 
 
 
@@ -195,7 +224,12 @@ While gamification has been successfully applied in a number of collaborative pr
 
 
 ![alt_text](images/Test-document6.png "image_tooltip")
-(Mozilla Voice)
+
+
+Mozilla Voice description 2
+
+
+### Discogs
 
 
 
@@ -203,7 +237,9 @@ While gamification has been successfully applied in a number of collaborative pr
 
 
 ![alt_text](images/Test-document7.png "image_tooltip")
-(Discogs)
+
+
+Discogs description
 
 
 ## Related patterns
