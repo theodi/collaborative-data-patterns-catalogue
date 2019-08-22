@@ -22,4 +22,4 @@ clone the ODI's fork of markdown-to-json: https://github.com/theodi/markdown-to-
 ```cp pattern-template.j2 $path_to_markdown-to-json_dir```
 
 ## Usage
-```sh markdown-to-pattern-template.sh Test\ doc.md```
+```sh markdown-to-pattern-template.sh {markdown-document.md} {category-name}```

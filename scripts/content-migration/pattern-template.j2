@@ -1,5 +1,5 @@
 ---
-category: data-model
+category: {{ Category }}
 title: {{ Name }}
 nav_order: 1
 description: >-
@@ -9,16 +9,18 @@ problem: >-
 context: >-
     {{ Context }}
 examples:
-    {% for example in Examples -%}
+    {% if Examples is defined -%}
+    {%- for example in Examples -%}
     -
         title: {{ example.Title }}
         thumbnail: https://wheretheimageswilllive.com/{{ loop.index }}
-        large_image: https://wheretheimageswilllive/{{ loop.index }}
-        {% if example.Description -%}
+        large_image: https://wheretheimageswilllive/{{ loop.index -}}
+        {%- if example.Description -%}
         description: >-
             {{ example.Description -}}
         {% endif %}
-    {% endfor %}
+    {% endfor -%}
+    {% endif %}
 ---
 
 {{ Discussion }}
