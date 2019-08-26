@@ -1,6 +1,6 @@
 ---
 layout: content-page
-title: About
+title: About this catalogue
 hero:
   show_breadcrumb: true
 description: 'This guidebook helps people and organisations create, develop and adopt open standards for data. It supports a variety of users, including policy leads, domain experts and technologists.'
@@ -40,11 +40,6 @@ sidebar:
         -          
           title: Exploring the development and impact of open standards for data
           url: https://docs.google.com/document/d/1Sab5YMVj4PVqLjZD35hX8FTnMeeP6gLGG0xszuRMIaM/edit?usp=sharing
-    - intro: Find existing open standards for data
-      items:
-        -          
-          title: How To Find Open Standards
-          url: /find-existing-standards/how-to-find-open-standards
 footer:
   items:
     - url: patterns/index
@@ -55,49 +50,45 @@ footer:
       button_text: Contribute
       title: Vulputate euismod elit inceptos
       description: Phasellus condimentum, dolor pellentesque elementum gravida, nulla lorem ullamcorper felis, quis sodales nibh tellus a magna.
-downloads:
-  # Top level - can include an optional title and description
-  items:
-  - title: Where to find the canvas
-    description: >-
-      Short description nulla eu molestie massa. Pellentesque fermentu lorem ipsum dolor sit amet consectetuer adipicising elit
-    # Download items, template will autodetect if this is a downloadable item or external link
-    items:
-    - title: Open Standards for Data Canvas
-      # Example external link
-      url: http://example.com
-    - title: 'Open Standards for Data Canvas [pdf]'
-      # Example download item, asset stored relative to page file
-      url: ./open-standards-for-data.pdf
-    - title: 'Open Standards for Data Canvas: GTFS Example [pdf]'
-      url: ./gtfs-example.pdf
 ---
 
-## This is a subheader
+## Background
 
-In sed mauris ac quam efficitur gravida sollicitudin nec dolor. Phasellus condimentum, dolor pellentesque elementum gravida, nulla lorem ullamcorper felis, quis sodales nibh tellus a magna. Quisque consequat ultricies varius. Mauris ligula erat, aliquam in augue et, tempor tincidunt leo. Fusce quis ipsum nec eros varius facilisis placerat sed odio.
+The ODI’s [innovation programme](https://theodi.org/project/research-and-development-of-data-innovation-for-uk-government/) launched in July 2017 to advance knowledge and expertise in how data can shape the next generation of services, and create economic growth. The funds for it were awarded through Innovate UK, the UK’s innovation agency, in a three-year programme, running to March 2020 with a funding profile of £2m each year.
 
-> Aliquam erat volutpat. Phasellus dignissim a justo sed rhoncus. Phasellus gravida ut purus gravida rutrum. Phasellus sit amet blandit nunc. Nullam condimentum massa a est volutpat gravida. Donec hendrerit orci arcu, eu fermentum arcu malesuada nec. Aenean pretium diam ut urna sodales, quis congue turpis dictum. 
+The programme consists of a number of projects which are all aimed at advancing our understanding of the opportunities data can bring and some of the pitfalls to avoid. They are intended to enable the UK to build on its established strengths in data and data analytics, break new ground in creating value from data across industry, and ensure that the UK remains at the forefront of data innovation globally.
 
-* Donec vel metus vel erat volutpat condimentum.
-* Nunc condimentum erat sit amet dictum dapibus.
-* Curabitur at urna id turpis finibus laoreet nec ac dolor.
-
-
-## A markdown heading
-
-Standards are used in every sector across the world to capture agreements on physical items, concepts, ideas, digital products, and processes.
-
+This guidebook was produced as part of a project exploring collaborative approaches to collecting and stewarding datasets. Collaborative maintenance can help to share the costs of data collection and management across public and private sector organisations, supporting the creation of sustainable, trustworthy data infrastructure
 
 <div class="callout" markdown="1">
-Everyday standards include:
-* standards for electrical sockets that allow any appliance to plug in seamlessly
-* standard for addresses that makes post delivery more efficient
-* standard units of measurement for drinks that makes bar service faster and easier
-* standardised sizes for nuts and bolts that makes buying and selling more cost effective
+In our project we:
+
+*   [interviewed people involved in running and contributing to successful projects](https://theodi.org/article/insights-from-successful-collaborative-maintenance-projects/) that involve collaborative maintenance of data
+*   [carried out desk research](https://theodi.org/article/collaborative-data-maintenance-how-can-we-enable-shared-curation-of-high-quality-data/) to learn more about the design, scope and governance of existing projects
+*   directly participated in a variety of open projects to learn more about the practice of collaborative maintenance
 </div>
 
+We used the insights from this research to produce guidance on this website and create a collection of <span style="text-decoration:underline;">design patterns</span> to support those in developing new projects and improving existing services.
 
-## Heading
+The website is openly licensed and we <span style="text-decoration:underline;">invite contributions from the community</span>.
 
-Back to markdown here
+## Acknowledgements
+
+This guidebook is the end result of the hard work and enthusiasm of the following team of people:
+
+*   Caley Dewhurst
+*   Leigh Dodds
+*   Sonia Duarte
+*   Rebecca Ghani
+*   Vicky Hallam
+*   Myriam Roderick
+*   Rachel Wilson
+
+<div class="callout" markdown="1">
+In addition we would like to thank:
+*   [Kind](https://madebykind.com/) for creating an excellent design and publishing framework for the website
+*   Joanne Dobie for her copy-editing skills
+*   Andy Mabbett for providing us with training and insight on OpenStreetMap and Wikidata
+*   The people who consented to be interviewed for the project so that we could share their insights
+*   The communities and projects that welcomed us contributing to their databases, catalogue our records and spot some hyenas
+</div>

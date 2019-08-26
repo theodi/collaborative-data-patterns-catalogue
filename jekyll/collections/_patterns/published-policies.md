@@ -1,0 +1,41 @@
+---
+category: project-governance
+title: Published Policies
+nav_order: 1
+description: >-
+    Publish clear policies that describe all aspects of your project’s governance. Ensure these can be easily found on the project website, and are referenced during key processes.
+problem: >-
+    Collaboration across distributed groups requires clarity around rules, policies and procedures.
+context: >-
+    Collaborative projects involve a variety of policies describing the project’s governance. If these are not clearly documented, there may be a lack of trust around how data is being accessed, used and shared, and around how key processes such as moderation and disagreements are handled. 
+examples:
+    -
+        title: Discogs
+        thumbnail: https://wheretheimageswilllive.com/1
+        large_image: https://wheretheimageswilllive/1
+    -
+        title: HOT OSM
+        thumbnail: https://wheretheimageswilllive.com/2
+        large_image: https://wheretheimageswilllive/2
+    -
+        title: OpenFoodFacts
+        thumbnail: https://wheretheimageswilllive.com/3
+        large_image: https://wheretheimageswilllive/3
+    
+---
+
+To build trust around a project, it is important that all aspects of its governance are well documented and transparent. This is good practice for any form of data stewardship, but is particularly important for collaborative projects where there is a broad range of stakeholders, including contributors, data users and those who may be impacted by the data created by the project.
+
+Publishing clear, easily readable policies will help to increase transparency, reduce ambiguity around decision making, and help to avoid or resolve conflicts if they arise.
+
+Your policies might need to evolve over time because of unforeseen conflicts, issues or questions raised by users; be prepared to adapt your policies in response to new needs. Engage your community in developing and improving your policies.
+
+Certain policies should be published by any online service. These include privacy policies and terms of use. You will also need a **Contributor Licence.**
+
+You should consider policies to cover:
+
+* Code of conduct in discussions and comments around the work of contributors
+* Conflict resolution, eg to support **Moderation** or <span style="text-decoration:underline;">Graduated Sanctions</span>
+* Specific types of edits, eg **Machine Editing**
+
+Policies should be easily found and, where appropriate, referenced from **Visible Processes**.

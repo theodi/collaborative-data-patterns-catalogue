@@ -1,7 +1,7 @@
 ---
-category: editing
+category: encouraging-contributions
 title: Gamify Contributions
-nav_order: 4
+nav_order: 1
 description: >-
     Introduce game design elements as features within the project website, as a means to motivate regular engagement with the project.
 problem: >-
@@ -13,38 +13,27 @@ examples:
         title: eBird example 1
         thumbnail: https://wheretheimageswilllive.com/1
         large_image: https://wheretheimageswilllive/1
-        description: >-
-            eBird description 1
     -
         title: eBird example 2
         thumbnail: https://wheretheimageswilllive.com/2
         large_image: https://wheretheimageswilllive/2
-        description: >-
-            eBird description 2
     -
         title: Zooniverse
         thumbnail: https://wheretheimageswilllive.com/3
         large_image: https://wheretheimageswilllive/3
-        description: >-
-            Zooniverse description
     -
         title: Mozilla Voice example 1
         thumbnail: https://wheretheimageswilllive.com/4
         large_image: https://wheretheimageswilllive/4
-        description: >-
-            Mozilla Voice description 1
     -
         title: Mozilla Voice example 2
         thumbnail: https://wheretheimageswilllive.com/5
         large_image: https://wheretheimageswilllive/5
-        description: >-
-            Mozilla Voice description 2
     -
         title: Discogs
         thumbnail: https://wheretheimageswilllive.com/6
         large_image: https://wheretheimageswilllive/6
-        description: >-
-            Discogs description 
+    
 ---
 
 There are a variety of ways to motivate contributors to contribute to a project. 

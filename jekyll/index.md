@@ -1,45 +1,32 @@
 ---
 layout: home
-title: Home title
+title: Welcome to the patterns catalogue
 hero:
   nav:
     meta: Introduction
     title: Getting started
-    description: >-
-      Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
     items:
       - about/index
-      - patterns
+      - aboutpatterns/index
+      - patterns/index
       - contribute/index
   bg: img/twitter-card.png
 description: >- 
-    Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
+    This website is intended to support the design of projects that involve collaboratively maintaining data.
 
 sections:
   items:
   - type: full # full, grid, short
-    title: Section title
+    title: Getting Started
     description: >-
-      Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+      When individuals, organisations and communities work together to share the work of collecting and maintaining shared data assets this is described as ‘collaborative data maintenance’.
   - type: grid # full, grid, short
-    title: Browse pattern categories
-    title_size: small
     items:
+      - whatis_cdm/index
+      - whenuse_cdm/index
+      - aboutpatterns/index
       - about/index
-      - about/index
-      - about/index
-      - title: Domain experts
-        url: 'https://google.com'
-        description: >-
-         Short description nulla eu molestie massa. Pellentesque fermentum urna pretium nulla lacinia gravida. Aenean in aliquet mauris.
-footer:
-  items:
-    - url: patterns/index
-      button_text: Browse patterns
-      title: Tempor tincidunt leo
-      description: Nullam condimentum massa a est volutpat gravida. Donec hendrerit orci arcu, eu fermentum arcu malesuada nec.
-    - url: /contribute/
-      button_text: Contribute
-      title: Vulputate euismod elit inceptos
-      description: Phasellus condimentum, dolor pellentesque elementum gravida, nulla lorem ullamcorper felis, quis sodales nibh tellus a magna.
+      - workedexample/index
+      - contribute/index
+      - glossary/index
 ---

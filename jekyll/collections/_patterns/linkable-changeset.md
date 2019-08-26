@@ -1,26 +1,23 @@
 ---
-category: data-model
+category: workflow
 title: Linkable Changeset
 nav_order: 1
-description: >- 
-    Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum.
-problem: >- 
-    Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum.
-context: >- 
-    Nullam id dolor id nibh ultricies vehicula ut id elit. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Maecenas faucibus mollis interdum.
+description: |-
+    Implement the **Changeset** pattern which will ensure that you are capturing a unique identifier and useful context for each entry.
+
+    Ensure that every entry can be referenced via a unique URL that, when visited, delivers a web page that provides a useful summary of the metadata. Expose those URLs in the system e.g via a **Track Changes** view.
+problem: >-
+    How can the activity of contributors be made accessible on the web to allow them to be referenced and discussed on social media or in emails, wiki pages and blog posts?
+context: >-
+    The ability to link to changes on the web will allow contributors to use a range of existing communication tools to help them coordinate their work.
 examples:
-    -
-        title: Example 1
-        thumbnail: https://source.unsplash.com/300x400
-        large_image: https://source.unsplash.com/900x1200
-        description: >-
-            Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur.
-    -
-        title: Example 2
-        thumbnail: https://source.unsplash.com/400x600
-        large_image: https://source.unsplash.com/800x1200
-        description: >-
-            Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur.
+    
 ---
 
-Cras mattis consectetur purus sit amet ferm'entum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur.
+The ability to directly link to and view entries made to the system is a helpful way to allow a community to self-organise using existing web based tools and documentation.
+
+The ability to reference a specific mistake can be helpful in creating moderation processes, or to provide examples of good and bad changes from training material and documentation.
+
+Being able to reference bad or damaging edits will help to provide evidence for why graduated sanctions have been applied to a user, e.g. to impose a temporary or permanent ban.
+
+The privacy and technical considerations of implementing the Describable Entry pattern also apply here. Care should be taken about what personal information about contributors might be accessible. Archiving or removing historical entries might break URLs, so the impact of this should be considered.
