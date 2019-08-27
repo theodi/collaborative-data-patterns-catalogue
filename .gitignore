@@ -3,6 +3,8 @@
 ###################
 .env
 .ruby-version*
+.gems
+.rbenv-gemsets
 
 ###################
 # Dependencies

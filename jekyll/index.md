@@ -12,7 +12,7 @@ hero:
       - contribute/index
   bg: img/twitter-card.png
 description: >- 
-    This website is intended to support the design of projects that involve collaboratively maintaining data.
+    Supporting the design of collaboratively maintained data projects
 
 sections:
   items:
