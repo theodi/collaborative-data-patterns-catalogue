@@ -47,9 +47,9 @@ layout: application
                 {% if page.solution %}
                     {% include callout.html title="Solution" html=page.solution %}
                 {% endif %}
-
-                {{ content | improve }}
-
+                <div class="u-styled-lists">
+                    {{ content | improve }}
+                </div>
                 {% assign range = page.examples.size | minus:1 %}
 
                 {% for i in (0..range) %}
