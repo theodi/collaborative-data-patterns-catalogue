@@ -2,14 +2,14 @@
 category: editing
 title: Machine Editing
 nav_order: 1
-description: >-
-    Allow machines/bots for applications to push data directly into your database. Develop, publish and adhere to a ‘bot policy’ to set rules around the use of bots, and to mitigate any harmful impacts.
-problem: |-
+description: |-
     Your project allows machines/bots to contribute high volumes of data; fix errors and specific problems; and synchronise with other sources. But how can you balance the benefits of this with the risks of negative impact?  
 
     How do I grow your database quickly with the least errors possible? 
 context: >-
     Sometimes it i’s important to accelerate data acquisition and only machines can administerdo the necessary high-  volume of contributions. 
+solution: >-
+    Allow machines/bots for applications to push data directly into your database. Develop, publish and adhere to a ‘bot policy’ to set rules around the use of bots, and to mitigate any harmful impacts.
 examples:
     
 ---

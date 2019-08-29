@@ -3,11 +3,11 @@ category: maintaining-quality
 title: Error Reporting
 nav_order: 1
 description: >-
-    Provide a means for data users and contributors to easily flag errors and omissions in a dataset as soon as they are identified.
-problem: >-
     It is important to flag errors whenever they are identified even if they can’t be immediately fixed
 context: >-
     Contributors may not have the time, ability or the information available to fix a problem at the point it is identified. Unless there is a way for a mistake to be flagged in the system then the error may persist over time.
+solution: >-
+    Provide a means for data users and contributors to easily flag errors and omissions in a dataset as soon as they are identified.
 examples:
     
 ---

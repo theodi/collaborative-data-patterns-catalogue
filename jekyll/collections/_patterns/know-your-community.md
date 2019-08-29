@@ -2,14 +2,14 @@
 category: community-management
 title: Know Your Community
 nav_order: 1
-description: |-
-    When scoping your project, map out your stakeholders, including those who are likely to contribute to the project, use the data it collects or benefit from it. Plan how you will engage with these stakeholders in order to recruit them to the project, understand their needs and communicate the goals of the project.
-
-    During your project, monitor your community of contributors and users to ensure you are still serving their needs and are engaging with them effectively. It may be helpful to use  metrics based on user profiles and how contributors use the system. Where there are perceived gaps, eg because of lack of contributions from certain stakeholders, look at how you can improve engagement and encourage participation.
-problem: >-
+description: >-
     A lack of understanding of your community limits your ability to support and engage with them. 
 context: >-
     Projects typically need to get contributions from a range of different people and organisations, who may bring different skills, perspectives and information to the project. Providing effective support to them  will help improve the dataset and will benefit the project.
+solution: |-
+    When scoping your project, map out your stakeholders, including those who are likely to contribute to the project, use the data it collects or benefit from it. Plan how you will engage with these stakeholders in order to recruit them to the project, understand their needs and communicate the goals of the project.
+
+    During your project, monitor your community of contributors and users to ensure you are still serving their needs and are engaging with them effectively. It may be helpful to use  metrics based on user profiles and how contributors use the system. Where there are perceived gaps, eg because of lack of contributions from certain stakeholders, look at how you can improve engagement and encourage participation.
 examples:
     
 ---

@@ -2,12 +2,12 @@
 category: editing
 title: Bulk Changes
 nav_order: 1
-description: |-
-    Provide a custom tool for contributors to upload, review and apply updates to multiple records.
-problem: >-
+description: >-
     Multiple records need to be updated to import or fix data. Doing them individually is time intensive.
 context: >-
     Projects are typically designed around supporting users in adding or improving individual records. This model doesn’t work well when there is a need to import external data which contains useful data to be applied to multiple records.
+solution: |-
+    Provide a custom tool for contributors to upload, review and apply updates to multiple records.
 examples:
     
 ---

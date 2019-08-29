@@ -2,12 +2,12 @@
 category: editing
 title: Attributable Contributions
 nav_order: 1
-description: |-
-    Only allow signed-in contributors to contribute to the project so that each contribution is attributed to a specific person. Minimise the information collected about users to respect their privacy.
-problem: >-
+description: >-
     Without knowing the source of individual contributions it can be harder to monitor and recognise the work of the community
 context: >-
     A project with **Anonymous Contributions** might suffer from spam or malicious edits. 
+solution: |-
+    Only allow signed-in contributors to contribute to the project so that each contribution is attributed to a specific person. Minimise the information collected about users to respect their privacy.
 examples:
     
 ---

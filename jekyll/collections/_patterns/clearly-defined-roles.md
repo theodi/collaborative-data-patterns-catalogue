@@ -2,16 +2,16 @@
 category: project-governance
 title: Clearly Defined Roles
 nav_order: 1
-description: |-
+description: >-
+    In collaborative, community-driven projects there can be a lack of clarity around who is responsible for making decisions. 
+context: >-
+    Collaborative projects involve regular engagement and discussions with users. Some projects encourage contributors to be part of the project’s governance. When this is the case, it should be clear where the responsibility lies for making final decisions. Is it with the community or with the project leadership?
+solution: |-
     Ensure that the project roles and responsibilities are well defined. Clarify how people are given those roles, eg by being **Granted Privileges** or **Automatically Acquiring Roles**. 
 
     Make it clear which members of the community or the project team have which roles, eg by publishing a list or by indicating their role on their user profile page.
 
     If the community is involved in decision making, ensure there are **Published Policies** for seeking and documenting agreement. If the project leadership makes the final decisions, ensure you have **Visible Processes **so that decision making is transparent. 
-problem: >-
-    In collaborative, community-driven projects there can be a lack of clarity around who is responsible for making decisions. 
-context: >-
-    Collaborative projects involve regular engagement and discussions with users. Some projects encourage contributors to be part of the project’s governance. When this is the case, it should be clear where the responsibility lies for making final decisions. Is it with the community or with the project leadership?
 examples:
     
 ---

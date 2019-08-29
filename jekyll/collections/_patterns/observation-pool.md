@@ -3,11 +3,11 @@ category: project-types
 title: Observation Pool
 nav_order: 1
 description: >-
-    Create a collaborative project that encourages a community of contributors to submit observations about the area of interest.
-problem: >-
     There are gaps in our understanding of some aspect of the world which new data can help to address.
 context: >-
     To build insight and improve decision making, there is a need for new observations about some aspect of the world. For these observations to be useful, they need to have good coverage of the area of interest. But collecting that data might be time consuming or costly for a single organisation to achieve.
+solution: >-
+    Create a collaborative project that encourages a community of contributors to submit observations about the area of interest.
 examples:
     
 ---

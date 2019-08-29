@@ -3,11 +3,11 @@ category: community-management
 title: Learning Curve
 nav_order: 1
 description: >-
-    Signpost contributors to the simple ways they can make useful contributions immediately, which will help develop their understanding of the project as they go. Have a ‘start small’ philosophy and explain this to the contributors.
-problem: >-
     Contributors may not feel confident about successfully participating in your project, especially if they believe that they need some expert knowledge in order to contribute.
 context: >-
     Potential contributors are considering joining the project, or have just joined and are trying to understand how to contribute.
+solution: >-
+    Signpost contributors to the simple ways they can make useful contributions immediately, which will help develop their understanding of the project as they go. Have a ‘start small’ philosophy and explain this to the contributors.
 examples:
     -
         title: eBird

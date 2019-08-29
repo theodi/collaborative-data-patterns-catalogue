@@ -3,11 +3,11 @@ category: encouraging-contributions
 title: Progress Indicator
 nav_order: 1
 description: >-
-    Create indicators that provide an overall sense of progress towards the goal of your project or campaign, for example charts showing how many tasks have been completed, the growth of the database, the number of people participating, or the overall daily or weekly activity.
-problem: >-
     Contributors need to see that the project is progressing. 
 context: >-
     During collaborative maintenance projects, it is necessary for contributors to focus on completing tasks: adding new records, correcting mistakes and improving existing data. However, this risks them losing sight of the overall progress made by the community.
+solution: >-
+    Create indicators that provide an overall sense of progress towards the goal of your project or campaign, for example charts showing how many tasks have been completed, the growth of the database, the number of people participating, or the overall daily or weekly activity.
 examples:
     -
         title: Democracy Club

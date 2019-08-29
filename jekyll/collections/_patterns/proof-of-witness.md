@@ -3,11 +3,11 @@ category: maintaining-quality
 title: Proof of Witness
 nav_order: 1
 description: >-
-    Allow contributors to submit proof of their observations, e.g. by uploading a photograph.
-problem: >-
     Validating real-world observations is difficult without having proof
 context: >-
     It can be challenging to validate data in projects that allow contributors to record events or catalogue information about the real world.
+solution: >-
+    Allow contributors to submit proof of their observations, e.g. by uploading a photograph.
 examples:
     
 ---

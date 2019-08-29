@@ -3,11 +3,11 @@ category: maintaining-quality
 title: Marking as Verified
 nav_order: 1
 description: >-
-    Provide a means for contributors to indicate that they have checked or reviewed a record.
-problem: >-
     It can be unclear if an individual record has been reviewed or seen by other contributors
 context: >-
     It can be difficult for contributors to understand whether an individual record has not been updated because it is correct or that it just hasn’t yet been checked by another user.
+solution: >-
+    Provide a means for contributors to indicate that they have checked or reviewed a record.
 examples:
     
 ---

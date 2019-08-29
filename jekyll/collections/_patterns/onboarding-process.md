@@ -3,11 +3,11 @@ category: community-management
 title: Onboarding Process
 nav_order: 1
 description: >-
-    Introduce important terminology and policies early on, and ensure you explain the project and how to make high-quality contributions.
-problem: >-
     New project contributors may be unfamiliar with some of the language used and be unsure of how to use the tools. This can make it difficult to make good-quality contributions. 
 context: >-
     This may happen when a new contributor is making their initial submissions to the project.
+solution: >-
+    Introduce important terminology and policies early on, and ensure you explain the project and how to make high-quality contributions.
 examples:
     -
         title: See these examples

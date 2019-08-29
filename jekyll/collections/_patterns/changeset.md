@@ -2,12 +2,12 @@
 category: data-model
 title: Changeset
 nav_order: 1
-description: |-
-    In addition to tracking the current state of the database, maintain a record of every entry made to the system. Capture metadata about each entry that will help provide context to how, when and why changes have been made.
-problem: >-
+description: >-
     Multiple collaborators independently making entries into a database makes it difficult to understand how the dataset reached its current state. 
 context: >-
     When the only view of the dataset is its current state, it can be difficult to understand how, when and why changes have been made by users. For example the reason why an individual entry was made by a user might be unclear. Contributors might be repeatedly editing the same records to fix seemingly incorrect data, or may be making repeated mistakes across their contributions.
+solution: |-
+    In addition to tracking the current state of the database, maintain a record of every entry made to the system. Capture metadata about each entry that will help provide context to how, when and why changes have been made.
 examples:
     -
         title: OpenStreetMap

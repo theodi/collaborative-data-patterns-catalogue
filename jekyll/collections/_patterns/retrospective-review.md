@@ -3,11 +3,11 @@ category: maintaining-quality
 title: Retrospective Review
 nav_order: 1
 description: >-
-    Immediately accept changes into the database, after which they may be reviewed either by a project team member or the community of contributors.
-problem: >-
     Contributions need to be encouraged and made available as soon as possible after having been submitted.
 context: >-
     You would like to encourage contributions and it is not overly problematic if the data is incorrect for a short time before it is corrected.
+solution: >-
+    Immediately accept changes into the database, after which they may be reviewed either by a project team member or the community of contributors.
 examples:
     
 ---

@@ -2,12 +2,12 @@
 category: project-types
 title: Collaborative Cataloguing
 nav_order: 1
-description: |-
-    Create a collaborative project that gives contributors a series of tasks to complete. Each task will involve cataloguing, inspecting or transcribing one item in the set of resources identified.
-problem: >-
+description: >-
     There is a discrete set of documents, images, photographs or other material that are currently unstructured, but that could be turned into a structured dataset
 context: >-
     There are many types of unstructured data sources that contain useful data and information. The work of converting, cataloguing and turning these sources into structured data can be expensive and may not always be suitable for complete automation.
+solution: |-
+    Create a collaborative project that gives contributors a series of tasks to complete. Each task will involve cataloguing, inspecting or transcribing one item in the set of resources identified.
 examples:
     
 ---

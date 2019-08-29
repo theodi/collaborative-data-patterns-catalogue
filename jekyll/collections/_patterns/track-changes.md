@@ -3,11 +3,11 @@ category: workflow
 title: Track Changes
 nav_order: 1
 description: >-
-    Create and display a log of **Changesets**, where each entry represents an amendment to a record.
-problem: >-
     It is difficult to understand how a record came to be in its current or previous state.
 context: >-
     Changes have been made to a record or set of records, which another contributor or user would like to understand.
+solution: >-
+    Create and display a log of **Changesets**, where each entry represents an amendment to a record.
 examples:
     -
         title: OpenLibraries

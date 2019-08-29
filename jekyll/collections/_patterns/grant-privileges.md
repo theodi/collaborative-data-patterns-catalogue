@@ -3,11 +3,11 @@ category: project-governance
 title: Grant Privileges
 nav_order: 1
 description: >-
-    Explicitly assign roles and privileges to individual user accounts. 
-problem: >-
     Specific features of a project need to be restricted to certain users
 context: >-
     Projects may need to limit some features, such as the ability to revert changes made by other users, to a smaller set of trusted contributors. 
+solution: >-
+    Explicitly assign roles and privileges to individual user accounts. 
 examples:
     
 ---

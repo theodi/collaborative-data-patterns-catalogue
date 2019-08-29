@@ -2,12 +2,12 @@
 category: project-governance
 title: Clear Licensing
 nav_order: 1
-description: |-
-    Define where the collectively maintained data will sit on the data spectrum. Create or choose a clear data-sharing agreement or licence that provides rights to use the data in ways that maximises value while minimising potential harms. Ensure that the licence is clearly described and linked from any page that provides access to data.
-problem: >-
+description: >-
     Both contributors and reusers need to understand what rights they have to use the combined dataset
 context: >-
     There needs to be confidence that the aggregate data will be made as open as possible so that it can provide value for all stakeholders involved in maintaining or using it.
+solution: |-
+    Define where the collectively maintained data will sit on the data spectrum. Create or choose a clear data-sharing agreement or licence that provides rights to use the data in ways that maximises value while minimising potential harms. Ensure that the licence is clearly described and linked from any page that provides access to data.
 examples:
     -
         title: Wikidata

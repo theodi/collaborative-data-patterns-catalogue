@@ -3,11 +3,11 @@ category: community-management
 title: Respect Users’ Time
 nav_order: 1
 description: >-
-    Avoid wasting people’s time by respecting the effort invested into collecting and maintaining data, presenting clear ways of contributing, creating good editing tools, and avoid users having to repeat tasks.
-problem: >-
     Contributors may have limited time to contribute and may be doing so voluntarily. 
 context: >-
     Users may be volunteers, or they may be contributing on behalf of their organisation, but only as part of other duties. Regardless, time is being donated to the project to help achieve a shared goal.
+solution: >-
+    Avoid wasting people’s time by respecting the effort invested into collecting and maintaining data, presenting clear ways of contributing, creating good editing tools, and avoid users having to repeat tasks.
 examples:
     
 ---

@@ -2,12 +2,12 @@
 category: workflow
 title: Changeset Discussion
 nav_order: 1
-description: |-
-    Allow contributors and moderators to comment directly on a **Changeset.**
-problem: >-
+description: >-
     Contributors or moderators want to discuss a specific entry before rejecting or improving it.
 context: >-
     A change has been submitted to the project in the form of a **Changeset**, and someone, often a moderator or another contributor, would like to start a discussion or provide feedback.
+solution: |-
+    Allow contributors and moderators to comment directly on a **Changeset.**
 examples:
     -
         title: ISFDB

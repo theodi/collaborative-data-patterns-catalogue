@@ -3,11 +3,11 @@ category: data-model
 title: Evolving Schema
 nav_order: 1
 description: >-
-    Plan to adapt and evolve your schema over time. This might include expanding to collect information about new types of records, or adding and removing fields from existing records. Your plans should involve more than just the technical changes required to update a database or the service that helps to maintain data. You should also communicate and consult with the community about your plans.
-problem: >-
     The schema originally designed for use in the project is no longer acceptable because the project or the community’s needs have changed.
 context: >-
     Needs change over time as people begin to use and contribute to a dataset. Or perhaps through the process of collaborating with a community, you develop a clearer understanding of your collective needs. This may mean changing the types of data that is captured.  so the schema might need to evolve.
+solution: >-
+    Plan to adapt and evolve your schema over time. This might include expanding to collect information about new types of records, or adding and removing fields from existing records. Your plans should involve more than just the technical changes required to update a database or the service that helps to maintain data. You should also communicate and consult with the community about your plans.
 examples:
     
 ---

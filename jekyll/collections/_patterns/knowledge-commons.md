@@ -3,11 +3,11 @@ category: project-types
 title: Knowledge Commons
 nav_order: 1
 description: >-
-    Create a collaboratively maintained dataset that provides a shared data infrastructure for a community to coordinate around collecting data of interest and benefit to them.
-problem: >-
     There is a need for a Communal Database to support a diverse set of communities. But outside a common core set of data, there are different and evolving needs.
 context: >-
     Given the right tools, a community can work together to maintain a Communal Database. Adapting to divergent needs can be difficult to manage from the centre. 
+solution: >-
+    Create a collaboratively maintained dataset that provides a shared data infrastructure for a community to coordinate around collecting data of interest and benefit to them.
 examples:
     
 ---

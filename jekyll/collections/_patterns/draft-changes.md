@@ -3,11 +3,11 @@ category: workflow
 title: Draft Changes
 nav_order: 1
 description: >-
-    Allow users to save their progress before submitting their contribution.
-problem: >-
     A contributor does not have the time or enough information to make a complete submission at the moment.
 context: >-
     A contributor has started to make a change to the database but hasn’t submitted it.
+solution: >-
+    Allow users to save their progress before submitting their contribution.
 examples:
     -
         title: Need title

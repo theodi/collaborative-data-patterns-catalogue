@@ -2,12 +2,12 @@
 category: project-types
 title: Communal Database
 nav_order: 1
-description: |-
-    Create a collaborative maintenance project that allows contributors to work together to maintain a database that is valuable to them all.
-problem: >-
+description: >-
     The work to compile and maintain a database that would be useful to a community of organisation is costly and time-intensive
 context: >-
     Many organisations and communities often use the same data to support their products, services and interests. Collecting and maintaining the data can be expensive and work might be duplicated across organisations and communities.
+solution: |-
+    Create a collaborative maintenance project that allows contributors to work together to maintain a database that is valuable to them all.
 examples:
     
 ---

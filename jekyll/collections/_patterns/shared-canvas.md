@@ -3,11 +3,11 @@ category: data-model
 title: Shared Canvas
 nav_order: 1
 description: >-
-    Design your system so that new fields (and maybe types of records) can be added by the community. For example, you might allow users to add name-value pairs to any record, allowing them to arbitrarily add new attributes. Provide the community with tools, for example a wiki, to help them document how individual fields, or collections of fields, should be used to describe different types of things.
-problem: >-
     How do you empower a community to shape the types of data collected in a project so that it can adapt to a range of needs?
 context: >-
     Your project might have different communities of users with different needs and priorities; trying to get central agreement is difficult.
+solution: >-
+    Design your system so that new fields (and maybe types of records) can be added by the community. For example, you might allow users to add name-value pairs to any record, allowing them to arbitrarily add new attributes. Provide the community with tools, for example a wiki, to help them document how individual fields, or collections of fields, should be used to describe different types of things.
 examples:
     
 ---

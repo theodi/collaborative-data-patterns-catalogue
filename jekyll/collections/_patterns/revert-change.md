@@ -3,11 +3,11 @@ category: editing
 title: Revert Change
 nav_order: 1
 description: >-
-    Allow entries to be undone so that  people or machines can revert the effects of an entry if necessary.
-problem: >-
     A change has introduced errors or inaccuracies into the database.
 context: >-
     An entry has been accepted into the database, introducing a change that needs to be undone.
+solution: >-
+    Allow entries to be undone so that  people or machines can revert the effects of an entry if necessary.
 examples:
     -
         title: OpenDemocracy

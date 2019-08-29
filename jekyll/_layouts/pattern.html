@@ -11,13 +11,13 @@ layout: application
 
             <div class="g__cell g__cell-12 g__cell-4--large pad-bottom-medium is-hidden is-visible--large">
                 <h3>All categories</h3>
-                
+
                 {% include pattern-nav.html nav_id="desktop" %}
             </div>
             <div class="g__cell g__cell-12 g__cell-8--large">
 
                 <div class="pad-bottom-medium">
-                    
+
                     {% comment %} Hardcoded to get around pages vs collections issue {% endcomment %}
 
                     {% assign category = site.categories | where: 'category', page.category | first %}
@@ -37,15 +37,15 @@ layout: application
                     <h1>{{ page.title }}</h1>
                 </div>
                 {% if page.description %}
-                    {% include lede.html %}
-                {% endif %}
-
-                {% if page.problem %}
-                    {% include callout.html title="Problem" html=page.problem %}
+                    {% include callout.html title="Problem" html=page.description %}
                 {% endif %}
 
                 {% if page.context %}
                     {% include callout.html title="Context" html=page.context %}
+                {% endif %}
+
+                {% if page.solution %}
+                    {% include callout.html title="Solution" html=page.solution %}
                 {% endif %}
 
                 {{ content | improve }}
@@ -77,7 +77,7 @@ layout: application
                 {% for item in page.related %}
 
                     {% assign itemPage = site.patterns | where:'slug', item | first %}
-                    
+
                     {% if itemPage %}
                         <div class="g__cell
                                     g__cell-12

@@ -2,14 +2,14 @@
 category: encouraging-contributions
 title: Microtasks
 nav_order: 1
-description: |-
-    Identify a set of tasks for users to complete. This might be a list of **Suggested Edits**, records that need to be **Marked as Verified** or other tasks to verify existing data.
-
-    Provide contributors with a task interface that prompts them to complete a number of individual tasks. Use a **Progress Indicator** or **Gamify Contributions** to encourage them to complete the tasks.
-problem: >-
+description: >-
     Maintaining a mature database involves carrying smaller repetitive tasks that may be less engaging for contributors
 context: >-
     As a dataset becomes more mature, it may be harder for contributors to identify useful ways to contribute when there are fewer obvious gaps in coverage. Contributors might also be less motivated by ongoing maintenance tasks. It is easy to feel a sense of progress when adding new records, but less so when improving them.
+solution: |-
+    Identify a set of tasks for users to complete. This might be a list of **Suggested Edits**, records that need to be **Marked as Verified** or other tasks to verify existing data.
+
+    Provide contributors with a task interface that prompts them to complete a number of individual tasks. Use a **Progress Indicator** or **Gamify Contributions** to encourage them to complete the tasks.
 examples:
     -
         title: EveryPolitician app

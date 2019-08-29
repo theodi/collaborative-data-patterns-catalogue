@@ -3,11 +3,11 @@ category: encouraging-contributions
 title: Suggested Edits
 nav_order: 1
 description: >-
-    When a contributor is viewing a record prompt them to add or review specific fields.
-problem: >-
     Records in the dataset are incomplete but could be improved through some small additions.
 context: >-
     The decision to Accept Incomplete Records or due to an Evolving Schema means that records in a dataset are often incomplete. Contributors may be able to quickly improve records by adding fields if their attention was directed to the task.
+solution: >-
+    When a contributor is viewing a record prompt them to add or review specific fields.
 examples:
     
 ---

@@ -3,11 +3,11 @@ category: workflow
 title: Watch List
 nav_order: 1
 description: >-
-    Allow users to follow records they’re interested in by subscribing to notifications of changes made to them.
-problem: >-
     Users want to know when a particular record has changed.
 context: >-
     A database has records that others will continue to amend, comment on and moderate.
+solution: >-
+    Allow users to follow records they’re interested in by subscribing to notifications of changes made to them.
 examples:
     
 ---

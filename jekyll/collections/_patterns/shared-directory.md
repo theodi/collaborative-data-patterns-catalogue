@@ -3,11 +3,11 @@ category: project-types
 title: Shared Directory
 nav_order: 1
 description: >-
-    Create a collaborative maintenance project that supports contributors in sharing data about their organisations or activities.
-problem: >-
     Compiling an up-to-date, useful directory of companies, services, events or other records requires the input of multiple organisations.
 context: >-
     Sometimes the information needed to create a useful data asset is spread across multiple organisations, websites or other resources. Compiling the data can be time consuming and it can be difficult to keep it up to date.
+solution: >-
+    Create a collaborative maintenance project that supports contributors in sharing data about their organisations or activities.
 examples:
     
 ---

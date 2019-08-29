@@ -3,11 +3,11 @@ category: maintaining-quality
 title: Submit Evidence
 nav_order: 1
 description: >-
-    Require contributors to submit evidence to support their contributions
-problem: >-
     Evidence can help to build confidence in the project data
 context: >-
     The provenance of a fact or observation is an important part of some projects. Documenting the provenance of individual contributions can be essential to building trust in the data
+solution: >-
+    Require contributors to submit evidence to support their contributions
 examples:
     
 ---

@@ -3,11 +3,11 @@ category: encouraging-contributions
 title: Gamify Contributions
 nav_order: 1
 description: >-
-    Introduce game design elements as features within the project website, as a means to motivate regular engagement with the project.
-problem: >-
     Contributors are not engaging with the project.
 context: >-
     Contributors are not making many contributions. This low level of engagement with the project is resulting in slow progress being made towards the project’s goals.
+solution: >-
+    Introduce game design elements as features within the project website, as a means to motivate regular engagement with the project.
 examples:
     -
         title: eBird example 1

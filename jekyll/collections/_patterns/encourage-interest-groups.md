@@ -2,14 +2,14 @@
 category: community-management
 title: Encourage Interest Groups
 nav_order: 1
-description: |-
-    Enable the community to form interest groups that support each other in contributing to the project in ways that better meet their needs.
-
-    Encourage these diverse communities to share their ways of working with you and each other, to help build broader alignment and understanding about the benefits and impacts of collecting and maintaining data.
-problem: >-
+description: >-
     It is difficult to effectively support a broad, diverse community from the centre. 
 context: >-
     The communities that form around large projects will be made up of smaller communities that each have their own interests, priorities and needs. It is challenging to try and  provide support and direction to these diverse groups.
+solution: |-
+    Enable the community to form interest groups that support each other in contributing to the project in ways that better meet their needs.
+
+    Encourage these diverse communities to share their ways of working with you and each other, to help build broader alignment and understanding about the benefits and impacts of collecting and maintaining data.
 examples:
     -
         title: MapSwipe

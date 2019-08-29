@@ -3,11 +3,11 @@ category: encouraging-contributions
 title: Visibly Editable
 nav_order: 1
 description: >-
-    Ensure the user interface has clear prompts to edit individual records or fields.
-problem: >-
     It may not be clear to users that they can immediately fix a problem
 context: >-
     It might be unclear to users that they can contribute to a dataset to help improve it. They may not be aware that the dataset is collaboratively maintained and that they can improve individual records.
+solution: >-
+    Ensure the user interface has clear prompts to edit individual records or fields.
 examples:
     -
         title: MusicBrainz

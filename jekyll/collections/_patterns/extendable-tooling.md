@@ -3,11 +3,11 @@ category: workflow
 title: Extendable Tooling
 nav_order: 1
 description: >-
-    Encourage the community to create specialised tools. Publish an API that exposes the editing and reviewing functionality of your project so that the community can create new tools that conform to your **Published Policies**.
-problem: >-
     The project has limited capacity to create new and improved tools to support the community
 context: >-
     Contributors to your project may benefit from specific tools that make it easier for them to participate. Specialised tools might help to better Retrospective Reviews or in applying Bulk Changes, or better support people with different abilities. But your project will have limited resources to build all of these tools.
+solution: >-
+    Encourage the community to create specialised tools. Publish an API that exposes the editing and reviewing functionality of your project so that the community can create new tools that conform to your **Published Policies**.
 examples:
     -
         title: Humanitarian OpenStreetMap tools

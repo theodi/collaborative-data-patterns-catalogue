@@ -2,14 +2,14 @@
 category: community-management
 title: Build a Rhythm
 nav_order: 1
-description: |-
-    Run regular online and (where practical) face-to-face events. Keep to a regular schedule to build a rhythm around your community engagement.
-
-    Use regular communications, blog posts and newsletters to keep in touch with the community. **Organise Campaigns** to help the community maintain its shared purpose.
-problem: >-
+description: >-
     People in a distributed community collaborating on a common task can feel disconnected from one another.
 context: >-
     Communities that are primarily coordinating with one another online, with people working on separate tasks, at different times, and at different frequencies, can end up fragmented, leading to contributors losing sight of the shared goals and becoming disengaged with the project.
+solution: |-
+    Run regular online and (where practical) face-to-face events. Keep to a regular schedule to build a rhythm around your community engagement.
+
+    Use regular communications, blog posts and newsletters to keep in touch with the community. **Organise Campaigns** to help the community maintain its shared purpose.
 examples:
     
 ---

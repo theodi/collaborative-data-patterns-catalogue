@@ -2,12 +2,12 @@
 category: editing
 title: Assisted Editing
 nav_order: 1
-description: |-
-    Create a system that will allow humans to verify contributions made by machines, whether they are bots or artificial intelligence (AI) machines.
-problem: >-
+description: >-
     Your project allows machine contributions but you are unsure how to check that the contributions meet the standards required.
 context: >-
     Machines and bots can initiate some project contributions which can include imported bulk data or  new entries/edits. It is important that there is human verification to check  that these records are correct, in line with the project’s schema and the standards.
+description: |-
+    Create a system that will allow humans to verify contributions made by machines, whether they are bots or artificial intelligence (AI) machines.
 examples:
     -
         title: OpenStreetMap and Facebook

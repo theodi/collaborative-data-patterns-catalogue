@@ -2,12 +2,12 @@
 category: editing
 title: Anonymous Contributions
 nav_order: 1
-description: |-
-    Allow anonymous contributions.
-problem: >-
+description: >-
     Making users register and login adds friction to the process of contributing
 context: >-
     It’s important that you are able to quickly collect and fix data from the broadest possible community and you value this more than the ability to track who made specific contributors.
+solution: |-
+    Allow anonymous contributions.
 examples:
     
 ---

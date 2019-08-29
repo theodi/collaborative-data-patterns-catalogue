@@ -3,11 +3,11 @@ category: data-model
 title: Fixed Schema
 nav_order: 1
 description: >-
-    Agree the types of records and the attributes to be collected when designing your project. Ensure that the information you need to collect is well described so that contributors understand what is needed and how it will be used. This will help users to provide the data consistently, either directly through editing or through changes made via APIs.
-problem: >-
     The items in my database must all be described in the same way.
 context: >-
     The data to be captured in a project is known in advance and is not expected to change. For example, the project may involve collecting information about a specific list of items which have common attributes.
+solution: >-
+    Agree the types of records and the attributes to be collected when designing your project. Ensure that the information you need to collect is well described so that contributors understand what is needed and how it will be used. This will help users to provide the data consistently, either directly through editing or through changes made via APIs.
 examples:
     
 ---

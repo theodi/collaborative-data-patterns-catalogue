@@ -3,11 +3,11 @@ category: encouraging-contributions
 title: Explorable Data
 nav_order: 1
 description: >-
-    Allow users to see and explore the dataset through one or more visualisations or alternate presentations of the data, that will help them explore the current contents and understand the current state of the database as a whole, rather than as a collection of individual records. Provide a means for contributors to edit data “in place” or easily navigate to an editing workflow from the visualisation.
-problem: >-
     How can you help contributors see the current state of coverage or completeness of a dataset so that they can choose where to contribute?
 context: >-
     As specific tasks, contributors might be asked to focus on creating or improving individual records. But this low-level view of the dataset might not be the most natural way for them to understand the dataset as a whole. There may be other ways to present the data in order to encourage contributions.
+solution: >-
+    Allow users to see and explore the dataset through one or more visualisations or alternate presentations of the data, that will help them explore the current contents and understand the current state of the database as a whole, rather than as a collection of individual records. Provide a means for contributors to edit data “in place” or easily navigate to an editing workflow from the visualisation.
 examples:
     
 ---

@@ -2,12 +2,12 @@
 category: project-governance
 title: Automatically Acquire Privileges
 nav_order: 1
-description: |-
-    Design the system so that contributors are automatically granted privileges based on their activities. For example based on the number or type of contributions they make.
-problem: >-
+description: >-
     In a large community it can be time-consuming to individually assess contributors in order to grant them specific privileges or roles. 
 context: >-
     Projects may need to limit some features, such as the ability to revert changes made by other users, to a smaller set of trusted contributors. Relying on Grant Privileges in large, active communities can be time-consuming.
+solution: |-
+    Design the system so that contributors are automatically granted privileges based on their activities. For example based on the number or type of contributions they make.
 examples:
     -
         title: Stack overflow

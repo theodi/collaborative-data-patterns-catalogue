@@ -3,11 +3,11 @@ category: project-governance
 title: Published Policies
 nav_order: 1
 description: >-
-    Publish clear policies that describe all aspects of your project’s governance. Ensure these can be easily found on the project website, and are referenced during key processes.
-problem: >-
     Collaboration across distributed groups requires clarity around rules, policies and procedures.
 context: >-
     Collaborative projects involve a variety of policies describing the project’s governance. If these are not clearly documented, there may be a lack of trust around how data is being accessed, used and shared, and around how key processes such as moderation and disagreements are handled. 
+solution: >-
+    Publish clear policies that describe all aspects of your project’s governance. Ensure these can be easily found on the project website, and are referenced during key processes.
 examples:
     -
         title: Discogs

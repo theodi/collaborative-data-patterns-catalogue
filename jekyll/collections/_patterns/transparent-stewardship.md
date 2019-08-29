@@ -3,11 +3,11 @@ category: project-governance
 title: Transparent Stewardship
 nav_order: 1
 description: >-
-    Ensure you have **Published Policies** and **Visible Processes**. In addition, publish and document your project goals, and be transparent about your governance and plans for sustainability.
-problem: >-
     People need to be confident in your project’s sustainability in order for them to contribute over the long term.
 context: >-
     Some projects are short-term exercises in data collection; others are long-term projects that provide value to a community of organisations and/or people. These long-term projects need to demonstrate their commitment to sustainability and shared value. 
+solution: >-
+    Ensure you have **Published Policies** and **Visible Processes**. In addition, publish and document your project goals, and be transparent about your governance and plans for sustainability.
 examples:
     -
         title: MusicBrainz

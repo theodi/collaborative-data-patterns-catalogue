@@ -3,11 +3,11 @@ category: encouraging-contributions
 title: Invite All Contributions
 nav_order: 1
 description: >-
-    Be clear about the variety of ways contributors may help to make your project a success.
-problem: >-
     Contributors aren’t always aware of where you need help in your project. 
 context: >-
     You may be looking for contributors to do more than just contribute, edit and review data. 
+solution: >-
+    Be clear about the variety of ways contributors may help to make your project a success.
 examples:
     
 ---

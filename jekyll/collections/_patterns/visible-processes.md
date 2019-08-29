@@ -2,14 +2,14 @@
 category: project-governance
 title: Visible Processes
 nav_order: 1
-description: |-
-    Ensure that all decisions that are relevant to the work of your community are clearly documented and shared. 
-
-    For example, by keeping track of decisions around applying **Graduated Sanctions**, clearly indicating the results of reviews carried out during **Moderation**, and in other aspects of the project governance, eg meeting minutes and other decision-making processes.
-problem: >-
+description: >-
     Trust needs to be built within the community.
 context: >-
     A collaborative data project might involve a large number of users participating in a range of processes, at different times and at different frequencies. This makes it important to clearly communicate and document when and how decisions have been made.
+solution: |-
+    Ensure that all decisions that are relevant to the work of your community are clearly documented and shared. 
+
+    For example, by keeping track of decisions around applying **Graduated Sanctions**, clearly indicating the results of reviews carried out during **Moderation**, and in other aspects of the project governance, eg meeting minutes and other decision-making processes.
 examples:
     -
         title: OSM

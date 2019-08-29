@@ -2,12 +2,12 @@
 category: managing-conflict
 title: Escalating Blocking
 nav_order: 1
-description: |-
-    Providing an escalating approach to sanctions gives contributors fair warning about what is happening. Create a blocking policy that can be implemented step by step, depending on the seriousness of the problem. It can range from warning messages and temporary bans all the way to total and permanent bans.
-problem: >-
+description: >-
     Some contributors are not following the projects rules and policies and there is a risk they could disrupt elements of the project. You are unsure how to tackle the bad behaviour or how to best implement the relevant Published Policies. 
 context: >-
     You need to be able to take action to handle malicious or problematic activity, but without discouraging contributors by being too heavy handed. 
+solution: |-
+    Providing an escalating approach to sanctions gives contributors fair warning about what is happening. Create a blocking policy that can be implemented step by step, depending on the seriousness of the problem. It can range from warning messages and temporary bans all the way to total and permanent bans.
 examples:
     -
         title: Open Street Map

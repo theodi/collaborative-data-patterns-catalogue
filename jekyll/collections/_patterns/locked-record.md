@@ -3,11 +3,11 @@ category: maintaining-quality
 title: Locked Record
 nav_order: 1
 description: >-
-    Temporarily, or permanently, prevent further updates to a specific record.
-problem: >-
     Some records should not be edited anymore.
 context: >-
     Records have been the subject of disputed edits, or administrators have decided that their content is now final.
+solution: >-
+    Temporarily, or permanently, prevent further updates to a specific record.
 examples:
     
 ---

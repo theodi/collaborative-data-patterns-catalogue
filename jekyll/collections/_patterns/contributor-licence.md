@@ -2,12 +2,12 @@
 category: project-governance
 title: Contributor Licence
 nav_order: 1
-description: |-
-    Publish a contributor licence. Ensure that people agree to the licence before making their first contribution to the project.
-problem: >-
+description: >-
     The rights to use and share data contributed to your project needs to be understood by everyone.
 context: >-
     The project team needs to be confident that it can share and use data provided by contributors. Contributors need to be clear about the permissions they are giving to reuse the data and content they are providing to the project
+solution: |-
+    Publish a contributor licence. Ensure that people agree to the licence before making their first contribution to the project.
 examples:
     -
         title: Democracy Club

@@ -2,12 +2,12 @@
 category: encouraging-contributions
 title: Deliver Individual Value
 nav_order: 1
-description: |-
-    Provide ways for the project to deliver immediate value for individual contributors if they add or improve data. 
-problem: >-
+description: >-
     Contributors may struggle to see the value in participating in the project.
 context: >-
     Contributors may not see short-term value to themselves or their organisation in contributing. Creating a useful aggregate dataset may take time and the value of it may benefit others more than the individual contributors. 
+solution: |-
+    Provide ways for the project to deliver immediate value for individual contributors if they add or improve data. 
 examples:
     
 ---

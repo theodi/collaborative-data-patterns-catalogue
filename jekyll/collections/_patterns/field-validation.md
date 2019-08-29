@@ -3,11 +3,11 @@ category: maintaining-quality
 title: Field Validation
 nav_order: 1
 description: >-
-    Apply validation rules to individual fields to alert users to mistakes before the data is submitted to the database.
-problem: >-
     Users who are unfamiliar to a database are making data input errors.
 context: >-
     Data entry in forms.
+solution: >-
+    Apply validation rules to individual fields to alert users to mistakes before the data is submitted to the database.
 examples:
     
 ---

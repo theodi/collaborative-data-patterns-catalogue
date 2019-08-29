@@ -3,11 +3,11 @@ category: maintaining-quality
 title: Request Review
 nav_order: 1
 description: >-
-    Allow a contributor to decide whether to **Flag For Review** their contribution to request that it is reviewed by another contributor.
-problem: >-
     Contributors do not feel confident about submitting changes.
 context: >-
     Your project does not require Mandatory Review, but contributors might welcome the option to have their contributions seen by a more experienced participant.
+solution: >-
+    Allow a contributor to decide whether to **Flag For Review** their contribution to request that it is reviewed by another contributor.
 examples:
     
 ---

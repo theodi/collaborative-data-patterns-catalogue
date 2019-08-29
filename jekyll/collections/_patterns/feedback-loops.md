@@ -3,11 +3,11 @@ category: community-management
 title: Feedback Loops
 nav_order: 1
 description: >-
-    Build feedback loops into your project workflow to enable positive reinforcement for contributors.
-problem: >-
     Good behaviours and useful forms of contribution need to be reinforced.
 context: >-
     The community of contributors is diverse, and will be participating at different times and have different skill levels. Contributors may not be sure whether a contribution they make is useful or correct. Opportunities for face-to-face feedback and training are likely to be limited. 
+solution: >-
+    Build feedback loops into your project workflow to enable positive reinforcement for contributors.
 examples:
     -
         title: OpenLibrary
