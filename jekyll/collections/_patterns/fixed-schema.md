@@ -22,6 +22,6 @@ Use appropriate wording so that your schema can be understood by experts and non
 
 Before the schema is finalised, consult widely with domain experts and users of the data. This will ensure the description of the items don’t need to change.
 
-Needs may change over time, so you may also need to adopt an **Evolving Schema** approach in the future.
+Needs may change over time, so you may also need to adopt an **[Evolving Schema](/patterns/data-model/evolving-schema)** approach in the future.
 
-If it is important for your community to help shape and evolve the schema, a **Shared Canvas** approach might be better, although starting from a **Fixed Schema** can help build an initial community.
+If it is important for your community to help shape and evolve the schema, a **[Shared Canvas](/patterns/data-model/shared-canvas)** approach might be better, although starting from a Fixed Schema can help build an initial community.

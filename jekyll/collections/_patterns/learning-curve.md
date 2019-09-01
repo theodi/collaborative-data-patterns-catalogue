@@ -34,8 +34,8 @@ Even if all contributors are experienced/expert, projects should still provide g
 
 There are several patterns that can be employed at this stage depending on the type of project and tasks:
 
-* Larger tasks can be split into smaller, easier to understand <span style="text-decoration:underline;">Microtasks</span>.
-* Signpost smaller tasks such as <span style="text-decoration:underline;">Reporting Errors</span> and <span style="text-decoration:underline;">Suggested Edits</span>
-* The <span style="text-decoration:underline;">Onboarding</span> process can introduce new concepts and domain knowledge. 
+* Larger tasks can be split into smaller, easier to understand **[Microtasks](/patterns/encouraging-contributions/microtasks)**.
+* Signpost smaller tasks such as **[Error Reporting](/patterns/maintaining-quality/error-reporting)** and **[Suggested Edits](/patterns/encouraging-contributions/suggested-edits)**
+* The **[Onboarding Process](/patterns/community-management/onboarding-process)** can introduce new concepts and domain knowledge. 
 
 Think carefully about how you give encouraging feedback to new members of your community, even if their first contribution cannot be accepted immediately.

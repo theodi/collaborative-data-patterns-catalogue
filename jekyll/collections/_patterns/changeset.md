@@ -6,7 +6,7 @@ description: >-
     Multiple collaborators independently making entries into a database makes it difficult to understand how the dataset reached its current state. 
 context: >-
     When the only view of the dataset is its current state, it can be difficult to understand how, when and why changes have been made by users. For example the reason why an individual entry was made by a user might be unclear. Contributors might be repeatedly editing the same records to fix seemingly incorrect data, or may be making repeated mistakes across their contributions.
-solution: |-
+solution: >-
     In addition to tracking the current state of the database, maintain a record of every entry made to the system. Capture metadata about each entry that will help provide context to how, when and why changes have been made.
 examples:
     -
@@ -42,9 +42,9 @@ It might also include other information, for example, an identifier for the tool
 
 Implementing this pattern, or using a system that supports it, makes it easier to implement a range of other features that can help to support collaborative maintenance. For example:
 
-* metadata makes it possible to search for all changes made to a given record to help users to **Track Changes**
-* tracking individual entries makes it possible to support both **Pre-submission Reviews** and **Post-submissions Reviews** 
-* **Reversible Entry**, requires that the system captures the state of the database before and after a change (or a means of calculating that)
+* metadata makes it possible to search for all changes made to a given record to help users to **[Track Changes](/patterns/workflow/track-changes)**
+* tracking individual entries makes it possible to support both **[Mandatory Reviews](/patterns/maintaining-quality/mandatory-review)** and **[Retrospective Reviews](/patterns/maintaining-quality/retrospective-review)**
+* **[Reverting Changes](/patterns/editing/revert-change)**, requires that the system captures the state of the database before and after a change (or a means of calculating that)
 
 Other things to consider when implementing this pattern include:
 

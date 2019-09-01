@@ -18,17 +18,17 @@ Filling these gaps in our understanding can be time consuming. To be useful, the
 
 Sharing the work of collecting these observations across a community of contributors and pooling them into a common database can help to reduce costs and demonstrate the benefits of better data.
 
-This type of project is similar to a **Collaborative Cataloguing** project because: 
+This type of project is similar to a **[Collaborative Cataloguing](/patterns/project-types/collaborative-cataloguing)** project because: 
 
 * it is asking users to carry out a specific task(s) to collect data for a purpose
 * there is a focus on collaborative data collection rather than curation
-* it is likely to be run as a campaign and it may be beneficial to **Gamify Contributions**
-* the collected data will conform to a **Fixed Schema **that captures the same basic information for each observation
+* it is likely to be run as a campaign and it may be beneficial to **[Gamify Contributions](/patterns/encouraging-contributions/gamify-contributions)**
+* the collected data will conform to a **[Fixed Schema](/patterns/data-model/fixed-schema)** that captures the same basic information for each observation
 
-The differences from a **Collaborative Cataloguing** project are:
+The differences from a **[Collaborative Cataloguing](/patterns/project-types/collaborative-cataloguing)** project are:
 
 * users are all completing the same basic task, in this case making repeated observations of some event or the current state of some aspect of our world
-* there is no fixed definition of when the project is completed as additional observations will continually improve the dataset. A **Progress Indicator** would likely focus on reporting coverage or the volume of contributions
-* there may be a need to provide a **Proof Of Witness** to build confidence in the contributed data
+* there is no fixed definition of when the project is completed as additional observations will continually improve the dataset. A **[Progress Indicator](/patterns/encouraging-contributions/progress-indicator)** would likely focus on reporting coverage or the volume of contributions
+* there may be a need to provide a **[Proof Of Witness](/patterns/maintaining-quality/proof-of-witness)** to build confidence in the contributed data
 
-It is likely that reviewing contributed data will be based on a **Retrospective Review** of the observations and the submitted evidence.
+It is likely that reviewing contributed data will be based on a **[Retrospective Review](/patterns/maintaining-quality/retrospective-review)** of the observations and the submitted evidence.

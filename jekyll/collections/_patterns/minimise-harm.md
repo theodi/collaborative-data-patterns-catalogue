@@ -6,10 +6,10 @@ description: >-
     Collecting data without thinking about the potential impact of its use may cause harm.
 context: >-
     Projects may involve collecting data about potentially sensitive topics. There may be risks involved in collecting or using this data. Data may also cause harm because of biases that arise from its collection.
-solution: |-
-    Ensure you are collecting data legally and ethically. Avoid collecting sensitive data or ensure that it is only shared limitedly so that  the potential impact is minimised. Make sure you **Know Your Community** and use that insight to identify potential harm and take steps to reduce bias.
+solution: >-
+    Ensure you are collecting data legally and ethically. Avoid collecting sensitive data or ensure that it is only shared limitedly so that  the potential impact is minimised. Make sure you **[Know Your Community](/patterns/community-management/know-your-community)** and use that insight to identify potential harm and take steps to reduce bias.
 
-    Ensure your **Published Policies** clarify what type of data is permitted to be collected in the project.
+Ensure your **[Published Policies](/patterns/project-governance/published-policies)** clarify what type of data is permitted to be collected in the project.
 examples:
     
 ---

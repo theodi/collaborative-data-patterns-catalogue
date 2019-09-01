@@ -6,10 +6,10 @@ description: >-
     Trust needs to be built within the community.
 context: >-
     A collaborative data project might involve a large number of users participating in a range of processes, at different times and at different frequencies. This makes it important to clearly communicate and document when and how decisions have been made.
-solution: |-
+solution: >-
     Ensure that all decisions that are relevant to the work of your community are clearly documented and shared. 
 
-    For example, by keeping track of decisions around applying **Graduated Sanctions**, clearly indicating the results of reviews carried out during **Moderation**, and in other aspects of the project governance, eg meeting minutes and other decision-making processes.
+For example, by keeping track of decisions around applying **[Escalating Blocking](/patterns/managing-conflict/escalating-blocking)**, clearly indicating the results of reviews carried out during **[Moderation](/patterns/editing/moderation)**, and in other aspects of the project governance, eg meeting minutes and other decision-making processes.
 examples:
     -
         title: OSM
@@ -24,9 +24,9 @@ examples:
 
 Collaborative maintenance projects involve continual decision making. The decisions include, for example: 
 
-* Agreeing the scope of data to include in the project, eg as part of an **Evolving Schema** or **Shared Canvas**
-* Whether to add or update specific records as part of the **Moderation** process
-* When and how <span style="text-decoration:underline;">Graduated Sanctions</span> are applied to users 
+* Agreeing the scope of data to include in the project, eg as part of an **[Evolving Schema](/patterns/data-model/evolving-schema)** or **[Shared Canvas](/patterns/data-model/shared-canvas)**
+* Whether to add or update specific records as part of the **[Moderation](/patterns/editing/moderation)** process
+* When and how **[Escalating Blocking](/patterns/managing-conflict/escalating-blocking)** are applied to users 
 * How to engage with and support the community of users
 * Project-level governance relating to ongoing sustainability, operations, etc
 

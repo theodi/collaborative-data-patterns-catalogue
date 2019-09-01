@@ -16,9 +16,9 @@ By design a collaborative maintenance project involves a community of contributo
 
 Your community may have opinions about how the scope should change, listening to and engaging with them will help to build trust and encourage continued participation.
 
-Changes to data models can involve extra work for the community. For example by changing how data is collected or requiring existing data to be updated. Discarding data means removing work that people have contributed. While this might be necessary to maintain the quality and utility of the data, these changes should be approached in a collaborative way. This will help you demonstrate **Transparent Stewardshi**p and will ensure that changes to your data model are part of having **Visible Processes**.
+Changes to data models can involve extra work for the community. For example by changing how data is collected or requiring existing data to be updated. Discarding data means removing work that people have contributed. While this might be necessary to maintain the quality and utility of the data, these changes should be approached in a collaborative way. This will help you demonstrate **[Transparent Stewardship](/patterns/project-governance/transparent-stewardship)** and will ensure that changes to your data model are part of having **[Visible Processes](/patterns/project-governance/visible-processes)**.
 
-If you want to put the community in control over managing the data model then your project should be more of a **Shared Canvas**.
+If you want to put the community in control over managing the data model then your project should be more of a **[Shared Canvas](/patterns/data-model/shared-canvas)**.
 
 Test your updated data model with users and be prepared to adapt based on feedback and their needs. User testing might suggest you add more fields; change ‘data types’ such as changing single value fields to free text, or free text to a list of options.
 

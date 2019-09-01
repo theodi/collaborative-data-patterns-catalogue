@@ -14,7 +14,7 @@ examples:
 
 Some projects need help that goes beyond contributing new or updated data. Many projects need contributors to help support the work of others. For example by reviewing contributions, providing training or writing documentation.
 
-Projects based on open source software may need help in improving it. **Expandable Tooling** allows developers to also contribute to a project by creating new, custom tools to support other contributors.
+Projects based on open source software may need help in improving it. **[Extendable Tooling](/patterns/workflow/extendable-tooling)** allows developers to also contribute to a project by creating new, custom tools to support other contributors.
 
 Projects may also need help to engage with and support a wider community, for example by hosting or running events, or participating in online discussions.
 

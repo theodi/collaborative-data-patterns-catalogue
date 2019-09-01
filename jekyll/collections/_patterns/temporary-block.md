@@ -14,4 +14,4 @@ examples:
 
 Temporary blocks can be used to restrict changes to certain problem areas or topics, or the project may choose to prevent all further changes to the whole database.
 
-Depending on the **Published Policies**, project moderators may try to resolve the issue by communicating directly with the contributor.
+Depending on the **[Published Policies](/patterns/project-governance/published-policies)**, project moderators may try to resolve the issue by communicating directly with the contributor.

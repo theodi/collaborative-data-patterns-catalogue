@@ -7,7 +7,7 @@ description: >-
 context: >-
     Changes have been made to a record or set of records, which another contributor or user would like to understand.
 solution: >-
-    Create and display a log of **Changesets**, where each entry represents an amendment to a record.
+    Create and display a log of **[Changesets](/patterns/data-model/changeset)**, where each entry represents an amendment to a record.
 examples:
     -
         title: OpenLibraries

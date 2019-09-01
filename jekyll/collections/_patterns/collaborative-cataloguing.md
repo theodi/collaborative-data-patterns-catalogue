@@ -6,7 +6,7 @@ description: >-
     There is a discrete set of documents, images, photographs or other material that are currently unstructured, but that could be turned into a structured dataset
 context: >-
     There are many types of unstructured data sources that contain useful data and information. The work of converting, cataloguing and turning these sources into structured data can be expensive and may not always be suitable for complete automation.
-solution: |-
+solution: >-
     Create a collaborative project that gives contributors a series of tasks to complete. Each task will involve cataloguing, inspecting or transcribing one item in the set of resources identified.
 examples:
     
@@ -20,10 +20,10 @@ Collaborative maintenance projects are a good way to distribute work across a gr
 
 This type of project contribution is normally about adding new records, rather than maintaining or improving existing data.
 
-This type of project will typically have a **Fixed Schema**, because there is a clear set of tasks to complete. Because the project is organised around a discrete set of tasks, creating a **Progress Indicator** will be helpful to demonstrate progress.
+This type of project will typically have a **[Fixed Schema](/patterns/data-model/fixed-schema)**, because there is a clear set of tasks to complete. Because the project is organised around a discrete set of tasks, creating a **[Progress Indicator](/patterns/encouraging-contributions/progress-indicator)** will be helpful to demonstrate progress.
 
-It is unlikely that a contributor will need to **Submit Evidence**, as the system provides evidence in the form of the resources to be catalogued.
+It is unlikely that a contributor will need to **[Submit Evidence](/patterns/maintaining-quality/submit-evidence)**, as the system provides evidence in the form of the resources to be catalogued.
 
-The **Onboarding** process and **Learning Curve** for contributors will focus on registering  people and training them to complete their first few tasks. To encourage participation, it can be helpful to **Gamify Contributions**.
+The **[Onboarding Process](http://www.replace.me/patterns/community-management/onboarding-process)** and **[Learning Curve](/patterns/community-management/learning-curve)** for contributors will focus on registering  people and training them to complete their first few tasks. To encourage participation, it can be helpful to **[Gamify Contributions](/patterns/encouraging-contributions/gamify-contributions)**.
 
-The project itself is likely run as a campaign (**Organise Campaigns**) and may have a fixed lifespan that ends when the cataloguing work is completed.
+The project itself is likely run as a campaign (**[Organise Campaigns](/patterns/encouraging-contributions/organise-campaigns)**) and may have a fixed lifespan that ends when the cataloguing work is completed.

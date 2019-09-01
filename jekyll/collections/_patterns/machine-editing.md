@@ -2,10 +2,10 @@
 category: editing
 title: Machine Editing
 nav_order: 1
-description: |-
+description: >-
     Your project allows machines/bots to contribute high volumes of data; fix errors and specific problems; and synchronise with other sources. But how can you balance the benefits of this with the risks of negative impact?  
 
-    How do I grow your database quickly with the least errors possible? 
+How do I grow your database quickly with the least errors possible? 
 context: >-
     Sometimes it i’s important to accelerate data acquisition and only machines can administerdo the necessary high-  volume of contributions. 
 solution: >-

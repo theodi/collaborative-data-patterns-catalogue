@@ -6,7 +6,7 @@ description: >-
     Both contributors and reusers need to understand what rights they have to use the combined dataset
 context: >-
     There needs to be confidence that the aggregate data will be made as open as possible so that it can provide value for all stakeholders involved in maintaining or using it.
-solution: |-
+solution: >-
     Define where the collectively maintained data will sit on the data spectrum. Create or choose a clear data-sharing agreement or licence that provides rights to use the data in ways that maximises value while minimising potential harms. Ensure that the licence is clearly described and linked from any page that provides access to data.
 examples:
     -
@@ -32,4 +32,4 @@ Collaboratively maintained datasets are typically created so that they provide v
 
 The success of large, collaboratively maintained datasets such as OpenStreetMap is due to its open licensing. The fact that anyone can access, use and share data that has been contributed builds confidence that the data cannot later be switched to a more closed licence. 
 
-Lack of clarity around rights, eg because of the lack of a **Contributor Licence** has meant that some projects have struggled to become more open over time.
+Lack of clarity around rights, eg because of the lack of a **[Clear Licencing](/patterns/project-governance/clear-licensing)** has meant that some projects have struggled to become more open over time.

@@ -12,8 +12,7 @@ examples:
     -
         title: See these examples
         thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
-        description: >-
+        large_image: https://wheretheimageswilllive/1description: >-
             [https://www.useronboard.com/user-onboarding-teardowns/](https://www.useronboard.com/user-onboarding-teardowns/)
     -
         title: OSM how to recap

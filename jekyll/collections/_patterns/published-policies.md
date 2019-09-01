@@ -30,12 +30,12 @@ Publishing clear, easily readable policies will help to increase transparency, r
 
 Your policies might need to evolve over time because of unforeseen conflicts, issues or questions raised by users; be prepared to adapt your policies in response to new needs. Engage your community in developing and improving your policies.
 
-Certain policies should be published by any online service. These include privacy policies and terms of use. You will also need a **Contributor Licence.**
+Certain policies should be published by any online service. These include privacy policies and terms of use. You will also need a **[Contributor Licence](/patterns/project-governance/contributor-licence).**
 
 You should consider policies to cover:
 
 * Code of conduct in discussions and comments around the work of contributors
-* Conflict resolution, eg to support **Moderation** or <span style="text-decoration:underline;">Graduated Sanctions</span>
-* Specific types of edits, eg **Machine Editing**
+* Conflict resolution, eg to support **[Moderation](/patterns/editing/moderation)** or **[Escalating Blocking](/patterns/managing-conflict/escalating-blocking)**
+* Specific types of edits, eg **[Machine Editing](/patterns/editing/machine-editing)**
 
-Policies should be easily found and, where appropriate, referenced from **Visible Processes**.
+Policies should be easily found and, where appropriate, referenced from **[Visible Processes](/patterns/project-governance/visible-processes)**.

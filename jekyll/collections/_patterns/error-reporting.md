@@ -18,7 +18,7 @@ But sometimes the person identifying an error may not be able to immediately fix
 
 * they might not be signed up as a contributor
 * they might not have the necessary correct data to hand, or feel confident in making the fix themselves
-* the record(s) to be fixed are **Locked Resources** and so editing is limited to people with **Defined Roles**
+* the record(s) to be fixed are converted to **[Locked Records](/patterns/maintaining-quality/locked-record)** and so editing is limited to people with **[Clearly Defined Roles](/patterns/project-governance/clearly-defined-roles)**
 
 Some projects might also be uncomfortable with implementing a fully collaborative system for maintaining its data. For example, records might only be editable by the core project team. But the project may still benefit from sharing the work of identifying problems across the community of data users. 
 
@@ -26,8 +26,8 @@ Error reporting is the most basic way to introduce collaborative maintenance int
 
 There are a variety of ways to implement this pattern. 
 
-When an error is reported the project might simply **Flag For Review** the record or **Changeset** that contains the error. This can be useful to indicates that there is a problem, but doesn’t capture much detail.
+When an error is reported the project might simply **[Flag For Review](/patterns/maintaining-quality/flag-for-review)** the record or **[Changeset](/patterns/data-model/changeset)** that contains the error. This can be useful to indicates that there is a problem, but doesn’t capture much detail.
 
 Providing a feedback form to allow users to submit more details about an error or omission, e.g. listing the incorrect fields, is a helpful way to capture more information that can be shared with contributors. This might be helpful if there is likely to be some discussion or further review needed to confirm and correct the error.
 
-Implementing a **Mandatory Review** process, perhaps with **Anonymous Contributions**, is another way to handle error reporting. But this assumes that a user has the necessary information and skills to suggest the appropriate fix.
+Implementing a **[Mandatory Review](/patterns/maintaining-quality/mandatory-review)** process, perhaps with **Anonym[ous Contributions](/patterns/workflow/anonymous-contributions)**, is another way to handle error reporting. But this assumes that a user has the necessary information and skills to suggest the appropriate fix.

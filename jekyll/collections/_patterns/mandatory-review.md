@@ -16,7 +16,7 @@ Sometimes ensuring data quality is more important than the speed of data collect
 
 * The data model is complicated and contributions have a high error rate
 * The type of data being collected is contentious or prone to interpretation
-* The project needs to be able to make strong guarantees to data users about the quality of the collected data, for example to ensure it is fit for purpose or to **Minimise Harm**
+* The project needs to be able to make strong guarantees to data users about the quality of the collected data, for example to ensure it is fit for purpose or to **[Minimise Harm](/patterns/project-governance/minimise-harm)**
 
 While introducing mandatory reviews can help to address quality issues in newly contributed or updated data, it may impact the quality of the project data in other ways. For example if reviews take time to process then the published data might become out of date. The additional friction in the contribution process might also limit how quickly the database will grow over time.
 

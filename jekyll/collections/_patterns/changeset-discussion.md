@@ -5,15 +5,14 @@ nav_order: 1
 description: >-
     Contributors or moderators want to discuss a specific entry before rejecting or improving it.
 context: >-
-    A change has been submitted to the project in the form of a **Changeset**, and someone, often a moderator or another contributor, would like to start a discussion or provide feedback.
-solution: |-
-    Allow contributors and moderators to comment directly on a **Changeset.**
+    A change has been submitted to the project in the form of a **[Changeset](/patterns/data-model/changeset)**, and someone, often a moderator or another contributor, would like to start a discussion or provide feedback.
+solution: >-
+    Allow contributors and moderators to comment directly on a **[Changeset](/patterns/data-model/changeset).**
 examples:
     -
         title: ISFDB
         thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
-        description: >-
+        large_image: https://wheretheimageswilllive/1description: >-
             [would like an example with a back-and-forth conversation not just a single comment]
     
 ---

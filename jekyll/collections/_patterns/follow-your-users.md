@@ -6,12 +6,12 @@ description: >-
     It can be difficult to decide which communication and collaboration tools are best to use on a project.
 context: >-
     There is  a range of existing tools available online to support communication and collaboration. Your community may already be using some of these tools in their other activities at home or at work. Replicating these tools, eg by adding features to your project, can be costly to build and maintain.
-solution: |-
+solution: >-
     Don’t insist that your community only uses a particular  communication/collaboration tool. Allow them to use whichever services they find effective.
 
-    List the tools and channels that your community is using to help the community connect with one another.
+List the tools and channels that your community is using to help the community connect with one another.
 
-    Ensure there is a set place  for key information, e.g. where to find your **Published Policies**, and that the contact points for project leads are clear. Be consistent about which channels you use for important updates, but otherwise engage with the community in ways that are convenient to them.
+Ensure there is a set place  for key information, e.g. where to find your **[Published Policies](/patterns/project-governance/published-policies)**, and that the contact points for project leads are clear. Be consistent about which channels you use for important updates, but otherwise engage with the community in ways that are convenient to them.
 examples:
     -
         title: HOT OSM Trello board
@@ -30,7 +30,7 @@ examples:
 
 Giving your community the freedom to explore, experiment with and adopt tools such as Trello, Slack, mailing lists, Facebook groups and social media will make it easier for them to organise their work using tools that work for them. This also reduces the need for you to add collaborative features to your project that are already handled elsewhere.
 
-Ensuring that you have online **Visible Processes** will make it easier for the community to follow how the project is evolving. Providing **Linkable Changesets** is one way to allow contributors to build their own review workflows using third-party tools.
+Ensuring that you have online **[Visible Processes](/patterns/project-governance/visible-processes)** will make it easier for the community to follow how the project is evolving. Providing **[Linkable Changesets](/patterns/workflow/linkable-changeset)** is one way to allow contributors to build their own review workflows using third-party tools.
 
 Handling multiple channels for communication can have its downsides. For example, you may need to share updates via mailing lists, facebook groups, social media and your project blog. Multiple tools and channels might also prove confusing to new users, especially if they are unclear about where to go to ask questions or seek support.
 

@@ -7,7 +7,7 @@ description: >-
 context: >-
     Some projects are short-term exercises in data collection; others are long-term projects that provide value to a community of organisations and/or people. These long-term projects need to demonstrate their commitment to sustainability and shared value. 
 solution: >-
-    Ensure you have **Published Policies** and **Visible Processes**. In addition, publish and document your project goals, and be transparent about your governance and plans for sustainability.
+    Ensure you have **[Published Policies](/patterns/project-governance/published-policies)** and **[Visible Processes](/patterns/project-governance/visible-processes)**. In addition, publish and document your project goals, and be transparent about your governance and plans for sustainability.
 examples:
     -
         title: MusicBrainz
@@ -36,8 +36,8 @@ Those contributors might be working on behalf of a variety of organisations or b
 
 Being clear on your goals and outcomes will help build confidence within your community that the work and data that is being contributed to your project will create useful impacts and minimise harms. 
 
-Having **Visible Processes** that follow **Published Policies** will also build trust.
+Having **[Visible Processes](/patterns/project-governance/visible-processes)** that follow **[Published Policies](/patterns/project-governance/published-policies)** will also build trust.
 
 Transparency about your approach to sustainability, through funding, partnerships or a commercial business model, will also help to build trust. Contributors can then be confident that their work will not go to waste. 
 
-**Clear Licensing**, ideally by applying open licences, provides a means for others to build on your work in the future if you are unable to be sustainable over the long term.
+**[Clear Licensing](/patterns/project-governance/clear-licensing)**, ideally by applying open licences, provides a means for others to build on your work in the future if you are unable to be sustainable over the long term.

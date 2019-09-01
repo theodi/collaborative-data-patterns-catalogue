@@ -16,9 +16,9 @@ Provenance is important in building trust in data. Relating individual fields an
 
 Capturing provenance is important for all datasets. It can be important in collaborative maintenance projects because of the wider group of people involved in collecting and maintaining the data. 
 
-Providing evidence for contributions can also help contributors carry out **Retrospective Reviews** as they can use the evidence to guide their reviews.
+Providing evidence for contributions can also help contributors carry out **[Retrospective Reviews](/patterns/maintaining-quality/retrospective-review)** as they can use the evidence to guide their reviews.
 
 Different projects will have different forms of acceptable evidence:
 
-* When making observations in the real world, a contributor could submit a **Proof of Witness** such as a photograph or a GPS trace.
-* For a project that is building a shared database or catalogue contributors might be prompted to **Cite Sources** by including a reference to an authoritative, independent source.
+* When making observations in the real world, a contributor could submit a **[Proof of Witness](/patterns/maintaining-quality/proof-of-witness)** such as a photograph or a GPS trace.
+* For a project that is building a shared database or catalogue contributors might be prompted to **[Cite Sources](/patterns/maintaining-quality/cite-sources)** by including a reference to an authoritative, independent source.

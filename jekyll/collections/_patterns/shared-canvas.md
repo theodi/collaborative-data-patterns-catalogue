@@ -12,13 +12,13 @@ examples:
     
 ---
 
-Allowing a community to take control over an **Evolving Schema** can help to distribute decision making about what data should or shouldn’t be included in a project to the community of contributors and users. This can help a project meet a wider range of user needs. For example allowing a local community add information that is useful for their region or for their sector. 
+Allowing a community to take control over an **[Evolving Schema](/patterns/data-model/evolving-schema)** can help to distribute decision making about what data should or shouldn’t be included in a project to the community of contributors and users. This can help a project meet a wider range of user needs. For example allowing a local community add information that is useful for their region or for their sector. 
 
-Working fully in the open, with this type of **Evolving Schema** creates additional challenges. The lack of a **Fixed Schema** may be seen as a downside by some users who would like a single, consistent view of a dataset. But a more collaborative approach might help keep a project alive by encouraging broader participation. Providing tools to enable **Exportable Data** might help mitigate concerns by allowing users to focus on just the data they need.
+Working fully in the open, with this type of **[Evolving Schema](/patterns/data-model/evolving-schema)** creates additional challenges. The lack of a **[Fixed Schema](/patterns/data-model/fixed-schema)** may be seen as a downside by some users who would like a single, consistent view of a dataset. But a more collaborative approach might help keep a project alive by encouraging broader participation. Providing tools to enable **Exportable Data** might help mitigate concerns by allowing users to focus on just the data they need.
 
 Encouraging the community to document, discuss and consistently apply fields will also help. As the schema is no longer centrally managed, the project will need to provide tools for users to help with this documentation.
 
-The ability to analyse how and where different fields are being used in a dataset, will help the community reflect on and adapt usage, so that they can be fully in control of the **Evolving Schema**.
+The ability to analyse how and where different fields are being used in a dataset, will help the community reflect on and adapt usage, so that they can be fully in control of the **[Evolving Schema](/patterns/data-model/evolving-schema)**.
 
 Encourage the community to use a wiki or other collaborative documentation tool to propose and agree on changes in a collaborative, distributed way.
 

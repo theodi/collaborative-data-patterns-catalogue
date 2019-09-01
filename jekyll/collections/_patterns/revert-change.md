@@ -26,8 +26,8 @@ examples:
 
 Entries can occasionally introduce errors into the database, or may have been made by someone with mischievous intent, e.g. to add spam or false information. In these cases, entries need to be reversed or reverted. This is sometimes called ‘roll-back’.
 
-Edits must be reversed in accordance with the project’s **Published Policy**. Contributors should be informed, before or after the reversion, so that they can learn from the mistake and be given an opportunity to try again.
+Edits must be reversed in accordance with the project’s **[Published Policy](/patterns/project-governance/published-policies)**. Contributors should be informed, before or after the reversion, so that they can learn from the mistake and be given an opportunity to try again.
 
 Usually mistakes will be caught and reversed by project administrators or moderators. But it is possible for a project to allow anyone to revert any entry, even if it was made by someone else. The nature of the project will determine whether a permissions-based system is needed, so that only administrators, moderators or the original editor can revert changes.
 
-If a contributor makes repeated incorrect or malicious edits then **Escalating Blocking**. Might be applied.
+If a contributor makes repeated incorrect or malicious edits then **[Escalating Blocking](/patterns/managing-conflict/escalating-blocking)**. Might be applied.

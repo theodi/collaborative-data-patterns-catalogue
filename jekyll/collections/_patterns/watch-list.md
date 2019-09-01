@@ -24,4 +24,4 @@ Notifications could be sent to interested users in different ways, including:
 * Email
 * RSS feed
 * Notifications within a contributor’s personal project area
-* **Changeset Discussions** within a contributor’s personal project area
+* **[Changeset Discussions](/patterns/workflow/changeset-discussion)** within a contributor’s personal project area

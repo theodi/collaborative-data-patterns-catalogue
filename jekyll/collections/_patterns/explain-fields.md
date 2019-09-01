@@ -6,14 +6,14 @@ description: >-
     New contributors do not have a comprehensive understanding of your data model and can feel overwhelmed by the new concepts and terminology.
 context: >-
     As contributors add to your project, it might be necessary to provide ongoing explanations for new concepts, new terminology, schema structure, specific formats (for coordinates for example, or how to name a person correctly), etc.
-solution: |-
+solution: >-
     Because you do not know what your contributors might and might not know, give them all the help they could need as they are making a contribution.
 
-    * Tooltips
-    * Short reminders 
-    * Terms explanations
-    * Step-by-step guide
-    * Visual examples
+* Tooltips
+* Short reminders 
+* Terms explanations
+* Step-by-step guide
+* Visual examples
 examples:
     -
         title: Zooniverse

@@ -6,10 +6,10 @@ description: >-
     How can the activity of contributors be made accessible on the web to allow them to be referenced and discussed on social media or in emails, wiki pages and blog posts?
 context: >-
     The ability to link to changes on the web will allow contributors to use a range of existing communication tools to help them coordinate their work.
-solution: |-
-    Implement the **Changeset** pattern which will ensure that you are capturing a unique identifier and useful context for each entry.
+solution: >-
+    Implement the **[Changeset](/patterns/data-model/changeset)** pattern which will ensure that you are capturing a unique identifier and useful context for each entry.
 
-    Ensure that every entry can be referenced via a unique URL that, when visited, delivers a web page that provides a useful summary of the metadata. Expose those URLs in the system e.g via a **Track Changes** view.
+Ensure that every entry can be referenced via a unique URL that, when visited, delivers a web page that provides a useful summary of the metadata. Expose those URLs in the system e.g via a **[Track Changes](/patterns/workflow/track-changes)** view.
 examples:
     
 ---

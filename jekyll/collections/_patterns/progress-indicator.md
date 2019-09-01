@@ -38,12 +38,12 @@ Without a progress indicator of some form it can be difficult for contributors t
 
 Progress indicators also help you monitor the activity around your project.
 
-Progress indicators are also helpful when **Acknowledging Contributions**, as you can help an individual contributor directly see how their work is contributing to the project.
+Progress indicators are also helpful when acknowledging contributions, as you can help an individual contributor directly see how their work is contributing to the project.
 
 Progress indicators might take different forms, depending on the type of project, but they are usually based on specific metrics, for example i a project has a discrete task list that contributors are working through, then a progress indicator might be a chart showing the percentage completion of the overall task list. 
 
 If a project is more open-ended, progress indicators might focus on overall growth and activity around the dataset and the community. 
 
-Progress indicators are important when you **Organise Campaigns** as these are usually designed around specific tasks, eg increasing coverage of a certain type of data or information about a local area.
+Progress indicators are important when you **[Organise Campaigns](/patterns/encouraging-contributions/organise-campaigns)** as these are usually designed around specific tasks, eg increasing coverage of a certain type of data or information about a local area.
 
-Progress indicators are project-level features, but you might also use them to indicate the completeness of individual records as a means to prompt contributors with **Suggested Edits** (“This records is 80% complete, add a website field to move it to 85%”).
+Progress indicators are project-level features, but you might also use them to indicate the completeness of individual records as a means to prompt contributors with **[Suggested Edits](/patterns/encouraging-contributions/suggested-edits)** (“This records is 80% complete, add a website field to move it to 85%”).
