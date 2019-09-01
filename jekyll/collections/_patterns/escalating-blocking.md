@@ -12,7 +12,8 @@ examples:
     -
         title: Open Street Map
         thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1description: >-
+        large_image: https://wheretheimageswilllive/1
+        description: >-
             Take a look at  [OpenStreetMap’s policy on vandalism](https://wiki.openstreetmap.org/wiki/Vandalism). 
     
 ---

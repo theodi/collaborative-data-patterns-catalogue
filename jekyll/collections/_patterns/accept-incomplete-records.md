@@ -6,7 +6,7 @@ description: >-
     A contributor may want to add a new record but may not have access to all of the information required to create a complete record.
 context: >-
     Requiring contributors to complete all fields may discourage contributions if they don’t have access to all of the necessary data. If forced to complete all fields, users may submit inaccurate data.
-solution: >-
+solution: |-
     Allow contributors to create partial records which may be improved by other contributors at a later time.
 examples:
     

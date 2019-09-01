@@ -6,18 +6,18 @@ description: >-
     Your contributors are unsure if and how they can take on different roles within the project and can’t find information about how to increase their participation.
 context: >-
     As contributors help and participate with the project, it’s important that they get a sense of reward, progress and acknowledgement from it. It is also important for the project that there are enough skilled contributors who are able to fulfil different roles.
-solution: >-
+solution: |-
     Provide a clear pathway so that people can progress from being complete new contributors to expert contributors.
 
-Expert user responsibilities can include::
-
-* training others
-* reviewing policies
-* helping with development 
-* reviewing others’ work
-* moderating community posts
-* contributing to high-level decisions
-* helping set new policies
+    Expert user responsibilities can include::
+    
+    * training others
+    * reviewing policies
+    * helping with development 
+    * reviewing others’ work
+    * moderating community posts
+    * contributing to high-level decisions
+    * helping set new policies
 examples:
     
 ---

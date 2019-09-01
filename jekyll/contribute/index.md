@@ -36,7 +36,7 @@ All of the patterns in this website use the following template. Use the structur
 *   **Problem**
     *   should be a statement, or possibly a question if a statement doesn’t work
     *   the problem statement should ‘describe the visible manifestation of something wrong’ and not presuppose the solution
-*   **Context **
+*   **Context**
     *   explains when to use this pattern 
 *   **Solution** 
     *   provides a solution that answers the problem
@@ -44,7 +44,7 @@ All of the patterns in this website use the following template. Use the structur
     *   provide more background and detail to the proposed solution
     *   a good discussion will introduce some of the underlying causes for the problem and may add more in-depth ideas around implementation of the solution
     *   the discussion might also address edge cases, outliers, or design trade-offs, for example when you might instead apply an alternative pattern
-*   **Related patterns **
+*   **Related patterns**
     *   a short list of related patterns, for example those that are essential to implementing the solution or offer useful variations
 
 To help you draft your patterns, our recommendations are that
@@ -53,7 +53,7 @@ To help you draft your patterns, our recommendations are that
 
 *   patterns should be approximately **300 words in length**
 *   use **short sentences**, bullet points for lists, chunk the content, and make it skimmable
-*   test the **fitness **of your proposed pattern by checking that the pattern is successful - ie solution matches problem
-*   test the **usefulness **of your proposed pattern by checking that the pattern explains why it is successful and beneficial
+*   test the **fitness** of your proposed pattern by checking that the pattern is successful - ie solution matches problem
+*   test the **usefulness** of your proposed pattern by checking that the pattern explains why it is successful and beneficial
 *   **provide real world examples** so we can be sure it is an existing solution, not an idea
 *   cross-reference other patterns and include their **names in bold** with hyperlinks

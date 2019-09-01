@@ -9,7 +9,7 @@ context: >-
 solution: >-
     Identify a set of tasks for users to complete. This might be a list of **[Suggested Edits](/patterns/encouraging-contributions/suggested-edits)**, records that need to be **[Marked as Verified](/patterns/maintaining-quality/marking-as-verified)** or other tasks to verify existing data.
 
-Provide contributors with a task interface that prompts them to complete a number of individual tasks. Use a **[Progress Indicator](/patterns/encouraging-contributions/progress-indicator)** or **[Gamify Contributions](/patterns/encouraging-contributions/gamify-contributions)** to encourage them to complete the tasks.
+    Provide contributors with a task interface that prompts them to complete a number of individual tasks. Use a **[Progress Indicator](/patterns/encouraging-contributions/progress-indicator)** or **[Gamify Contributions](/patterns/encouraging-contributions/gamify-contributions)** to encourage them to complete the tasks.
 examples:
     -
         title: EveryPolitician app

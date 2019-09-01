@@ -16,7 +16,8 @@ examples:
     -
         title: MapSwipe
         thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2description: >-
+        large_image: https://wheretheimageswilllive/2
+        description: >-
             <!-- Docs to Markdown version 1.0β17 -->
     -
         title: Discogs

@@ -6,17 +6,17 @@ description: >-
     Contributors’ attention needs to be focused on a milestone or a specific set of tasks.
 context: >-
     Focusing the attention of the project on shorter-term goals can help build engagement, recruit new users or increase participation. It can also be a useful way to focus attention on smaller goals, such as increasing coverage, fixing errors or capturing new types of data 
-solution: >-
+solution: |-
     Ensure you have a set of clearly defined, well-documented tasks for the community to achieve. Create a **[Progress Indicator](/patterns/encouraging-contributions/progress-indicator)** to help you and the community to monitor progress.
 
-Organise and promote a campaign asking the community to work together to complete these tasks. 
+    Organise and promote a campaign asking the community to work together to complete these tasks. 
 examples:
     -
-        title: HOT OSM: Mapping campaign against Malaria
+        title: "HOT OSM: Mapping campaign against Malaria"
         thumbnail: https://wheretheimageswilllive.com/1
         large_image: https://wheretheimageswilllive/1
     -
-        title: HOT OSM: map2020
+        title: "HOT OSM: map2020"
         thumbnail: https://wheretheimageswilllive.com/2
         large_image: https://wheretheimageswilllive/2
     -

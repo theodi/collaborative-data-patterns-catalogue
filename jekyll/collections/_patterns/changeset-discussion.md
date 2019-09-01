@@ -12,7 +12,8 @@ examples:
     -
         title: ISFDB
         thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1description: >-
+        large_image: https://wheretheimageswilllive/1
+        description: >-
             [would like an example with a back-and-forth conversation not just a single comment]
     
 ---

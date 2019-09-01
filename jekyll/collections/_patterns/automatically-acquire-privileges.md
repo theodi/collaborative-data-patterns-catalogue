@@ -12,12 +12,14 @@ examples:
     -
         title: Stack overflow
         thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1description: >-
+        large_image: https://wheretheimageswilllive/1
+        description: >-
             [screenshot]
     -
         title: Wikidata
         thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2description: >-
+        large_image: https://wheretheimageswilllive/2
+        description: >-
             [screenshot]
     
 ---

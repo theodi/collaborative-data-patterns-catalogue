@@ -9,17 +9,19 @@ context: >-
 solution: >-
     Enable the community to form interest groups that support each other in contributing to the project in ways that better meet their needs.
 
-Encourage these diverse communities to share their ways of working with you and each other, to help build broader alignment and understanding about the benefits and impacts of collecting and maintaining data.
+    Encourage these diverse communities to share their ways of working with you and each other, to help build broader alignment and understanding about the benefits and impacts of collecting and maintaining data.
 examples:
     -
         title: MapSwipe
         thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1description: >-
+        large_image: https://wheretheimageswilllive/1
+        description: >-
             created by a subgroup of volunteers from MissingMaps + HOT OSM
     -
         title: eBird
         thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2description: >-
+        large_image: https://wheretheimageswilllive/2
+        description: >-
             Merlin Bird ID Created to support eBird
     
 ---

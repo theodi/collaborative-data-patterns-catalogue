@@ -6,25 +6,28 @@ description: >-
     Verifying the factual claims in a record is difficult without a cross reference to a primary source.
 context: >-
     Databases often consist of data that is taken from a variety of sources. For example a directory of companies might include company identifiers and codes that are taken from other datasets. Or the name of the CEO might be taken from a company website.
-solution: >-
+solution: |-
     Ask contributors to add a cross reference to another authoritative dataset or public body of work to **[Submit Evidence](/patterns/maintaining-quality/submit-evidence)** to support their contribution. 
 
-Display the provided links and/or citations so that other users can verify the data.
+    Display the provided links and/or citations so that other users can verify the data.
 examples:
     -
         title: Colouring London
         thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1description: >-
+        large_image: https://wheretheimageswilllive/1
+        description: >-
             [age of building source screenshot]
     -
         title: WikiData
         thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2description: >-
+        large_image: https://wheretheimageswilllive/2
+        description: >-
             [wikidata policy]
     -
         title: Wikipedia
         thumbnail: https://wheretheimageswilllive.com/3
-        large_image: https://wheretheimageswilllive/3description: >-
+        large_image: https://wheretheimageswilllive/3
+        description: >-
             [citation needed]
     
 ---

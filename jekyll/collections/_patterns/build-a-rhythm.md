@@ -9,7 +9,7 @@ context: >-
 solution: >-
     Run regular online and (where practical) face-to-face events. Keep to a regular schedule to build a rhythm around your community engagement.
 
-Use regular communications, blog posts and newsletters to keep in touch with the community. **[Organise Campaigns](/patterns/encouraging-contributions/organise-campaigns)** to help the community maintain its shared purpose.
+    Use regular communications, blog posts and newsletters to keep in touch with the community. **[Organise Campaigns](/patterns/encouraging-contributions/organise-campaigns)** to help the community maintain its shared purpose.
 examples:
     
 ---

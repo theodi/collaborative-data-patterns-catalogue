@@ -9,11 +9,11 @@ context: >-
 solution: >-
     Because you do not know what your contributors might and might not know, give them all the help they could need as they are making a contribution.
 
-* Tooltips
-* Short reminders 
-* Terms explanations
-* Step-by-step guide
-* Visual examples
+    * Tooltips
+    * Short reminders 
+    * Terms explanations
+    * Step-by-step guide
+    * Visual examples
 examples:
     -
         title: Zooniverse

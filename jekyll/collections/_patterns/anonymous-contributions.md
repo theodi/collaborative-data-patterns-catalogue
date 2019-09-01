@@ -6,7 +6,7 @@ description: >-
     Making users register and login adds friction to the process of contributing
 context: >-
     It’s important that you are able to quickly collect and fix data from the broadest possible community and you value this more than the ability to track who made specific contributors.
-solution: >-
+solution: |-
     Allow anonymous contributions.
 examples:
     

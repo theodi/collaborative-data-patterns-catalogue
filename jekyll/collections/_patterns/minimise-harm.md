@@ -9,7 +9,7 @@ context: >-
 solution: >-
     Ensure you are collecting data legally and ethically. Avoid collecting sensitive data or ensure that it is only shared limitedly so that  the potential impact is minimised. Make sure you **[Know Your Community](/patterns/community-management/know-your-community)** and use that insight to identify potential harm and take steps to reduce bias.
 
-Ensure your **[Published Policies](/patterns/project-governance/published-policies)** clarify what type of data is permitted to be collected in the project.
+    Ensure your **[Published Policies](/patterns/project-governance/published-policies)** clarify what type of data is permitted to be collected in the project.
 examples:
     
 ---
