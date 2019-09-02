@@ -69,8 +69,8 @@ Linting is enforced on a pre-push hook via [Husky](https://github.com/typicode/h
 ## Project setup
 
 ```shell
-git clone git@github.com:theodi/open-standards-guidebook.git
-cd open-standards-guidebook
+git clone git@github.com:theodi/collaborative-data-patterns-catalogue.git
+cd collaborative-data-patterns-catalogue
 cp .env.example .env
 ```
 Now populate Algolia environment variables in `.env` [see Deployment](#deployment-1), then
