@@ -1,55 +1,12 @@
 ---
 layout: content-page
-title: About this catalogue
+title: About this guidebook
 hero:
-  show_breadcrumb: true
-description: 'This guidebook helps people and organisations create, develop and adopt open standards for data. It supports a variety of users, including policy leads, domain experts and technologists.'
+  show_breadcrumb: false
+description: 'This guidebook helps people design and run projects that involve the collaborative maintenance of data'
 sidebar:
   sections:
-    - title: Further reading
-      intro: Impacts and lessons learned from open standards for data
-      items:
-        -          
-          title: Lessons learned in open standards development
-          url: /creating-impact/lessons-learned-in-open-standards-development
-        -          
-          title: Policy impacts of open standards
-          url: /creating-impact/policy-impacts
-        -          
-          title: Economic impacts of open standards
-          url: /creating-impact/economic-impacts
-        -          
-          title: Social impacts of open standards
-          url: /creating-impact/social-impacts
-        -          
-          title: Technology impacts of open standards
-          url: /creating-impact/technology-impacts
-    - intro: Discover more about open standards for data
-      items:
-        -          
-          title: When to use open standards
-          url: /introduction/when-to-use-open-standards-for-data
-        -          
-          title: Types of open standards for data
-          url: /introduction/types-of-open-standards-for-data
-    - intro: Our research on open standards for data
-      items:
-        -          
-          title: User experiences of open standards for data
-          url: https://docs.google.com/document/d/1E5uARrZf5AJUIF_DJz-42_793EY_Dwk7n7B3bMn3x5A/edit?usp=sharing
-        -          
-          title: Exploring the development and impact of open standards for data
-          url: https://docs.google.com/document/d/1Sab5YMVj4PVqLjZD35hX8FTnMeeP6gLGG0xszuRMIaM/edit?usp=sharing
 footer:
-  items:
-    - url: patterns/index
-      button_text: Browse patterns
-      title: Tempor tincidunt leo
-      description: Nullam condimentum massa a est volutpat gravida. Donec hendrerit orci arcu, eu fermentum arcu malesuada nec.
-    - url: /contribute/
-      button_text: Contribute
-      title: Vulputate euismod elit inceptos
-      description: Phasellus condimentum, dolor pellentesque elementum gravida, nulla lorem ullamcorper felis, quis sodales nibh tellus a magna.
 ---
 
 ## Background
