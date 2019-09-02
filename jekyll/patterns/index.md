@@ -1,21 +1,10 @@
 ---
 layout: listing
-title: The Patterns
+title: Pattern index
+description: >- 
+    Explore the design patterns by browsing through the list of categories or 
+    exploring different types of collaborative maintenance project
 sections:
-    items:
-    - type: full # full, grid, short
-      title: Introduction title
-      description: >-
-          
-    - type: grid # full, grid, short
-      title: Introduction
-      title_size: small
-      description: >-
-        An introduction to collaborative data maintenance and patterns.
-      items:
-          - whatis_cdm/index
-          - workedexample/index
-          - glossary/index
 show_categories_list: true
-list_title: "Browse pattern categories"
+list_title: ""
 ---
