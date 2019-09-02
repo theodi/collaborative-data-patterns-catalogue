@@ -1,4 +1,11 @@
 ---
+hero:
+  nav:
+    title: Introduction
+    items:
+      - glossary/index
+      - aboutpatterns/index
+      - workedexample/index
 layout: listing
 title: Pattern index
 description: >- 
