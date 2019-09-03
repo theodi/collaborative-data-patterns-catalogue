@@ -9,7 +9,7 @@ hero:
       - aboutpatterns/index
       - workedexample/index      
       - contribute/index
-  bg: img/twitter-card.png
+  bg: img/homepage-heading.png
 description: >- 
     This guidebook helps people design and run projects that involve the collaborative 
     maintenance of data
