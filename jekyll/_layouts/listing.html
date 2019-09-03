@@ -42,7 +42,7 @@ hero:
                                             g__cell-4--large
                                         {% endif %}">
                                 <h4 class="m-section-listing__title"><a class="link" href="{{ item.url }}">{{ item.title }}</a></h4>
-                                <p>{{ item.description }}</p>
+                                <p>{{ item.description | markdownify }}</p>
                             </div>
                         {% endfor %}
                     </div>

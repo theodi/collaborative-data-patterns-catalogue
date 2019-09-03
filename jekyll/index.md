@@ -3,30 +3,34 @@ layout: home
 title: Welcome to the patterns catalogue
 hero:
   nav:
-    meta: Introduction
-    title: Getting started
+    title: Introduction
     items:
       - about/index
       - aboutpatterns/index
-      - patterns/index
+      - workedexample/index      
       - contribute/index
   bg: img/homepage.png
 description: >- 
-    Supporting the design of collaboratively maintained data projects
+    This guidebook helps people design and run projects that involve the collaborative 
+    maintenance of data
 
 sections:
   items:
-  - type: full # full, grid, short
-    title: Getting Started
-    description: >-
-      When individuals, organisations and communities work together to share the work of collecting and maintaining shared data assets this is described as ‘collaborative data maintenance’.
   - type: grid # full, grid, short
+    title: What is collaborative maintenance?
+    description: >-
+      When individuals, organisations and communities work together to collect and maintaining shared data assets this is described as collaborative data maintenance.
     items:
       - whatis_cdm/index
       - whenuse_cdm/index
-      - aboutpatterns/index
-      - about/index
       - workedexample/index
-      - contribute/index
+  - type: grid # full, grid, short
+    title: The pattern catalogue
+    description: >-
+      Our pattern catalogue provides guidance on how to design and build products and services that use collaborative maintenance
+    items:
       - glossary/index
+      - aboutpatterns/index
+      - patterns/index
+
 ---
