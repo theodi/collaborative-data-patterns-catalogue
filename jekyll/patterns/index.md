@@ -7,10 +7,10 @@ hero:
       - aboutpatterns/index
       - workedexample/index
 layout: listing
-title: Pattern index
+title: Pattern Catalogue
 description: >- 
-    Explore the design patterns by browsing through the list of categories or 
-    exploring different types of collaborative maintenance project
+    Browse through the following categories to find repeated solutions to commonly 
+    encountered problems
 sections:
 show_categories_list: true
 list_title: ""
