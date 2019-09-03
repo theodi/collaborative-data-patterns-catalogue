@@ -10,7 +10,7 @@ hero:
       - aboutpatterns/index
       - patterns/index
       - contribute/index
-  bg: img/twitter-card.png
+  bg: img/homepage.png
 description: >- 
     Supporting the design of collaboratively maintained data projects
 
