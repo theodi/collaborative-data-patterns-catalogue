@@ -54,7 +54,7 @@ Rather than allowing **[Anonymous Contributions](/patterns/editing/anonymous-con
 
 To build trust, it’s important that when people sign up to a project they understand how their personal data is being used, so the project has **[Published Policies](/patterns/project-governance/published-policies)**. It asks for consent for use of data during sign-up. 
 
-The project has **[Clear Licensing](/patterns/project-governance/clear-licensing)** of its data. To support that it asks for users to agree to **[Contributor Licence](/patterns/project-governance/contributor-licence)** so that rights for reuse of the data in the directory are clear to everyone.
+The project has **[Clear Licensing](/patterns/project-governance/clear-licensing)** of its data. To support that it asks for users to agree to a **[Contributor Licence](/patterns/project-governance/contributor-licence)** so that rights for reuse of the data in the directory are clear to everyone.
 
 ![alt_text](workedexample-3.jpg "image_tooltip")
 
