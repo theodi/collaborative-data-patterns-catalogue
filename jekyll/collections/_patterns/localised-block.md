@@ -16,5 +16,5 @@ examples:
 * A related sanction might be to reverse previous contributions to the topic.
 * Whatever the decision, it is vital to notify the contributor to inform them of the actions you are taking
 * The ban can be permanent or temporary.
-* * If it is temporary, there needs to be a way to reverse it
+* If it is temporary, there needs to be a way to reverse it
 * Banning contributors is not trivial, it should be done in accordance with the **[Published Policies](/patterns/project-governance/published-policies)**.
