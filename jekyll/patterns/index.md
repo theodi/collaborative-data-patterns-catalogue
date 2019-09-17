@@ -1,5 +1,6 @@
 ---
 hero:
+  bg: img/patterns-heading.png
   nav:
     title: Introduction
     items:
@@ -9,7 +10,7 @@ hero:
 layout: listing
 title: Pattern Catalogue
 description: >- 
-    Browse through the following categories to find repeated solutions to commonly 
+    Browse through the following categories to find repeatable solutions to commonly 
     encountered problems
 sections:
 show_categories_list: true

@@ -3,6 +3,7 @@ layout: content-page
 title: Glossary
 hero:
   show_breadcrumb: true
+  bg: img/homepage.png
 description: 'To ensure we cover a range of project styles, tools and methodologies, we use the following general terms across this website.'
 footer:
   items:

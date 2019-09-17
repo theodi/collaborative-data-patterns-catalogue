@@ -3,6 +3,7 @@ layout: content-page
 title: How to contribute
 hero:
   show_breadcrumb: true
+  bg: img/contribute.png
 description: 'We hope that this guidebook will become a resource that is collaboratively maintained and improved by the community.'
 ---
 

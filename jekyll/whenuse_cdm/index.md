@@ -3,6 +3,7 @@ layout: content-page
 title: When is collaborative maintenance useful?
 hero:
   show_breadcrumb: true
+  bg: img/homepage.png
 description: 'Collaborative data maintenance has been successfully used in a wide variety of projects. Looking at successful projects helps identify some common characteristics and challenges.'
 footer:
   items:

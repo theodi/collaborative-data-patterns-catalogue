@@ -3,6 +3,7 @@ layout: content-page
 title: Using the patterns
 hero:
   show_breadcrumb: true
+  bg: img/worked-example.png
 description: 'To help illustrate how a dataset might be collaboratively maintained we have created an example based on a fictional project.'
 footer:
   items:

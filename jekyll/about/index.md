@@ -3,6 +3,7 @@ layout: content-page
 title: About this guidebook
 hero:
   show_breadcrumb: false
+  bg: img/about-us.png
 description: 'This guidebook helps people design and run projects that involve the collaborative maintenance of data'
 sidebar:
   sections:
