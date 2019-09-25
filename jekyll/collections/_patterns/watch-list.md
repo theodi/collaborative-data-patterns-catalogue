@@ -6,10 +6,18 @@ description: >-
     Users want to know when a particular record has changed.
 context: >-
     A database has records that others will continue to amend, comment on and moderate.
-solution: >-
+solution: |
     Allow users to follow records they’re interested in by subscribing to notifications of changes made to them.
 examples:
+    -
+        title: "Wikipedia"
+        thumbnail: /watch-list-1.jpg
+        large_image: /watch-list-1.jpg
+        description: >-
+            An example of a watchlist that shows recent changes made to pages
     
+related:
+    - track-changes
 ---
 
 Users may be interested in following changes and comments made on a particular record. For example, they may be: 

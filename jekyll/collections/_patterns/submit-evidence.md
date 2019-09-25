@@ -6,10 +6,13 @@ description: >-
     Evidence can help to build confidence in the project data
 context: >-
     The provenance of a fact or observation is an important part of some projects. Documenting the provenance of individual contributions can be essential to building trust in the data
-solution: >-
+solution: |
     Require contributors to submit evidence to support their contributions
 examples:
     
+related:
+    - cite-sources
+    - proof-of-witness
 ---
 
 Provenance is important in building trust in data. Relating individual fields and records to real-world observations or primary sources can help to build confidence that data has been correctly captured. 

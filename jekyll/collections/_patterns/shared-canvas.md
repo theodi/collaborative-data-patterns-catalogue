@@ -6,10 +6,19 @@ description: >-
     How do you empower a community to shape the types of data collected in a project so that it can adapt to a range of needs?
 context: >-
     Your project might have different communities of users with different needs and priorities; trying to get central agreement is difficult.
-solution: >-
+solution: |
     Design your system so that new fields (and maybe types of records) can be added by the community. For example, you might allow users to add name-value pairs to any record, allowing them to arbitrarily add new attributes. Provide the community with tools, for example a wiki, to help them document how individual fields, or collections of fields, should be used to describe different types of things.
 examples:
+    -
+        title: "OpenStreetMap"
+        thumbnail: /shared-canvas-1.jpg
+        large_image: /shared-canvas-1.jpg
+        description: >-
+            Description of proposal process to add a new features or tags
     
+related:
+    - evolving-schema
+    - fixed-schema
 ---
 
 Allowing a community to take control over an **[Evolving Schema](/patterns/data-model/evolving-schema)** can help to distribute decision making about what data should or shouldn’t be included in a project to the community of contributors and users. This can help a project meet a wider range of user needs. For example allowing a local community add information that is useful for their region or for their sector. 

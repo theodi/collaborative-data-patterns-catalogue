@@ -6,24 +6,27 @@ description: >-
     Maintaining a mature database involves carrying smaller repetitive tasks that may be less engaging for contributors
 context: >-
     As a dataset becomes more mature, it may be harder for contributors to identify useful ways to contribute when there are fewer obvious gaps in coverage. Contributors might also be less motivated by ongoing maintenance tasks. It is easy to feel a sense of progress when adding new records, but less so when improving them.
-solution: >-
+solution: |-
     Identify a set of tasks for users to complete. This might be a list of **[Suggested Edits](/patterns/encouraging-contributions/suggested-edits)**, records that need to be **[Marked as Verified](/patterns/maintaining-quality/marking-as-verified)** or other tasks to verify existing data.
 
     Provide contributors with a task interface that prompts them to complete a number of individual tasks. Use a **[Progress Indicator](/patterns/encouraging-contributions/progress-indicator)** or **[Gamify Contributions](/patterns/encouraging-contributions/gamify-contributions)** to encourage them to complete the tasks.
 examples:
     -
-        title: EveryPolitician app
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
+        title: "EveryPolitician"
+        thumbnail: /microtasks-1.jpg
+        large_image: /microtasks-1.jpg
+        description: >-
+            Ask contributors to provide the missing gender information that hasn’t been captured from other sources
     -
-        title: HOT OSM Task manager
-        thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2
-    -
-        title: MapsWipe Tasks
-        thumbnail: https://wheretheimageswilllive.com/3
-        large_image: https://wheretheimageswilllive/3
+        title: "Zooniverse"
+        thumbnail: /microtasks-2.jpg
+        large_image: /microtasks-2.jpg
+        description: >-
+            Zooniverse uses microtasks to share large datasets with many contributors
     
+related:
+    - suggested-edits
+    - gamify-contributions
 ---
 
 In the early stages of a project, contributors may be motivated by the process of populating a new empty database. Seeing a directory, catalogue or map grow over time provides a sense of progress.

@@ -6,10 +6,13 @@ description: >-
     All entries need to be correct and adhere to policy.
 context: >-
     Some projects need to be able to make strong guarantees that all of the data being maintained has been through a quality review.
-solution: >-
+solution: |
     Introduce a mandatory review stage that requires contributors to inspect all entries before they are applied to the database.
 examples:
     
+related:
+    - moderation
+    - clearly-defined-roles
 ---
 
 Sometimes ensuring data quality is more important than the speed of data collection. Reviewing contributions before they are applied to the project database could be mandatory in situations where: 

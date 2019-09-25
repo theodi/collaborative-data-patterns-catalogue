@@ -6,12 +6,16 @@ description: >-
     People in a distributed community collaborating on a common task can feel disconnected from one another.
 context: >-
     Communities that are primarily coordinating with one another online, with people working on separate tasks, at different times, and at different frequencies, can end up fragmented, leading to contributors losing sight of the shared goals and becoming disengaged with the project.
-solution: >-
+solution: |
     Run regular online and (where practical) face-to-face events. Keep to a regular schedule to build a rhythm around your community engagement.
 
     Use regular communications, blog posts and newsletters to keep in touch with the community. **[Organise Campaigns](/patterns/encouraging-contributions/organise-campaigns)** to help the community maintain its shared purpose.
 examples:
     
+related:
+    - encourage-interest-groups
+    - follow-your-users
+    - know-your-community
 ---
 
 All collaborative projects have a community of contributors. These communities are likely to be entirely virtual, bringing together people from different organisations and areas of society. Unless your project is part of their day jobs, individual contributors will be contributing at different times, at different frequencies and in different ways.

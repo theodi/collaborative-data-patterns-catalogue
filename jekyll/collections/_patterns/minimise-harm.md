@@ -6,12 +6,15 @@ description: >-
     Collecting data without thinking about the potential impact of its use may cause harm.
 context: >-
     Projects may involve collecting data about potentially sensitive topics. There may be risks involved in collecting or using this data. Data may also cause harm because of biases that arise from its collection.
-solution: >-
+solution: |
     Ensure you are collecting data legally and ethically. Avoid collecting sensitive data or ensure that it is only shared limitedly so that  the potential impact is minimised. Make sure you **[Know Your Community](/patterns/community-management/know-your-community)** and use that insight to identify potential harm and take steps to reduce bias.
 
     Ensure your **[Published Policies](/patterns/project-governance/published-policies)** clarify what type of data is permitted to be collected in the project.
 examples:
     
+related:
+    - published-policies
+    - know-your-community
 ---
 
 Like all data infrastructure, a collaborative maintenance project involves several different communities. There is the community of contributors, a community of data users and, depending on the dataset, a community that is represented in the data. All of these communities might benefit from, and be impacted by, use of the data.

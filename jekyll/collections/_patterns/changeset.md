@@ -6,22 +6,30 @@ description: >-
     Multiple collaborators independently making entries into a database makes it difficult to understand how the dataset reached its current state. 
 context: >-
     When the only view of the dataset is its current state, it can be difficult to understand how, when and why changes have been made by users. For example the reason why an individual entry was made by a user might be unclear. Contributors might be repeatedly editing the same records to fix seemingly incorrect data, or may be making repeated mistakes across their contributions.
-solution: >-
+solution: |
     In addition to tracking the current state of the database, maintain a record of every entry made to the system. Capture metadata about each entry that will help provide context to how, when and why changes have been made.
 examples:
     -
-        title: OpenStreetMap
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
+        title: "OpenStreetMap"
+        thumbnail: /changeset-1.jpg
+        large_image: /changeset-1.jpg
+        description: >-
+            Summary of the contents of a changeset
     -
-        title: eBird
-        thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2
+        title: "OSM"
+        thumbnail: /changeset-2.jpg
+        large_image: /changeset-2.jpg
+        description: >-
+            The details for a single changeset
     -
-        title: OSM
-        thumbnail: https://wheretheimageswilllive.com/3
-        large_image: https://wheretheimageswilllive/3
+        title: "eBird"
+        thumbnail: /changeset-3.jpg
+        large_image: /changeset-3.jpg
+        description: >-
+            A single changeset - here called “checklist”
     
+related:
+    - track-changes
 ---
 
 Managing contributions from multiple people is a specific challenge of collaboratively maintained datasets. If the system storing the data only captures the latest data without context then it can be difficult to manage contributions.

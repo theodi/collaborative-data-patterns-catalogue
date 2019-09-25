@@ -6,18 +6,22 @@ description: >-
     Both contributors and reusers need to understand what rights they have to use the combined dataset
 context: >-
     There needs to be confidence that the aggregate data will be made as open as possible so that it can provide value for all stakeholders involved in maintaining or using it.
-solution: >-
+solution: |
     Define where the collectively maintained data will sit on the data spectrum. Create or choose a clear data-sharing agreement or licence that provides rights to use the data in ways that maximises value while minimising potential harms. Ensure that the licence is clearly described and linked from any page that provides access to data.
 examples:
     -
-        title: Wikidata
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
+        title: "Wikidata"
+        thumbnail: /clear-licensing-1.jpg
+        large_image: /clear-licensing-1.jpg
     -
-        title: MusicBrainz
-        thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2
+        title: "MusicBrainz"
+        thumbnail: /clear-licensing-2.jpg
+        large_image: /clear-licensing-2.jpg
+        description: >-
+            A licence describing the rights under which both _data_ and _image_ contributions will be made available to users of the data
     
+related:
+    - visible-processes
 ---
 
 There is a complex set of [rights that apply to data](https://theodi.org/article/data-rights-we-need-to-build-a-coherent-framework/) and content. It is important that data is [clearly licensed to enable reuse](https://theodi.org/article/publishers-guide-to-open-data-licensing/).

@@ -6,22 +6,21 @@ description: >-
     In a large community it can be time-consuming to individually assess contributors in order to grant them specific privileges or roles. 
 context: >-
     Projects may need to limit some features, such as the ability to revert changes made by other users, to a smaller set of trusted contributors. Relying on **[Granting Privileges](/patterns/project-governance/grant-privileges)** in large, active communities can be time-consuming.
-solution: >-
+solution: |
     Design the system so that contributors are automatically granted privileges based on their activities. For example based on the number or type of contributions they make.
 examples:
     -
-        title: Stack overflow
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
+        title: "Stack Overflow"
+        thumbnail: /automatically-acquire-privileges-1.jpg
+        large_image: /automatically-acquire-privileges-1.jpg
         description: >-
-            [screenshot]
-    -
-        title: Wikidata
-        thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2
-        description: >-
-            [screenshot]
+            Users are awarded more privileges as their points increase. Points are awarded by participating in different areas such as editing answers or offering guidance to others.
     
+related:
+    - grant-privileges
+    - gamify-contributions
+    - clearly-defined-roles
+    - learning-curve
 ---
 
 In a collaborative maintenance projects, it might be useful to allow people outside of the core project team to take on additional responsibilities. This can help to share the work of managing the community, administering the database, etc. One way to do this is to explicitly **[Grant Privileges](/patterns/project-governance/grant-privileges)** to individual users. Frequent contributors might be prominent in the community and might be happy to be granted more rights and responsibilities.

@@ -6,10 +6,12 @@ description: >-
     Users who are unfamiliar to a database are making data input errors.
 context: >-
     Data entry in forms.
-solution: >-
+solution: |
     Apply validation rules to individual fields to alert users to mistakes before the data is submitted to the database.
 examples:
     
+related:
+    - explain-fields
 ---
 
 It is easy for even expert users to make mistakes when updating a database. In a project that uses collaborative maintenance that involves a group of users with different skills and experience it is particularly important to apply consistent validation to records.

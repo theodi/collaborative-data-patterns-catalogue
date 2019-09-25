@@ -6,7 +6,7 @@ description: >-
     Contributors are not aware that they may need to prepare in order to make a contribution
 context: >-
     A contributor is about to make their first submission and needs to know what information is required and what they should prepare in advance.
-solution: |-
+solution: |
     Make clear what is required to accept a contribution, for example: 
 
     * Registering with the project
@@ -15,20 +15,22 @@ solution: |-
     * Possessing artifacts or evidence (eg to add an entry to [Discogs](https://www.discogs.com/search/), you would need all the sleeve note information from the album/CD etc)
 examples:
     -
-        title: Open Food Facts
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
+        title: "Wikidata"
+        thumbnail: /essential-preparation-1.jpg
+        large_image: /essential-preparation-1.jpg
         description: >-
-            [screenshot of specific requirements (like having a phone, credentials...) Can't find imagery at this point]
+            Not all preparations are technical or practical, some might ask contributors to think about **[Minimising Harm](/patterns/project-governance/minimise-harm)**
     -
-        title: Wikidata
-        thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2
-    -
-        title: Mapswipe Wifi and Data requirements
-        thumbnail: https://wheretheimageswilllive.com/3
-        large_image: https://wheretheimageswilllive/3
+        title: "Discogs"
+        thumbnail: /essential-preparation-2.jpg
+        large_image: /essential-preparation-2.jpg
+        description: >-
+            Discogs requires that you have the physical object in your possession
     
+related:
+    - accept-incomplete-data
+    - respect-users-time
+    - submit-evidence
 ---
 
 * The contributor might not have visited your site before, and barriers like installing software, or needing evidence can create friction and frustration. They may not complete the process and/or and may not return. 

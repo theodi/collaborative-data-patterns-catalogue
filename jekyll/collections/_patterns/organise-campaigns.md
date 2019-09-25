@@ -12,18 +12,28 @@ solution: |-
     Organise and promote a campaign asking the community to work together to complete these tasks. 
 examples:
     -
-        title: "HOT OSM: Mapping campaign against Malaria"
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
+        title: "HOT OSM"
+        thumbnail: /organise-campaigns-1.jpg
+        large_image: /organise-campaigns-1.jpg
+        description: >-
+            Mapping campaign against malaria
     -
-        title: "HOT OSM: map2020"
-        thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2
+        title: "Democracy Club"
+        thumbnail: /organise-campaigns-2.jpg
+        large_image: /organise-campaigns-2.jpg
+        description: >-
+            Here campaigns are called “quests”
     -
-        title: MissingMaps through Eventbrite
-        thumbnail: https://wheretheimageswilllive.com/3
-        large_image: https://wheretheimageswilllive/3
+        title: "MissingMaps Event"
+        thumbnail: /organise-campaigns-3.jpg
+        large_image: /organise-campaigns-3.jpg
+        description: >-
+            Campaigns can be in person, helping to build your community
     
+related:
+    - encourage-interest-groups
+    - build-a-rhythm
+    - follow-your-users
 ---
 
 In larger projects that involve collecting a variety of data, it can be useful to break up the overall goal of the project into smaller sub-goals which have clearly defined outcomes and tasks.

@@ -6,22 +6,24 @@ description: >-
     Collaboration across distributed groups requires clarity around rules, policies and procedures.
 context: >-
     Collaborative projects involve a variety of policies describing the project’s governance. If these are not clearly documented, there may be a lack of trust around how data is being accessed, used and shared, and around how key processes such as moderation and disagreements are handled. 
-solution: >-
+solution: |
     Publish clear policies that describe all aspects of your project’s governance. Ensure these can be easily found on the project website, and are referenced during key processes.
 examples:
     -
-        title: Discogs
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
+        title: "Wikipedia"
+        thumbnail: /published-policies-1.jpg
+        large_image: /published-policies-1.jpg
+        description: >-
+            Wikipedia’s extensive policies are developed and documented by the community
     -
-        title: HOT OSM
-        thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2
-    -
-        title: OpenFoodFacts
-        thumbnail: https://wheretheimageswilllive.com/3
-        large_image: https://wheretheimageswilllive/3
+        title: "ISFDB"
+        thumbnail: /published-policies-2.jpg
+        large_image: /published-policies-2.jpg
+        description: >-
+            Highlighting the policy on the main documentation page brings the project operations to the attention of those looking for guidance
     
+related:
+    - visible-processes
 ---
 
 To build trust around a project, it is important that all aspects of its governance are well documented and transparent. This is good practice for any form of data stewardship, but is particularly important for collaborative projects where there is a broad range of stakeholders, including contributors, data users and those who may be impacted by the data created by the project.

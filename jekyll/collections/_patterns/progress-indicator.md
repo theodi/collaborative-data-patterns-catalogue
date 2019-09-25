@@ -10,26 +10,30 @@ solution: >-
     Create indicators that provide an overall sense of progress towards the goal of your project or campaign, for example charts showing how many tasks have been completed, the growth of the database, the number of people participating, or the overall daily or weekly activity.
 examples:
     -
-        title: Democracy Club
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
+        title: "Democracy Club"
+        thumbnail: /progress-indicator-1.jpg
+        large_image: /progress-indicator-1.jpg
     -
-        title: Mozilla Voice
-        thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2
+        title: "Mozilla Voice"
+        thumbnail: /progress-indicator-2.jpg
+        large_image: /progress-indicator-2.jpg
     -
-        title: Wikidata
-        thumbnail: https://wheretheimageswilllive.com/3
-        large_image: https://wheretheimageswilllive/3
+        title: "Wikidata"
+        thumbnail: /progress-indicator-3.jpg
+        large_image: /progress-indicator-3.jpg
     -
-        title: Zooniverse
-        thumbnail: https://wheretheimageswilllive.com/4
-        large_image: https://wheretheimageswilllive/4
+        title: "Zooniverse"
+        thumbnail: /progress-indicator-4.jpg
+        large_image: /progress-indicator-4.jpg
     -
-        title: HOT OSM
-        thumbnail: https://wheretheimageswilllive.com/5
-        large_image: https://wheretheimageswilllive/5
+        title: "HOT OSM"
+        thumbnail: /progress-indicator-5.jpg
+        large_image: /progress-indicator-5.jpg
     
+related:
+    - deliver-individual-value
+    - gamify-contributions
+    - organise-campaigns
 ---
 
 Demonstrating collective progress helps to create a sense of community and achievement. It helps contributors see how their individual efforts are contributing to the overall goal of the project or campaign.

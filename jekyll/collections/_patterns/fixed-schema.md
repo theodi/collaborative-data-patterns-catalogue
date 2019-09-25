@@ -6,10 +6,19 @@ description: >-
     The items in my database must all be described in the same way.
 context: >-
     The data to be captured in a project is known in advance and is not expected to change. For example, the project may involve collecting information about a specific list of items which have common attributes.
-solution: >-
+solution: |
     Agree the types of records and the attributes to be collected when designing your project. Ensure that the information you need to collect is well described so that contributors understand what is needed and how it will be used. This will help users to provide the data consistently, either directly through editing or through changes made via APIs.
 examples:
+    -
+        title: "Open Library"
+        thumbnail: /fixed-schema-1.jpg
+        large_image: /fixed-schema-1.jpg
+        description: >-
+            The form to add a new book to the database according to its fixed schema
     
+related:
+    - shared-canvas
+    - evolving-schema
 ---
 
 Some collaborative projects are designed to support a specific purpose, for example collecting a list of places, services or companies; or to catalogue specific pieces of information, such as metadata describing a set of pictures, documents or videos.

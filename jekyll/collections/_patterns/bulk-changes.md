@@ -3,13 +3,22 @@ category: editing
 title: Bulk Changes
 nav_order: 1
 description: >-
-    Multiple records need to be updated to import or fix data. Doing them individually is time intensive.
+    Multiple records need to be updated to import or fix data. Doing them individually is labour intensive.
 context: >-
     Projects are typically designed around supporting users in adding or improving individual records. This model doesn’t work well when there is a need to import external data which contains useful data to be applied to multiple records.
-solution: >-
+solution: |
     Provide a custom tool for contributors to upload, review and apply updates to multiple records.
 examples:
+    -
+        title: "Grand Comics Database"
+        thumbnail: /bulk-changes-1.jpg
+        large_image: /bulk-changes-1.jpg
+        description: >-
+            Video tutorial for making bulk changes taken from the Comics Database wiki site
     
+related:
+    - extendable-tooling
+    - marking-as-verified
 ---
 
 All database systems provide the means to make bulk updates to records. This pattern is about exposing this type of functionality to contributors to help them make changes to multiple records in one update.

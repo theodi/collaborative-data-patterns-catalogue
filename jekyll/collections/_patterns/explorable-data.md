@@ -9,7 +9,23 @@ context: >-
 solution: >-
     Allow users to see and explore the dataset through one or more visualisations or alternate presentations of the data, that will help them explore the current contents and understand the current state of the database as a whole, rather than as a collection of individual records. Provide a means for contributors to edit data “in place” or easily navigate to an editing workflow from the visualisation.
 examples:
+    -
+        title: "OpenStreetMap"
+        thumbnail: /explorable-data-1.jpg
+        large_image: /explorable-data-1.jpg
+        description: >-
+            A contributor can see that the roads on the north side of this railway line are missing building outlines.
+    -
+        title: "Democracy Club"
+        thumbnail: /explorable-data-2.jpg
+        large_image: /explorable-data-2.jpg
+        description: >-
+            A shared resource such as a spreadsheet makes it clear where the gaps are
     
+related:
+    - visibly-editable
+    - suggested-edits
+    - progress-indicator
 ---
 
 Depending on the type of data being collected there may be more than one way to present the data. For example data that is tied to geographical locations might be best presented as a map that will allow a user to intuitively understand the current coverage of the dataset and identify opportunities to contribute in their local area.

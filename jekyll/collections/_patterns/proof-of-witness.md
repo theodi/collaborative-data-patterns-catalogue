@@ -6,10 +6,26 @@ description: >-
     Validating real-world observations is difficult without having proof
 context: >-
     It can be challenging to validate data in projects that allow contributors to record events or catalogue information about the real world.
-solution: >-
+solution: |
     Allow contributors to submit proof of their observations, e.g. by uploading a photograph.
 examples:
+    -
+        title: "eBird - Add evidence"
+        thumbnail: /proof-of-witness-1.jpg
+        large_image: /proof-of-witness-1.jpg
+        description: >-
+            Click the “Add Media” button to add supporting evidence
+    -
+        title: "eBird - Changeset view"
+        thumbnail: /proof-of-witness-2.jpg
+        large_image: /proof-of-witness-2.jpg
+        description: >-
+            The moderator can review the evidence and accept the changeset
     
+related:
+    - submit-evidence
+    - cite-sources
+    - flag-for-review
 ---
 
 When contributors are surveying the real-world or recording observations of events, animals or potholes it can be important to have some evidence of the observation. 

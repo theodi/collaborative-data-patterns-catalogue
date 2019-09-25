@@ -6,14 +6,18 @@ description: >-
     A contributor does not have the time or enough information to make a complete submission at the moment.
 context: >-
     A contributor has started to make a change to the database but hasn’t submitted it.
-solution: >-
+solution: |
     Allow users to save their progress before submitting their contribution.
 examples:
     -
-        title: Need title
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
+        title: "Discogs"
+        thumbnail: /draft-changes-1.jpg
+        large_image: /draft-changes-1.jpg
+        description: >-
+            Click the button to save a draft copy to return to later
     
+related:
+    - accept-incomplete-data
 ---
 
 Give users the option to come back to unsubmitted, incomplete entries at a later point if they need to do so.

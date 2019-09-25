@@ -6,30 +6,39 @@ description: >-
     Verifying the factual claims in a record is difficult without a cross reference to a primary source.
 context: >-
     Databases often consist of data that is taken from a variety of sources. For example a directory of companies might include company identifiers and codes that are taken from other datasets. Or the name of the CEO might be taken from a company website.
-solution: |-
+solution: |
     Ask contributors to add a cross reference to another authoritative dataset or public body of work to **[Submit Evidence](/patterns/maintaining-quality/submit-evidence)** to support their contribution. 
 
     Display the provided links and/or citations so that other users can verify the data.
 examples:
     -
-        title: Colouring London
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
+        title: "Colouring London"
+        thumbnail: /cite-sources-1.jpg
+        large_image: /cite-sources-1.jpg
         description: >-
-            [age of building source screenshot]
+            Contributors can cite a source to back up the value provided for age of building
     -
-        title: WikiData
-        thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2
+        title: "Wikidata"
+        thumbnail: /cite-sources-2.jpg
+        large_image: /cite-sources-2.jpg
         description: >-
-            [wikidata policy]
+            Wikidata policy on citing sources
     -
-        title: Wikipedia
-        thumbnail: https://wheretheimageswilllive.com/3
-        large_image: https://wheretheimageswilllive/3
+        title: "Wikipedia references"
+        thumbnail: /cite-sources-3.jpg
+        large_image: /cite-sources-3.jpg
         description: >-
-            [citation needed]
+            Example of both references and citations
+    -
+        title: "Wikipedia allows different perspectives"
+        thumbnail: /cite-sources-4.jpg
+        large_image: /cite-sources-4.jpg
+        description: >-
+            Contested data can exist simultaneously as long as all claims can be sourced
     
+related:
+    - submit-evidence
+    - proof-of-witness
 ---
 
 Identifying when data has been taken from primary sources can help contributors to check that a change made to a record is correct. Cross-references might include scholarly citations, references to official websites and publications, or linking identifiers to third-party datasets.

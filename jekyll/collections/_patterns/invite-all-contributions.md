@@ -9,7 +9,16 @@ context: >-
 solution: >-
     Be clear about the variety of ways contributors may help to make your project a success.
 examples:
+    -
+        title: "Open Plaques"
+        thumbnail: /invite-all-contributions-1.jpg
+        large_image: /invite-all-contributions-1.jpg
+        description: >-
+            Examples of contributions are given on Open Plaques’ “Contribute” page
     
+related:
+    - suggested-edits
+    - organise-campaigns
 ---
 
 Some projects need help that goes beyond contributing new or updated data. Many projects need contributors to help support the work of others. For example by reviewing contributions, providing training or writing documentation.

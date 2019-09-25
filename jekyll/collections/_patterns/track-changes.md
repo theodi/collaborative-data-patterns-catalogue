@@ -6,18 +6,24 @@ description: >-
     It is difficult to understand how a record came to be in its current or previous state.
 context: >-
     Changes have been made to a record or set of records, which another contributor or user would like to understand.
-solution: >-
+solution: |
     Create and display a log of **[Changesets](/patterns/data-model/changeset)**, where each entry represents an amendment to a record.
 examples:
     -
-        title: OpenLibraries
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
+        title: "Open Library"
+        thumbnail: /track-changes-1.jpg
+        large_image: /track-changes-1.jpg
+        description: >-
+            Displaying the history of changes to a single record (in this case a book)
     -
-        title: WikiData
-        thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2
+        title: "Wikidata"
+        thumbnail: /track-changes-2.jpg
+        large_image: /track-changes-2.jpg
+        description: >-
+            A list of recent changes made to the whole database
     
+related:
+    - changeset
 ---
 
 Records may evolve through multiple amendments from different contributors.  Amendments can include:

@@ -6,22 +6,29 @@ description: >-
     The project has limited capacity to create new and improved tools to support the community
 context: >-
     Contributors to your project may benefit from specific tools that make it easier for them to participate. Specialised tools might help to better **[Retrospective Reviews](/patterns/maintaining-quality/retrospective-review)** or in applying **[Bulk Changes](/patterns/workflow/bulk-changes)**, or better support people with different abilities. But your project will have limited resources to build all of these tools.
-solution: >-
+solution: |
     Encourage the community to create specialised tools. Publish an API that exposes the editing and reviewing functionality of your project so that the community can create new tools that conform to your **[Published Policies](/patterns/project-governance/published-policies)**.
 examples:
     -
-        title: Humanitarian OpenStreetMap tools
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
+        title: "Humanitarian OpenStreetMap tools"
+        thumbnail: /extendable-tooling-1.jpg
+        large_image: /extendable-tooling-1.jpg
+        description: >-
+            Tools created by the community
     -
-        title: MusicBrainz tools
-        thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2
+        title: "MusicBrainz tools"
+        thumbnail: /extendable-tooling-2.jpg
+        large_image: /extendable-tooling-2.jpg
     -
-        title: Wikidata existing tools
-        thumbnail: https://wheretheimageswilllive.com/3
-        large_image: https://wheretheimageswilllive/3
+        title: "Wikidata"
+        thumbnail: /extendable-tooling-3.jpg
+        large_image: /extendable-tooling-3.jpg
+        description: >-
+            Tools organised by task
     
+related:
+    - changeset
+    - moderation
 ---
 
 Web and mobile based tools to edit and contribute data will typically be implemented using an API. Projects that use this pattern are just widening access to that API.

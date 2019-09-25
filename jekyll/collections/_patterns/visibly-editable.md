@@ -10,18 +10,14 @@ solution: >-
     Ensure the user interface has clear prompts to edit individual records or fields.
 examples:
     -
-        title: MusicBrainz
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
-    -
-        title: OpenFoodFacts
-        thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2
-    -
-        title: eBird
-        thumbnail: https://wheretheimageswilllive.com/3
-        large_image: https://wheretheimageswilllive/3
+        title: "MusicBrainz"
+        thumbnail: /visibly-editable-1.jpg
+        large_image: /visibly-editable-1.jpg
+        description: >-
+            Each page of details displays a prominent edit button
     
+related:
+    - suggested-edits
 ---
 
 The best point to solicit a contribution is when a user is looking at the data. A data user might have identified a problem and fixing it will help them continue with their current task. A contributor may be interested in a specific record or have some knowledge or expertise to share that could improve the data.

@@ -6,10 +6,13 @@ description: >-
     There is a need for a **[Communal Database](/patterns/project-types/communal-database)** to support a diverse set of communities. But outside a common core set of data, there are different and evolving needs.
 context: >-
     Given the right tools, a community can work together to maintain a **[Communal Database](/patterns/project-types/communal-database)**. Adapting to divergent needs can be difficult to manage from the centre. 
-solution: >-
+solution: |
     Create a collaboratively maintained dataset that provides a shared data infrastructure for a community to coordinate around collecting data of interest and benefit to them.
 examples:
     
+related:
+    - knowledge-commons
+    - collaborative-cataloguing
 ---
 
 Open knowledge can provide benefits to a wide range of stakeholders. A collaboratively maintained shared or open dataset can help to provide equitable access to data.

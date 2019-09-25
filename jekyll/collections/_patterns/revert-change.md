@@ -6,22 +6,32 @@ description: >-
     A change has introduced errors or inaccuracies into the database.
 context: >-
     An entry has been accepted into the database, introducing a change that needs to be undone.
-solution: >-
+solution: |
     Allow entries to be undone so that  people or machines can revert the effects of an entry if necessary.
 examples:
     -
-        title: OpenDemocracy
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
+        title: "Democracy Club"
+        thumbnail: /revert-change-1.jpg
+        large_image: /revert-change-1.jpg
+        description: >-
+            As well as reverting a single changeset, here a contributor can revert many changes to revert a record to a particular version.
     -
-        title: Discogs
-        thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2
+        title: "Discogs"
+        thumbnail: /revert-change-2.jpg
+        large_image: /revert-change-2.jpg
+        description: >-
+            Discog’s policy is that anyone, including the original author, may revert a single change
     -
-        title: OSM
-        thumbnail: https://wheretheimageswilllive.com/3
-        large_image: https://wheretheimageswilllive/3
+        title: "OpenStreetMap"
+        thumbnail: /revert-change-3.jpg
+        large_image: /revert-change-3.jpg
+        description: >-
+            OpenStreetMap policy describes the circumstances in which changes may be reverted by moderators
     
+related:
+    - changeset
+    - track-changes
+    - moderation
 ---
 
 Entries can occasionally introduce errors into the database, or may have been made by someone with mischievous intent, e.g. to add spam or false information. In these cases, entries need to be reversed or reverted. This is sometimes called ‘roll-back’.

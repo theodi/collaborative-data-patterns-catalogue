@@ -6,10 +6,24 @@ description: >-
     Some records should not be edited anymore.
 context: >-
     Records have been the subject of disputed edits, or administrators have decided that their content is now final.
-solution: >-
+solution: |
     Temporarily, or permanently, prevent further updates to a specific record.
 examples:
+    -
+        title: "Wikipedia"
+        thumbnail: /locked-record-1.jpg
+        large_image: /locked-record-1.jpg
+        description: >-
+            Wikipedia’s own list of protected pages
+    -
+        title: "Democracy Club"
+        thumbnail: /locked-record-2.jpg
+        large_image: /locked-record-2.jpg
+        description: >-
+            Completed campaigns are locked once validated to prevent further edits introducing errors
     
+related:
+    - moderation
 ---
 
 In some projects it will be possible to ‘complete’ a record, and once it has been verified and confirmed as the final version, no further changes should be allowed.

@@ -6,10 +6,19 @@ description: >-
     The schema originally designed for use in the project is no longer acceptable because the project or the community’s needs have changed.
 context: >-
     Needs change over time as people begin to use and contribute to a dataset. Or perhaps through the process of collaborating with a community, you develop a clearer understanding of your collective needs. This may mean changing the types of data that is captured.  so the schema might need to evolve.
-solution: >-
+solution: |
     Plan to adapt and evolve your schema over time. This might include expanding to collect information about new types of records, or adding and removing fields from existing records. Your plans should involve more than just the technical changes required to update a database or the service that helps to maintain data. You should also communicate and consult with the community about your plans.
 examples:
+    -
+        title: "Colouring London"
+        thumbnail: /evolving-schema-1.jpg
+        large_image: /evolving-schema-1.jpg
+        description: >-
+            “Age of building” evolved from a simple year to capture more nuance in the definition of “age”
     
+related:
+    - shared-canvas
+    - fixed-schema
 ---
 
 By design a collaborative maintenance project involves a community of contributors and users. As a steward of a collaborative project you may control over what data can be collected in a project. Changes to the scope of your project should involve the community so that you are transparent about how changes about when, why and how changes will be made.
@@ -24,4 +33,4 @@ Test your updated data model with users and be prepared to adapt based on feedba
 
 Be sure to clearly communicate when any planned changes will be applied.
 
-Depending on how you schema evolves, you may need to make bulk changes to existing data to fix or improve it.
+Depending on how your schema evolves, you may need to make bulk changes to existing data to fix or improve it.

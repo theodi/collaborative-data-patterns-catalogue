@@ -10,30 +10,26 @@ solution: >-
     Introduce game design elements as features within the project website, as a means to motivate regular engagement with the project.
 examples:
     -
-        title: eBird example 1
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
+        title: "eBird"
+        thumbnail: /gamify-contributions-1.jpg
+        large_image: /gamify-contributions-1.jpg
+        description: >-
+            An example of recognising top contributors
     -
-        title: eBird example 2
-        thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2
+        title: "Mozilla Voice"
+        thumbnail: /gamify-contributions-2.jpg
+        large_image: /gamify-contributions-2.jpg
+        description: >-
+            Setting personal goals
     -
-        title: Zooniverse
-        thumbnail: https://wheretheimageswilllive.com/3
-        large_image: https://wheretheimageswilllive/3
-    -
-        title: Mozilla Voice example 1
-        thumbnail: https://wheretheimageswilllive.com/4
-        large_image: https://wheretheimageswilllive/4
-    -
-        title: Mozilla Voice example 2
-        thumbnail: https://wheretheimageswilllive.com/5
-        large_image: https://wheretheimageswilllive/5
-    -
-        title: Discogs
-        thumbnail: https://wheretheimageswilllive.com/6
-        large_image: https://wheretheimageswilllive/6
+        title: "Discogs"
+        thumbnail: /gamify-contributions-3.jpg
+        large_image: /gamify-contributions-3.jpg
+        description: >-
+            Help contributors put their contributions into perspective
     
+related:
+    - organise-campaigns
 ---
 
 There are a variety of ways to motivate contributors to contribute to a project. 

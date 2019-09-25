@@ -6,10 +6,20 @@ description: >-
     A contributor may want to add a new record but may not have access to all of the information required to create a complete record.
 context: >-
     Requiring contributors to complete all fields may discourage contributions if they don’t have access to all of the necessary data. If forced to complete all fields, users may submit inaccurate data.
-solution: |-
+solution: |
     Allow contributors to create partial records which may be improved by other contributors at a later time.
 examples:
+    -
+        title: "Open Plaques"
+        thumbnail: /accept-incomplete-records-1.jpg
+        large_image: /accept-incomplete-records-1.jpg
+        description: >-
+            The contributor is reassured that they may leave fields blank, and they may indicate that the inscription is not yet complete
     
+related:
+    - draft-changes
+    - suggested-edits
+    - essential-preparation
 ---
 
 Databases can still be valuable with incomplete records. A catalogue that contains a skeleton record for each item is still useful as it captures that the item exists, even if the full details have not yet been captured.

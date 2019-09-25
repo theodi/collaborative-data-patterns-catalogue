@@ -6,24 +6,28 @@ description: >-
     New project contributors may be unfamiliar with some of the language used and be unsure of how to use the tools. This can make it difficult to make good-quality contributions. 
 context: >-
     This may happen when a new contributor is making their initial submissions to the project.
-solution: >-
+solution: |
     Introduce important terminology and policies early on, and ensure you explain the project and how to make high-quality contributions.
 examples:
     -
-        title: See these examples
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
+        title: "ISFDB"
+        thumbnail: /onboarding-process-1.jpg
+        large_image: /onboarding-process-1.jpg
         description: >-
-            [https://www.useronboard.com/user-onboarding-teardowns/](https://www.useronboard.com/user-onboarding-teardowns/)
+            A friendly introduction on the [Getting Started page](http://www.isfdb.org/wiki/index.php/Help:Getting_Started)
     -
-        title: OSM how to recap
-        thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2
+        title: "OpenStreetMap"
+        thumbnail: /onboarding-process-2.jpg
+        large_image: /onboarding-process-2.jpg
     -
-        title: HOT OSM 2 minute video tutorials
-        thumbnail: https://wheretheimageswilllive.com/3
-        large_image: https://wheretheimageswilllive/3
+        title: "Humanitarian OpenStreetMap Team"
+        thumbnail: /onboarding-process-3.jpg
+        large_image: /onboarding-process-3.jpg
+        description: >-
+            Two-minute tutorial videos explain functionality and introduce language
     
+related:
+    - learning-curve
 ---
 
 Participating in a new project can be a complicated task and requires learning and understanding new vocabulary and tools. Providing a clear set-up process, and helping contributors learn as they go will reduce mistakes and frustration, and improve quality. In turn this may increase enthusiasm and motivation to contribute effectively.
@@ -46,4 +50,4 @@ The method will depend on your project, the complexity of your topic, and the ty
 
 If you do not want to produce something as detailed as a tutorial, wizard or step-by-step guide, you can use inline methods such as tooltips, clear labelling and navigation to explain concepts to first-time contributors.
 
-Different audiences will need varying levels of guidance for their first contributions. For example, if your project only relies on expert contributors within one topic, there might be no requirement to explain terminology as much. If your project relies on an open participation, contributors will need to be taken through the steps of a contribution, learning new vocabulary as they go.
+Different audiences will need varying levels of guidance for their first contributions. For example, if your project only relies on expert contributors within one topic, there might be no requirement to explain terminology as carefully. If your project relies on an open participation, contributors will need to be taken through the steps of a contribution, learning new vocabulary as they go.

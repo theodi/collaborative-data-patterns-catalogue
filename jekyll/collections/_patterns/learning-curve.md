@@ -6,18 +6,15 @@ description: >-
     Contributors may not feel confident about successfully participating in your project, especially if they believe that they need some expert knowledge in order to contribute.
 context: >-
     Potential contributors are considering joining the project, or have just joined and are trying to understand how to contribute.
-solution: >-
+solution: |
     Signpost contributors to the simple ways they can make useful contributions immediately, which will help develop their understanding of the project as they go. Have a ‘start small’ philosophy and explain this to the contributors.
 examples:
-    -
-        title: eBird
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
-    -
-        title: Discogs
-        thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2
     
+related:
+    - suggested-edits
+    - explain-fields
+    - microtasks
+    - onboarding-process
 ---
 
 Even contributors with little experience can make valuable contributions early on and there are many ways of contributing something valuable to the project.

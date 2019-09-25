@@ -6,10 +6,14 @@ description: >-
     The work to compile and maintain a database that would be useful to a community of organisation is costly and time-intensive
 context: >-
     Many organisations and communities often use the same data to support their products, services and interests. Collecting and maintaining the data can be expensive and work might be duplicated across organisations and communities.
-solution: >-
+solution: |
     Create a collaborative maintenance project that allows contributors to work together to maintain a database that is valuable to them all.
 examples:
     
+related:
+    - collaborative-cataloguing
+    - shared-directory
+    - knowledge-commons
 ---
 
 Increasing access to data, eg by publishing it under an open licence, can allow a wider community of people and organisations to benefit from it. But the effort required to collect and maintain the data is a key consideration in making that access sustainable.

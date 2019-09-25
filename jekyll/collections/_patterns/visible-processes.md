@@ -6,20 +6,26 @@ description: >-
     Trust needs to be built within the community.
 context: >-
     A collaborative data project might involve a large number of users participating in a range of processes, at different times and at different frequencies. This makes it important to clearly communicate and document when and how decisions have been made.
-solution: |-
+solution: |
     Ensure that all decisions that are relevant to the work of your community are clearly documented and shared. 
 
     For example, by keeping track of decisions around applying **[Escalating Blocking](/patterns/managing-conflict/escalating-blocking)**, clearly indicating the results of reviews carried out during **[Moderation](/patterns/editing/moderation)**, and in other aspects of the project governance, eg meeting minutes and other decision-making processes.
 examples:
     -
-        title: OSM
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
+        title: "Wikipedia"
+        thumbnail: /visible-processes-1.jpg
+        large_image: /visible-processes-1.jpg
+        description: >-
+            Incidents of vandalism or problems are reported to Moderators which are discussed in public by the community and decisions recorded
     -
-        title: Wikidata
-        thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2
+        title: "Wikidata"
+        thumbnail: /visible-processes-2.jpg
+        large_image: /visible-processes-2.jpg
+        description: >-
+            Open community discussions can inform future policy
     
+related:
+    - published-policies
 ---
 
 Collaborative maintenance projects involve continual decision making. The decisions include, for example: 

@@ -6,10 +6,14 @@ description: >-
     Contributions need to be encouraged and made available as soon as possible after having been submitted.
 context: >-
     You would like to encourage contributions and it is not overly problematic if the data is incorrect for a short time before it is corrected.
-solution: >-
+solution: |
     Immediately accept changes into the database, after which they may be reviewed either by a project team member or the community of contributors.
 examples:
     
+related:
+    - mandatory-review
+    - visibly-editable
+    - moderation
 ---
 
 In projects that do not require **[Mandatory Review](/patterns/maintaining-quality/mandatory-review)** to ensure data quality, you can instead equip your community with the tools to monitor and review recent changes themselves, for example:  

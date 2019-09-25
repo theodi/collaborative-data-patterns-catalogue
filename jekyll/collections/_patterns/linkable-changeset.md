@@ -6,12 +6,21 @@ description: >-
     How can the activity of contributors be made accessible on the web to allow them to be referenced and discussed on social media or in emails, wiki pages and blog posts?
 context: >-
     The ability to link to changes on the web will allow contributors to use a range of existing communication tools to help them coordinate their work.
-solution: |-
+solution: |
     Implement the **[Changeset](/patterns/data-model/changeset)** pattern which will ensure that you are capturing a unique identifier and useful context for each entry.
 
     Ensure that every entry can be referenced via a unique URL that, when visited, delivers a web page that provides a useful summary of the metadata. Expose those URLs in the system e.g via a **[Track Changes](/patterns/workflow/track-changes)** view.
 examples:
+    -
+        title: "eBird"
+        thumbnail: /linkable-changeset-1.jpg
+        large_image: /linkable-changeset-1.jpg
+        description: >-
+            The page for a single changeset - here called a checklist
     
+related:
+    - track-changes
+    - changeset
 ---
 
 The ability to directly link to and view entries made to the system is a helpful way to allow a community to self-organise using existing web based tools and documentation.

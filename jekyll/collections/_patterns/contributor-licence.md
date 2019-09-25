@@ -6,18 +6,23 @@ description: >-
     The rights to use and share data contributed to your project needs to be understood by everyone.
 context: >-
     The project team needs to be confident that it can share and use data provided by contributors. Contributors need to be clear about the permissions they are giving to reuse the data and content they are providing to the project
-solution: >-
+solution: |
     Publish a contributor licence. Ensure that people agree to the licence before making their first contribution to the project.
 examples:
     -
-        title: Democracy Club
-        thumbnail: https://wheretheimageswilllive.com/1
-        large_image: https://wheretheimageswilllive/1
+        title: "Democracy Club"
+        thumbnail: /contributor-licence-1.jpg
+        large_image: /contributor-licence-1.jpg
     -
-        title: OSM
-        thumbnail: https://wheretheimageswilllive.com/2
-        large_image: https://wheretheimageswilllive/2
+        title: "OpenStreetMap"
+        thumbnail: /contributor-licence-2.jpg
+        large_image: /contributor-licence-2.jpg
+        description: >-
+            OpenStreetMap’s policy described the rights granted by the contributor to the organisation
     
+related:
+    - visible-processes
+    - clear-licencing
 ---
 
 Depending on the scope of your project, users may be submitting data, photographs, audio or other types of content. It should be clear to contributors what permissions they are granting for the project to use the information they provide - this will build trust around how the data and content they provide will be used.

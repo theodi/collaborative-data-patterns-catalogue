@@ -6,10 +6,12 @@ description: >-
     There are gaps in our understanding of some aspect of the world which new data can help to address.
 context: >-
     To build insight and improve decision making, there is a need for new observations about some aspect of the world. For these observations to be useful, they need to have good coverage of the area of interest. But collecting that data might be time consuming or costly for a single organisation to achieve.
-solution: >-
+solution: |
     Create a collaborative project that encourages a community of contributors to submit observations about the area of interest.
 examples:
     
+related:
+    - collaborative-cataloguing
 ---
 
 There is often a need to create better insights about the current state of the world. Data about sightings of animals or reports of weather conditions might inform research, support conservation or raise awareness of environmental issues. Reports of problems in cities and the built environment can help improve decision making and prioritisation of resources.

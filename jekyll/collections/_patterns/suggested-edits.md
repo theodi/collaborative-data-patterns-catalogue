@@ -9,7 +9,19 @@ context: >-
 solution: >-
     When a contributor is viewing a record prompt them to add or review specific fields.
 examples:
+    -
+        title: "Google business listings"
+        thumbnail: /suggested-edits-1.jpg
+        large_image: /suggested-edits-1.jpg
+        description: >-
+            This listing is missing a website address that the user can add immediately
     
+related:
+    - microtasks
+    - visibly-editable
+    - accept-incomplete-records
+    - evolving-schema
+    - organise-campaigns
 ---
 
 Making individual fields and records **[Visibly Editable](/patterns/encouraging-contributions/visibly-editable)** can encourage users to make small contributions, e.g. to fix data that has already been added to a record.

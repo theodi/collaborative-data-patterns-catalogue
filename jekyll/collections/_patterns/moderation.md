@@ -6,10 +6,14 @@ description: >-
     There is a need to ensure that contributions are of good quality.
 context: >-
     Oversight of contributions can help to highlight potential quality issues, areas where policy isn’t being correctly applied, or identify spam or malicious edits. Knowing contributions will be reviewed gives users of your data confidence that the project has made efforts to ensure good quality. Knowing contributions will be reviewed builds confidence in contributors.
-solution: >-
+solution: |
     Design an appropriate process that will provide the project team and your community of contributors with oversight of incoming contributions and the tools necessary to review and act on them.
 examples:
     
+related:
+    - mandatory-review
+    - retrospective-review
+    - changeset
 ---
 
 This pattern is often implemented as a manual review process, in which contributions go into a queue for review by a project team member or an experienced user before they are accepted into the live database.
