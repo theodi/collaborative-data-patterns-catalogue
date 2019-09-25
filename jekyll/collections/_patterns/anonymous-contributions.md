@@ -11,11 +11,11 @@ solution: |
 examples:
     -
         title: "Open Plaques, Common Voice and some Zooniverse projects"
-        thumbnail: /anonymous-contributions-1.jpg
-        large_image: /anonymous-contributions-1.jpg
+        thumbnail: /uploads/patterns/anonymous-contributions-1.jpg
+        large_image: /uploads/patterns/anonymous-contributions-1.jpg
         description: >-
             Allow you to contribute without signing in.  For example [https://www.zooniverse.org/projects/shuebner729/snapshot-molopo](https://www.zooniverse.org/projects/shuebner729/snapshot-molopo)
-    
+
 related:
     - attributable-contributions
 ---

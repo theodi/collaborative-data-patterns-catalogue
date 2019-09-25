@@ -11,11 +11,11 @@ solution: >-
 examples:
     -
         title: "Google business listings"
-        thumbnail: /suggested-edits-1.jpg
-        large_image: /suggested-edits-1.jpg
+        thumbnail: /uploads/patterns/suggested-edits-1.jpg
+        large_image: /uploads/patterns/suggested-edits-1.jpg
         description: >-
             This listing is missing a website address that the user can add immediately
-    
+
 related:
     - microtasks
     - visibly-editable

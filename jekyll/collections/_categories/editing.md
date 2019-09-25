@@ -1,9 +1,9 @@
 ---
 category: editing
 title: Editing
-description: >- 
-      
+description: >-
+
 nav_order: 2
 hero:
-  bg: img/category-heading-editing.png
+  bg: /uploads/heros/category-heading-editing.png
 ---

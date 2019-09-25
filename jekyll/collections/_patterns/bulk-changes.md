@@ -11,11 +11,11 @@ solution: |
 examples:
     -
         title: "Grand Comics Database"
-        thumbnail: /bulk-changes-1.jpg
-        large_image: /bulk-changes-1.jpg
+        thumbnail: /uploads/patterns/bulk-changes-1.jpg
+        large_image: /uploads/patterns/bulk-changes-1.jpg
         description: >-
             Video tutorial for making bulk changes taken from the Comics Database wiki site
-    
+
 related:
     - extendable-tooling
     - marking-as-verified

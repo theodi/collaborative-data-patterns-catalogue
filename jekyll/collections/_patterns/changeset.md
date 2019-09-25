@@ -3,7 +3,7 @@ category: data-model
 title: Changeset
 nav_order: 1
 description: >-
-    Multiple collaborators independently making entries into a database makes it difficult to understand how the dataset reached its current state. 
+    Multiple collaborators independently making entries into a database makes it difficult to understand how the dataset reached its current state.
 context: >-
     When the only view of the dataset is its current state, it can be difficult to understand how, when and why changes have been made by users. For example the reason why an individual entry was made by a user might be unclear. Contributors might be repeatedly editing the same records to fix seemingly incorrect data, or may be making repeated mistakes across their contributions.
 solution: |
@@ -11,23 +11,23 @@ solution: |
 examples:
     -
         title: "OpenStreetMap"
-        thumbnail: /changeset-1.jpg
-        large_image: /changeset-1.jpg
+        thumbnail: /uploads/patterns/changeset-1.jpg
+        large_image: /uploads/patterns/changeset-1.jpg
         description: >-
             Summary of the contents of a changeset
     -
         title: "OSM"
-        thumbnail: /changeset-2.jpg
-        large_image: /changeset-2.jpg
+        thumbnail: /uploads/patterns/changeset-2.jpg
+        large_image: /uploads/patterns/changeset-2.jpg
         description: >-
             The details for a single changeset
     -
         title: "eBird"
-        thumbnail: /changeset-3.jpg
-        large_image: /changeset-3.jpg
+        thumbnail: /uploads/patterns/changeset-3.jpg
+        large_image: /uploads/patterns/changeset-3.jpg
         description: >-
             A single changeset - here called “checklist”
-    
+
 related:
     - track-changes
 ---

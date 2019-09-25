@@ -1,9 +1,9 @@
 ---
 category: encouraging-contributions
 title: Encouraging Contributions
-description: >- 
-      
+description: >-
+
 nav_order: 8
 hero:
-  bg: img/category-heading-encouraging-contributions.png
+  bg: /uploads/heros/category-heading-encouraging-contributions.png
 ---

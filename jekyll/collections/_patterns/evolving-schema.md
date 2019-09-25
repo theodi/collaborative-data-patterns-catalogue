@@ -11,11 +11,11 @@ solution: |
 examples:
     -
         title: "Colouring London"
-        thumbnail: /evolving-schema-1.jpg
-        large_image: /evolving-schema-1.jpg
+        thumbnail: /uploads/patterns/evolving-schema-1.jpg
+        large_image: /uploads/patterns/evolving-schema-1.jpg
         description: >-
             “Age of building” evolved from a simple year to capture more nuance in the definition of “age”
-    
+
 related:
     - shared-canvas
     - fixed-schema

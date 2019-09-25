@@ -11,11 +11,11 @@ solution: |
 examples:
     -
         title: "ISFDB"
-        thumbnail: /marking-as-verified-1.jpg
-        large_image: /marking-as-verified-1.jpg
+        thumbnail: /uploads/patterns/marking-as-verified-1.jpg
+        large_image: /uploads/patterns/marking-as-verified-1.jpg
         description: >-
             Documentation page describing how to verify a publication and how it helps the database
-    
+
 related:
     - submit-evidence
     - bulk-changes

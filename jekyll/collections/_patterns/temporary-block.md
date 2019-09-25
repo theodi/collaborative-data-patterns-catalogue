@@ -7,15 +7,15 @@ description: >-
 context: >-
     A contributor has not adhered to a particular policy and ignored Warning Messages. The nature of the activity means that it requires investigation; or it is felt that the contributor would benefit from a cooling-off period.
 solution: |
-    Temporarily block the contributor’s account. Inform them that their access to the project has been temporarily revoked and outline why that decision has been made. 
+    Temporarily block the contributor’s account. Inform them that their access to the project has been temporarily revoked and outline why that decision has been made.
 examples:
     -
         title: "OpenStreetMap"
-        thumbnail: /temporary-block-1.jpg
-        large_image: /temporary-block-1.jpg
+        thumbnail: /uploads/patterns/temporary-block-1.jpg
+        large_image: /uploads/patterns/temporary-block-1.jpg
         description: >-
             A public warning message to explain reasons for a temporary block
-    
+
 related:
     - published-policies
     - escalating-blocking

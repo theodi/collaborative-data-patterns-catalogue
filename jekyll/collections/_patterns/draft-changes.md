@@ -11,11 +11,11 @@ solution: |
 examples:
     -
         title: "Discogs"
-        thumbnail: /draft-changes-1.jpg
-        large_image: /draft-changes-1.jpg
+        thumbnail: /uploads/patterns/draft-changes-1.jpg
+        large_image: /uploads/patterns/draft-changes-1.jpg
         description: >-
             Click the button to save a draft copy to return to later
-    
+
 related:
     - accept-incomplete-data
 ---

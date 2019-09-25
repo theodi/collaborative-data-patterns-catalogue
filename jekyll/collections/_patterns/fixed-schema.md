@@ -11,11 +11,11 @@ solution: |
 examples:
     -
         title: "Open Library"
-        thumbnail: /fixed-schema-1.jpg
-        large_image: /fixed-schema-1.jpg
+        thumbnail: /uploads/patterns/fixed-schema-1.jpg
+        large_image: /uploads/patterns/fixed-schema-1.jpg
         description: >-
             The form to add a new book to the database according to its fixed schema
-    
+
 related:
     - shared-canvas
     - evolving-schema

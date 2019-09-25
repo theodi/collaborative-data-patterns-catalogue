@@ -5,25 +5,25 @@ nav_order: 1
 description: >-
     Some records need closer attention to help check for potential quality issues.
 context: >-
-    Your project may have a large number of contributions, but limited capacity to review them all. Your project does not require **[Mandatory Review](/patterns/maintaining-quality/mandatory-review)**, but you need a way of bringing potential problems to a reviewer’s or the community’s attention. 
+    Your project may have a large number of contributions, but limited capacity to review them all. Your project does not require **[Mandatory Review](/patterns/maintaining-quality/mandatory-review)**, but you need a way of bringing potential problems to a reviewer’s or the community’s attention.
 solution: |
-    Allow **[Changesets](/patterns/data-model/changeset)** and records to be flagged as needing attention to encourage **[Retrospective Review](/patterns/maintaining-quality/retrospective-review)** by the community. 
+    Allow **[Changesets](/patterns/data-model/changeset)** and records to be flagged as needing attention to encourage **[Retrospective Review](/patterns/maintaining-quality/retrospective-review)** by the community.
 
     Provide a means for users to quickly identify those changesets or records that have been flagged, e.g. by providing a list or by clearly displaying a status indicator against a record.
 examples:
     -
         title: "eBird filter system"
-        thumbnail: /flag-for-review-1.jpg
-        large_image: /flag-for-review-1.jpg
+        thumbnail: /uploads/patterns/flag-for-review-1.jpg
+        large_image: /uploads/patterns/flag-for-review-1.jpg
         description: >-
             Filter system to set thresholds which will flag certain contributions for review
     -
         title: "eBird moderator’s view"
-        thumbnail: /flag-for-review-2.jpg
-        large_image: /flag-for-review-2.jpg
+        thumbnail: /uploads/patterns/flag-for-review-2.jpg
+        large_image: /uploads/patterns/flag-for-review-2.jpg
         description: >-
             Moderators view for contributions that have been flagged for review
-    
+
 related:
     - moderation
 ---

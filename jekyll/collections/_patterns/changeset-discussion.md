@@ -11,17 +11,17 @@ solution: |
 examples:
     -
         title: "ISFDB"
-        thumbnail: /changeset-discussion-1.jpg
-        large_image: /changeset-discussion-1.jpg
+        thumbnail: /uploads/patterns/changeset-discussion-1.jpg
+        large_image: /uploads/patterns/changeset-discussion-1.jpg
         description: >-
             A single comment recorded by a moderator against a changeset to explain why it was rejected
     -
         title: "OpenStreetMap"
-        thumbnail: /changeset-discussion-2.jpg
-        large_image: /changeset-discussion-2.jpg
+        thumbnail: /uploads/patterns/changeset-discussion-2.jpg
+        large_image: /uploads/patterns/changeset-discussion-2.jpg
         description: >-
             A discussion in a **[Linkable Changeset](/patterns/workflow/linkable-changeset)**
-    
+
 related:
     - changeset
     - track-changes

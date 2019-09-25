@@ -11,17 +11,17 @@ solution: |
 examples:
     -
         title: "Wikipedia"
-        thumbnail: /locked-record-1.jpg
-        large_image: /locked-record-1.jpg
+        thumbnail: /uploads/patterns/locked-record-1.jpg
+        large_image: /uploads/patterns/locked-record-1.jpg
         description: >-
             Wikipedia’s own list of protected pages
     -
         title: "Democracy Club"
-        thumbnail: /locked-record-2.jpg
-        large_image: /locked-record-2.jpg
+        thumbnail: /uploads/patterns/locked-record-2.jpg
+        large_image: /uploads/patterns/locked-record-2.jpg
         description: >-
             Completed campaigns are locked once validated to prevent further edits introducing errors
-    
+
 related:
     - moderation
 ---

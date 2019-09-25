@@ -11,21 +11,21 @@ solution: |
 examples:
     -
         title: "Humanitarian OpenStreetMap tools"
-        thumbnail: /extendable-tooling-1.jpg
-        large_image: /extendable-tooling-1.jpg
+        thumbnail: /uploads/patterns/extendable-tooling-1.jpg
+        large_image: /uploads/patterns/extendable-tooling-1.jpg
         description: >-
             Tools created by the community
     -
         title: "MusicBrainz tools"
-        thumbnail: /extendable-tooling-2.jpg
-        large_image: /extendable-tooling-2.jpg
+        thumbnail: /uploads/patterns/extendable-tooling-2.jpg
+        large_image: /uploads/patterns/extendable-tooling-2.jpg
     -
         title: "Wikidata"
-        thumbnail: /extendable-tooling-3.jpg
-        large_image: /extendable-tooling-3.jpg
+        thumbnail: /uploads/patterns/extendable-tooling-3.jpg
+        large_image: /uploads/patterns/extendable-tooling-3.jpg
         description: >-
             Tools organised by task
-    
+
 related:
     - changeset
     - moderation

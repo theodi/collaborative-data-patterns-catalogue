@@ -5,23 +5,23 @@ nav_order: 1
 description: >-
     Collaboration across distributed groups requires clarity around rules, policies and procedures.
 context: >-
-    Collaborative projects involve a variety of policies describing the project’s governance. If these are not clearly documented, there may be a lack of trust around how data is being accessed, used and shared, and around how key processes such as moderation and disagreements are handled. 
+    Collaborative projects involve a variety of policies describing the project’s governance. If these are not clearly documented, there may be a lack of trust around how data is being accessed, used and shared, and around how key processes such as moderation and disagreements are handled.
 solution: |
     Publish clear policies that describe all aspects of your project’s governance. Ensure these can be easily found on the project website, and are referenced during key processes.
 examples:
     -
         title: "Wikipedia"
-        thumbnail: /published-policies-1.jpg
-        large_image: /published-policies-1.jpg
+        thumbnail: /uploads/patterns/published-policies-1.jpg
+        large_image: /uploads/patterns/published-policies-1.jpg
         description: >-
             Wikipedia’s extensive policies are developed and documented by the community
     -
         title: "ISFDB"
-        thumbnail: /published-policies-2.jpg
-        large_image: /published-policies-2.jpg
+        thumbnail: /uploads/patterns/published-policies-2.jpg
+        large_image: /uploads/patterns/published-policies-2.jpg
         description: >-
             Highlighting the policy on the main documentation page brings the project operations to the attention of those looking for guidance
-    
+
 related:
     - visible-processes
 ---

@@ -5,17 +5,17 @@ nav_order: 1
 description: >-
     Contributors may struggle to see the value in participating in the project.
 context: >-
-    Contributors may not see short-term value to themselves or their organisation in contributing. Creating a useful aggregate dataset may take time and the value of it may benefit others more than the individual contributors. 
+    Contributors may not see short-term value to themselves or their organisation in contributing. Creating a useful aggregate dataset may take time and the value of it may benefit others more than the individual contributors.
 solution: >-
-    Provide ways for the project to deliver immediate value for individual contributors if they add or improve data. 
+    Provide ways for the project to deliver immediate value for individual contributors if they add or improve data.
 examples:
     -
         title: "eBird"
-        thumbnail: /deliver-individual-value-1.jpg
-        large_image: /deliver-individual-value-1.jpg
+        thumbnail: /uploads/patterns/deliver-individual-value-1.jpg
+        large_image: /uploads/patterns/deliver-individual-value-1.jpg
         description: >-
             eBird’s “About” page describes the benefits to both individual bird watchers and the scientific community
-    
+
 related:
     - know-your-community
     - gamify-contributions
@@ -35,4 +35,4 @@ Projects that involve contributors from organisations could provide tools and AP
 
 If you **[Know Your Community](/patterns/community-management/know-your-community)** it will be easier to understand their needs, goals and interests, which will help you to create these features or tools. An **[Evolving Schema](/patterns/data-model/evolving-schema) **could help you to collect additional data that will provide value to individual contributors and not just the project as a whole.
 
-Another way to provide value to individual contributors is to **[Gamify Contributions](/patterns/encouraging-contributions/gamify-contributions)**. 
+Another way to provide value to individual contributors is to **[Gamify Contributions](/patterns/encouraging-contributions/gamify-contributions)**.

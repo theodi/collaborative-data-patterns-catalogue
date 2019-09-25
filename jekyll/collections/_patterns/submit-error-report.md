@@ -11,23 +11,23 @@ solution: |
 examples:
     -
         title: "Rebrickable"
-        thumbnail: /submit-error-report-1.jpg
-        large_image: /submit-error-report-1.jpg
+        thumbnail: /uploads/patterns/submit-error-report-1.jpg
+        large_image: /uploads/patterns/submit-error-report-1.jpg
         description: >-
             Contributors can either leave a message in the forum, or click a button on the page
     -
         title: "Google business listings"
-        thumbnail: /submit-error-report-2.jpg
-        large_image: /submit-error-report-2.jpg
+        thumbnail: /uploads/patterns/submit-error-report-2.jpg
+        large_image: /uploads/patterns/submit-error-report-2.jpg
         description: >-
             Contributors can suggest edits by clicking a link directly in the record
-    
+
 related:
     - flag-for-review
     - retrospective-review
 ---
 
-All databases include errors. Collaborative maintenance projects are designed to allow contributors to quickly fix errors or add missing data. 
+All databases include errors. Collaborative maintenance projects are designed to allow contributors to quickly fix errors or add missing data.
 
 But sometimes the person identifying an error may not be able to immediately fix it. This might be for a variety of reasons, including:
 
@@ -35,11 +35,11 @@ But sometimes the person identifying an error may not be able to immediately fix
 * they might not have the necessary correct data to hand, or feel confident in making the fix themselves
 * the record(s) to be fixed are converted to **[Locked Records](/patterns/maintaining-quality/locked-record)** and so editing is limited to people with **[Clearly Defined Roles](/patterns/project-governance/clearly-defined-roles)**
 
-Some projects might also be uncomfortable with implementing a fully collaborative system for maintaining its data. For example, records might only be editable by the core project team. But the project may still benefit from sharing the work of identifying problems across the community of data users. 
+Some projects might also be uncomfortable with implementing a fully collaborative system for maintaining its data. For example, records might only be editable by the core project team. But the project may still benefit from sharing the work of identifying problems across the community of data users.
 
-Error reporting is the most basic way to introduce collaborative maintenance into a project. Allowing users to inform you about errors is the simplest way of getting value from sharing data with a community. 
+Error reporting is the most basic way to introduce collaborative maintenance into a project. Allowing users to inform you about errors is the simplest way of getting value from sharing data with a community.
 
-There are a variety of ways to implement this pattern. 
+There are a variety of ways to implement this pattern.
 
 When an error is reported the project might simply **[Flag For Review](/patterns/maintaining-quality/flag-for-review)** the record or **[Changeset](/patterns/data-model/changeset)** that contains the error. This can be useful to indicates that there is a problem, but doesn’t capture much detail.
 

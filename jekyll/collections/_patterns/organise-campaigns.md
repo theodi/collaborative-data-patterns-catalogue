@@ -5,31 +5,31 @@ nav_order: 1
 description: >-
     Contributors’ attention needs to be focused on a milestone or a specific set of tasks.
 context: >-
-    Focusing the attention of the project on shorter-term goals can help build engagement, recruit new users or increase participation. It can also be a useful way to focus attention on smaller goals, such as increasing coverage, fixing errors or capturing new types of data 
+    Focusing the attention of the project on shorter-term goals can help build engagement, recruit new users or increase participation. It can also be a useful way to focus attention on smaller goals, such as increasing coverage, fixing errors or capturing new types of data
 solution: |-
     Ensure you have a set of clearly defined, well-documented tasks for the community to achieve. Create a **[Progress Indicator](/patterns/encouraging-contributions/progress-indicator)** to help you and the community to monitor progress.
 
-    Organise and promote a campaign asking the community to work together to complete these tasks. 
+    Organise and promote a campaign asking the community to work together to complete these tasks.
 examples:
     -
         title: "HOT OSM"
-        thumbnail: /organise-campaigns-1.jpg
-        large_image: /organise-campaigns-1.jpg
+        thumbnail: /uploads/patterns/organise-campaigns-1.jpg
+        large_image: /uploads/patterns/organise-campaigns-1.jpg
         description: >-
             Mapping campaign against malaria
     -
         title: "Democracy Club"
-        thumbnail: /organise-campaigns-2.jpg
-        large_image: /organise-campaigns-2.jpg
+        thumbnail: /uploads/patterns/organise-campaigns-2.jpg
+        large_image: /uploads/patterns/organise-campaigns-2.jpg
         description: >-
             Here campaigns are called “quests”
     -
         title: "MissingMaps Event"
-        thumbnail: /organise-campaigns-3.jpg
-        large_image: /organise-campaigns-3.jpg
+        thumbnail: /uploads/patterns/organise-campaigns-3.jpg
+        large_image: /uploads/patterns/organise-campaigns-3.jpg
         description: >-
             Campaigns can be in person, helping to build your community
-    
+
 related:
     - encourage-interest-groups
     - build-a-rhythm

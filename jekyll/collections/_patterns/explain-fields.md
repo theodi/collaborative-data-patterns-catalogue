@@ -10,24 +10,24 @@ solution: |
     Because you do not know what your contributors might and might not know, give them all the help they could need as they are making a contribution.
 
     * Tooltips
-    * Short reminders 
+    * Short reminders
     * Terms explanations
     * Step-by-step guide
     * Visual examples
 examples:
     -
         title: "Discogs"
-        thumbnail: /explain-fields-1.jpg
-        large_image: /explain-fields-1.jpg
+        thumbnail: /uploads/patterns/explain-fields-1.jpg
+        large_image: /uploads/patterns/explain-fields-1.jpg
         description: >-
             Explanations for fields are displayed when the contributor clicks the question mark next to the field name.  This technique is called a ‘tooltip’
     -
         title: "Open Library"
-        thumbnail: /explain-fields-2.jpg
-        large_image: /explain-fields-2.jpg
+        thumbnail: /uploads/patterns/explain-fields-2.jpg
+        large_image: /uploads/patterns/explain-fields-2.jpg
         description: >-
             Reassuring advice and examples are displayed with the field names
-    
+
 related:
     - learning-curve
 ---

@@ -11,17 +11,17 @@ solution: |
 examples:
     -
         title: "OpenStreetMap"
-        thumbnail: /shared-canvas-1.jpg
-        large_image: /shared-canvas-1.jpg
+        thumbnail: /uploads/patterns/shared-canvas-1.jpg
+        large_image: /uploads/patterns/shared-canvas-1.jpg
         description: >-
             Description of proposal process to add a new features or tags
-    
+
 related:
     - evolving-schema
     - fixed-schema
 ---
 
-Allowing a community to take control over an **[Evolving Schema](/patterns/data-model/evolving-schema)** can help to distribute decision making about what data should or shouldn’t be included in a project to the community of contributors and users. This can help a project meet a wider range of user needs. For example allowing a local community add information that is useful for their region or for their sector. 
+Allowing a community to take control over an **[Evolving Schema](/patterns/data-model/evolving-schema)** can help to distribute decision making about what data should or shouldn’t be included in a project to the community of contributors and users. This can help a project meet a wider range of user needs. For example allowing a local community add information that is useful for their region or for their sector.
 
 Working fully in the open, with this type of **[Evolving Schema](/patterns/data-model/evolving-schema)** creates additional challenges. The lack of a **[Fixed Schema](/patterns/data-model/fixed-schema)** may be seen as a downside by some users who would like a single, consistent view of a dataset. But a more collaborative approach might help keep a project alive by encouraging broader participation. Providing tools to enable **Exportable Data** might help mitigate concerns by allowing users to focus on just the data they need.
 

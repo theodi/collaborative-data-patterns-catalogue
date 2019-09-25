@@ -15,23 +15,23 @@ solution: |
 examples:
     -
         title: "Humanitarian OpenStreetMap"
-        thumbnail: /follow-your-users-1.jpg
-        large_image: /follow-your-users-1.jpg
+        thumbnail: /uploads/patterns/follow-your-users-1.jpg
+        large_image: /uploads/patterns/follow-your-users-1.jpg
         description: >-
             Contributors can track a project or campaign’s progress using online tracking tools such as Trello
     -
         title: "Open Food Facts"
-        thumbnail: /follow-your-users-2.jpg
-        large_image: /follow-your-users-2.jpg
+        thumbnail: /uploads/patterns/follow-your-users-2.jpg
+        large_image: /uploads/patterns/follow-your-users-2.jpg
         description: >-
             Contributors can leave suggestions and hear about new developments on Facebook
     -
         title: "OpenStreetMap"
-        thumbnail: /follow-your-users-3.jpg
-        large_image: /follow-your-users-3.jpg
+        thumbnail: /uploads/patterns/follow-your-users-3.jpg
+        large_image: /uploads/patterns/follow-your-users-3.jpg
         description: >-
             Reddit is a popular site for communities
-    
+
 related:
     - know-your-community
 ---

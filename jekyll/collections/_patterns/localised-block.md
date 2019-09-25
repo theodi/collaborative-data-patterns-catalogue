@@ -11,11 +11,11 @@ solution: |
 examples:
     -
         title: "Wikipedia"
-        thumbnail: /localised-block-1.jpg
-        large_image: /localised-block-1.jpg
+        thumbnail: /uploads/patterns/localised-block-1.jpg
+        large_image: /uploads/patterns/localised-block-1.jpg
         description: >-
             [Public list](https://en.wikipedia.org/wiki/Wikipedia:Editing_restrictions/Placed_by_the_Wikipedia_community) of topic ban discussions and decisions
-    
+
 related:
     - published-policies
     - escalating-blocking

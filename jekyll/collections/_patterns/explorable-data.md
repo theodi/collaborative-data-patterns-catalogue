@@ -11,17 +11,17 @@ solution: >-
 examples:
     -
         title: "OpenStreetMap"
-        thumbnail: /explorable-data-1.jpg
-        large_image: /explorable-data-1.jpg
+        thumbnail: /uploads/patterns/explorable-data-1.jpg
+        large_image: /uploads/patterns/explorable-data-1.jpg
         description: >-
             A contributor can see that the roads on the north side of this railway line are missing building outlines.
     -
         title: "Democracy Club"
-        thumbnail: /explorable-data-2.jpg
-        large_image: /explorable-data-2.jpg
+        thumbnail: /uploads/patterns/explorable-data-2.jpg
+        large_image: /uploads/patterns/explorable-data-2.jpg
         description: >-
             A shared resource such as a spreadsheet makes it clear where the gaps are
-    
+
 related:
     - visibly-editable
     - suggested-edits

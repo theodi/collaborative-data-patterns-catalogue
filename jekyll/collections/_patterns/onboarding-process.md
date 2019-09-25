@@ -3,7 +3,7 @@ category: community-management
 title: Onboarding Process
 nav_order: 1
 description: >-
-    New project contributors may be unfamiliar with some of the language used and be unsure of how to use the tools. This can make it difficult to make good-quality contributions. 
+    New project contributors may be unfamiliar with some of the language used and be unsure of how to use the tools. This can make it difficult to make good-quality contributions.
 context: >-
     This may happen when a new contributor is making their initial submissions to the project.
 solution: |
@@ -11,21 +11,21 @@ solution: |
 examples:
     -
         title: "ISFDB"
-        thumbnail: /onboarding-process-1.jpg
-        large_image: /onboarding-process-1.jpg
+        thumbnail: /uploads/patterns/onboarding-process-1.jpg
+        large_image: /uploads/patterns/onboarding-process-1.jpg
         description: >-
             A friendly introduction on the [Getting Started page](http://www.isfdb.org/wiki/index.php/Help:Getting_Started)
     -
         title: "OpenStreetMap"
-        thumbnail: /onboarding-process-2.jpg
-        large_image: /onboarding-process-2.jpg
+        thumbnail: /uploads/patterns/onboarding-process-2.jpg
+        large_image: /uploads/patterns/onboarding-process-2.jpg
     -
         title: "Humanitarian OpenStreetMap Team"
-        thumbnail: /onboarding-process-3.jpg
-        large_image: /onboarding-process-3.jpg
+        thumbnail: /uploads/patterns/onboarding-process-3.jpg
+        large_image: /uploads/patterns/onboarding-process-3.jpg
         description: >-
             Two-minute tutorial videos explain functionality and introduce language
-    
+
 related:
     - learning-curve
 ---
@@ -38,10 +38,10 @@ There are many ways you could guide your contributor:
 * Create step-by-step guides or wizards taking the contributor through the different steps of the process
 * Review their first contribution
 * Publish tutorial videos
-* Provide a short checklist 
+* Provide a short checklist
 * Signpost useful policies
 * Anticipate on how long an entry might take
-* Give information upfront about what will be needed when 
+* Give information upfront about what will be needed when
 * Highlight keyboard shortcuts
 * Tips and tricks
 * Examples and further reading pointers

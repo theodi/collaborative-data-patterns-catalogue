@@ -13,11 +13,11 @@ solution: |
 examples:
     -
         title: "eBird"
-        thumbnail: /linkable-changeset-1.jpg
-        large_image: /linkable-changeset-1.jpg
+        thumbnail: /uploads/patterns/linkable-changeset-1.jpg
+        large_image: /uploads/patterns/linkable-changeset-1.jpg
         description: >-
             The page for a single changeset - here called a checklist
-    
+
 related:
     - track-changes
     - changeset

@@ -3,7 +3,7 @@ layout: content-page
 title: Glossary
 hero:
   show_breadcrumb: true
-  bg: img/homepage.png
+  bg: /uploads/heros/homepage.png
 description: 'To ensure we cover a range of project styles, tools and methodologies, we use the following general terms across this website.'
 footer:
   items:
@@ -19,9 +19,9 @@ footer:
 
 This website is intended to support the design of projects that involve collaboratively maintaining data. Those projects might involve the collection, management and use of different types of data. Users might maintain that data using a variety of tools.
 
-The projects might also be built using a range of different technologies and use different ways to store the data that is being maintained. For example they might use conventional relational databases, graph databases or other platforms. 
+The projects might also be built using a range of different technologies and use different ways to store the data that is being maintained. For example they might use conventional relational databases, graph databases or other platforms.
 
-To ensure we cover this range of styles, tools and methodologies, we use the following general terms across this website. 
+To ensure we cover this range of styles, tools and methodologies, we use the following general terms across this website.
 
 **Change** (or **Changes**)
 
@@ -69,8 +69,8 @@ The specific types of records and fields that are managed by a project. For exam
 
 **Topic**
 
-A set of related records. 
+A set of related records.
 
 **Users**
 
-The end users of the product or service. We differentiate between users, who are the data consumers, and _contributors_, who are actively involved in a project. 
+The end users of the product or service. We differentiate between users, who are the data consumers, and _contributors_, who are actively involved in a project.

@@ -11,29 +11,29 @@ solution: |
 examples:
     -
         title: "eBird - Add evidence"
-        thumbnail: /proof-of-witness-1.jpg
-        large_image: /proof-of-witness-1.jpg
+        thumbnail: /uploads/patterns/proof-of-witness-1.jpg
+        large_image: /uploads/patterns/proof-of-witness-1.jpg
         description: >-
             Click the “Add Media” button to add supporting evidence
     -
         title: "eBird - Changeset view"
-        thumbnail: /proof-of-witness-2.jpg
-        large_image: /proof-of-witness-2.jpg
+        thumbnail: /uploads/patterns/proof-of-witness-2.jpg
+        large_image: /uploads/patterns/proof-of-witness-2.jpg
         description: >-
             The moderator can review the evidence and accept the changeset
-    
+
 related:
     - submit-evidence
     - cite-sources
     - flag-for-review
 ---
 
-When contributors are surveying the real-world or recording observations of events, animals or potholes it can be important to have some evidence of the observation. 
+When contributors are surveying the real-world or recording observations of events, animals or potholes it can be important to have some evidence of the observation.
 
-Evidence allows other contributors to validate that the observations actually happened, and that the original contributor has correctly catalogued their observation. 
+Evidence allows other contributors to validate that the observations actually happened, and that the original contributor has correctly catalogued their observation.
 
-The most common example of providing proof is by including a photograph. Photographs are useful because they might also include other useful data, e.g. a GPS location or timestamp, that simplifies the work of both the contributor and subsequent reviewers. It may also be possible to later extract more information from the photograph. 
+The most common example of providing proof is by including a photograph. Photographs are useful because they might also include other useful data, e.g. a GPS location or timestamp, that simplifies the work of both the contributor and subsequent reviewers. It may also be possible to later extract more information from the photograph.
 
-There are other ways to supply proof of witness. For example the tool for making a contribution might, with the contributors permission, log their current GPS coordinates to confirm where the observation took place. 
+There are other ways to supply proof of witness. For example the tool for making a contribution might, with the contributors permission, log their current GPS coordinates to confirm where the observation took place.
 
-It is important to be aware that asking contributors to provide additional evidence might discourage contributions. It may be preferable to **[Accept Incomplete Data](/patterns/data-model/accept-incomplete-records)** and simply encourage users to provide evidence rather than require it. Flagging those records that are supported by evidence and those that aren’t will allow data users to decide which data they trust. Providing a good, well-tested set of tools for contributions might also simply the process of providing proof. 
+It is important to be aware that asking contributors to provide additional evidence might discourage contributions. It may be preferable to **[Accept Incomplete Data](/patterns/data-model/accept-incomplete-records)** and simply encourage users to provide evidence rather than require it. Flagging those records that are supported by evidence and those that aren’t will allow data users to decide which data they trust. Providing a good, well-tested set of tools for contributions might also simply the process of providing proof.

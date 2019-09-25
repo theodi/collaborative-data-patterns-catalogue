@@ -1,9 +1,9 @@
 ---
 category: community-management
 title: Community Management
-description: >- 
-      
+description: >-
+
 nav_order: 7
 hero:
-  bg: img/category-heading-community-management.png
+  bg: /uploads/heros/category-heading-community-management.png
 ---

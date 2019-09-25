@@ -11,17 +11,17 @@ solution: |
 examples:
     -
         title: "Open Library"
-        thumbnail: /track-changes-1.jpg
-        large_image: /track-changes-1.jpg
+        thumbnail: /uploads/patterns/track-changes-1.jpg
+        large_image: /uploads/patterns/track-changes-1.jpg
         description: >-
             Displaying the history of changes to a single record (in this case a book)
     -
         title: "Wikidata"
-        thumbnail: /track-changes-2.jpg
-        large_image: /track-changes-2.jpg
+        thumbnail: /uploads/patterns/track-changes-2.jpg
+        large_image: /uploads/patterns/track-changes-2.jpg
         description: >-
             A list of recent changes made to the whole database
-    
+
 related:
     - changeset
 ---

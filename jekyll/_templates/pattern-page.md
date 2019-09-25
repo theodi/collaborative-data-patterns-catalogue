@@ -10,36 +10,36 @@ category: editing
 nav_order: 2
 
 # The lede text for this page (optional)
-description: >- 
-      
+description: >-
+
 # The problem text for this pattern
-problem: >- 
-      
+problem: >-
+
 # The context text for this pattern
-context: >- 
-      
+context: >-
+
 # Examples of solutions for this pattern
 examples:
     -
         # Example title
         title: Example 1
-        # Example thumbnail image
-        thumbnail: https://source.unsplash.com/300x400
-        # Example large image, shown in modal
-        large_image: https://source.unsplash.com/900x1200
+        # Example thumbnail image, relative to jekyll/uploads directory
+        thumbnail: /uploads/examples/thumb.jpg
+        # Example large image, shown in modal, relative to jekyll/uploads directory
+        large_image: /uploads/examples/large.jpg
         # Example description (optional)
         description: >-
             Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur.
     -
         title: Example 2
-        thumbnail: https://source.unsplash.com/400x600
-        large_image: https://source.unsplash.com/800x1200
+        thumbnail: /uploads/examples/thumb.jpg
+        large_image: /uploads/examples/large.jpg
         description: >-
             Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas faucibus mollis interdum. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean lacinia bibendum nulla sed consectetur.
     -
         title: Example with no description
-        thumbnail: https://source.unsplash.com/800x600
-        large_image: https://source.unsplash.com/1600x1200
+        thumbnail: /uploads/examples/thumb.jpg
+        large_image: /uploads/examples/large.jpg
 # Related patterns, use the slug only
 related:
     - linkable-changeset

@@ -7,15 +7,15 @@ description: >-
 context: >-
     A contributor is not adhering to a particular policy for the first time, and is not under any other sanction such as a block or a ban. It could also be that it is only a minor issue.
 solution: |
-    Send warning messages to contributors whose behaviour is not inline with the project’s **[Published Policies](/patterns/project-governance/published-policies)**. Contact them directly via email or another standard communication method as a private/direct message. 
+    Send warning messages to contributors whose behaviour is not inline with the project’s **[Published Policies](/patterns/project-governance/published-policies)**. Contact them directly via email or another standard communication method as a private/direct message.
 examples:
     -
         title: "Wikipedia"
-        thumbnail: /warning-messages-1.jpg
-        large_image: /warning-messages-1.jpg
+        thumbnail: /uploads/patterns/warning-messages-1.jpg
+        large_image: /uploads/patterns/warning-messages-1.jpg
         description: >-
             List of warning message [templates](https://en.wikipedia.org/wiki/Wikipedia:Template_messages/User_talk_namespace)
-    
+
 related:
     - published-policies
     - escalating-blocking

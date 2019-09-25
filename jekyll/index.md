@@ -7,11 +7,11 @@ hero:
     items:
       - about/index
       - aboutpatterns/index
-      - workedexample/index      
+      - workedexample/index
       - contribute/index
-  bg: img/homepage.png
-description: >- 
-    This guidebook helps people design and run projects that involve the collaborative 
+  bg: /uploads/heros/homepage.png
+description: >-
+    This guidebook helps people design and run projects that involve the collaborative
     maintenance of data
 
 sections:

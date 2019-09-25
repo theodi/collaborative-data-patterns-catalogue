@@ -11,28 +11,28 @@ solution: >-
 examples:
     -
         title: "eBird"
-        thumbnail: /gamify-contributions-1.jpg
-        large_image: /gamify-contributions-1.jpg
+        thumbnail: /uploads/patterns/gamify-contributions-1.jpg
+        large_image: /uploads/patterns/gamify-contributions-1.jpg
         description: >-
             An example of recognising top contributors
     -
         title: "Mozilla Voice"
-        thumbnail: /gamify-contributions-2.jpg
-        large_image: /gamify-contributions-2.jpg
+        thumbnail: /uploads/patterns/gamify-contributions-2.jpg
+        large_image: /uploads/patterns/gamify-contributions-2.jpg
         description: >-
             Setting personal goals
     -
         title: "Discogs"
-        thumbnail: /gamify-contributions-3.jpg
-        large_image: /gamify-contributions-3.jpg
+        thumbnail: /uploads/patterns/gamify-contributions-3.jpg
+        large_image: /uploads/patterns/gamify-contributions-3.jpg
         description: >-
             Help contributors put their contributions into perspective
-    
+
 related:
     - organise-campaigns
 ---
 
-There are a variety of ways to motivate contributors to contribute to a project. 
+There are a variety of ways to motivate contributors to contribute to a project.
 
 If you **[Know Your Community](/patterns/community-management/know-your-community)** you should have some insight into their needs and interests. Creating a strong, collaborative environment, where you use **[Feedback Loops](/patterns/workflow/feedback-loops)** and acknowledge contributions, will help the community feel valued.
 

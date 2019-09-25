@@ -11,11 +11,11 @@ solution: |
 examples:
     -
         title: "Open Plaques"
-        thumbnail: /accept-incomplete-records-1.jpg
-        large_image: /accept-incomplete-records-1.jpg
+        thumbnail: /uploads/patterns/accept-incomplete-records-1.jpg
+        large_image: /uploads/patterns/accept-incomplete-records-1.jpg
         description: >-
             The contributor is reassured that they may leave fields blank, and they may indicate that the inscription is not yet complete
-    
+
 related:
     - draft-changes
     - suggested-edits

@@ -3,7 +3,7 @@ category: community-management
 title: Encourage Interest Groups
 nav_order: 1
 description: >-
-    It is difficult to effectively support a broad, diverse community from the centre. 
+    It is difficult to effectively support a broad, diverse community from the centre.
 context: >-
     The communities that form around large projects will be made up of smaller communities that each have their own interests, priorities and needs. It is challenging to try and  provide support and direction to these diverse groups.
 solution: |
@@ -13,17 +13,17 @@ solution: |
 examples:
     -
         title: "MapSwipe"
-        thumbnail: /encourage-interest-groups-1.jpg
-        large_image: /encourage-interest-groups-1.jpg
+        thumbnail: /uploads/patterns/encourage-interest-groups-1.jpg
+        large_image: /uploads/patterns/encourage-interest-groups-1.jpg
         description: >-
             created by a subgroup of volunteers from MissingMaps + HOT OSM
     -
         title: "eBird"
-        thumbnail: /encourage-interest-groups-2.jpg
-        large_image: /encourage-interest-groups-2.jpg
+        thumbnail: /uploads/patterns/encourage-interest-groups-2.jpg
+        large_image: /uploads/patterns/encourage-interest-groups-2.jpg
         description: >-
             Merlin Bird ID Created to support eBird
-    
+
 related:
     - know-your-community
     - extendable-tooling

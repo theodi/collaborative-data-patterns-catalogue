@@ -7,35 +7,35 @@ description: >-
 context: >-
     Databases often consist of data that is taken from a variety of sources. For example a directory of companies might include company identifiers and codes that are taken from other datasets. Or the name of the CEO might be taken from a company website.
 solution: |
-    Ask contributors to add a cross reference to another authoritative dataset or public body of work to **[Submit Evidence](/patterns/maintaining-quality/submit-evidence)** to support their contribution. 
+    Ask contributors to add a cross reference to another authoritative dataset or public body of work to **[Submit Evidence](/patterns/maintaining-quality/submit-evidence)** to support their contribution.
 
     Display the provided links and/or citations so that other users can verify the data.
 examples:
     -
         title: "Colouring London"
-        thumbnail: /cite-sources-1.jpg
-        large_image: /cite-sources-1.jpg
+        thumbnail: /uploads/patterns/cite-sources-1.jpg
+        large_image: /uploads/patterns/cite-sources-1.jpg
         description: >-
             Contributors can cite a source to back up the value provided for age of building
     -
         title: "Wikidata"
-        thumbnail: /cite-sources-2.jpg
-        large_image: /cite-sources-2.jpg
+        thumbnail: /uploads/patterns/cite-sources-2.jpg
+        large_image: /uploads/patterns/cite-sources-2.jpg
         description: >-
             Wikidata policy on citing sources
     -
         title: "Wikipedia references"
-        thumbnail: /cite-sources-3.jpg
-        large_image: /cite-sources-3.jpg
+        thumbnail: /uploads/patterns/cite-sources-3.jpg
+        large_image: /uploads/patterns/cite-sources-3.jpg
         description: >-
             Example of both references and citations
     -
         title: "Wikipedia allows different perspectives"
-        thumbnail: /cite-sources-4.jpg
-        large_image: /cite-sources-4.jpg
+        thumbnail: /uploads/patterns/cite-sources-4.jpg
+        large_image: /uploads/patterns/cite-sources-4.jpg
         description: >-
             Contested data can exist simultaneously as long as all claims can be sourced
-    
+
 related:
     - submit-evidence
     - proof-of-witness

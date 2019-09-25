@@ -11,23 +11,23 @@ solution: |
 examples:
     -
         title: "Democracy Club"
-        thumbnail: /revert-change-1.jpg
-        large_image: /revert-change-1.jpg
+        thumbnail: /uploads/patterns/revert-change-1.jpg
+        large_image: /uploads/patterns/revert-change-1.jpg
         description: >-
             As well as reverting a single changeset, here a contributor can revert many changes to revert a record to a particular version.
     -
         title: "Discogs"
-        thumbnail: /revert-change-2.jpg
-        large_image: /revert-change-2.jpg
+        thumbnail: /uploads/patterns/revert-change-2.jpg
+        large_image: /uploads/patterns/revert-change-2.jpg
         description: >-
             Discog’s policy is that anyone, including the original author, may revert a single change
     -
         title: "OpenStreetMap"
-        thumbnail: /revert-change-3.jpg
-        large_image: /revert-change-3.jpg
+        thumbnail: /uploads/patterns/revert-change-3.jpg
+        large_image: /uploads/patterns/revert-change-3.jpg
         description: >-
             OpenStreetMap policy describes the circumstances in which changes may be reverted by moderators
-    
+
 related:
     - changeset
     - track-changes

@@ -1,9 +1,9 @@
 ---
 category: workflow
 title: Workflow
-description: >- 
-      
+description: >-
+
 nav_order: 4
 hero:
-  bg: img/category-heading-workflow.png
+  bg: /uploads/heros/category-heading-workflow.png
 ---

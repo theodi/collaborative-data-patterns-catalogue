@@ -3,7 +3,7 @@ category: encouraging-contributions
 title: Progress Indicator
 nav_order: 1
 description: >-
-    Contributors need to see that the project is progressing. 
+    Contributors need to see that the project is progressing.
 context: >-
     During collaborative maintenance projects, it is necessary for contributors to focus on completing tasks: adding new records, correcting mistakes and improving existing data. However, this risks them losing sight of the overall progress made by the community.
 solution: >-
@@ -11,25 +11,25 @@ solution: >-
 examples:
     -
         title: "Democracy Club"
-        thumbnail: /progress-indicator-1.jpg
-        large_image: /progress-indicator-1.jpg
+        thumbnail: /uploads/patterns/progress-indicator-1.jpg
+        large_image: /uploads/patterns/progress-indicator-1.jpg
     -
         title: "Mozilla Voice"
-        thumbnail: /progress-indicator-2.jpg
-        large_image: /progress-indicator-2.jpg
+        thumbnail: /uploads/patterns/progress-indicator-2.jpg
+        large_image: /uploads/patterns/progress-indicator-2.jpg
     -
         title: "Wikidata"
-        thumbnail: /progress-indicator-3.jpg
-        large_image: /progress-indicator-3.jpg
+        thumbnail: /uploads/patterns/progress-indicator-3.jpg
+        large_image: /uploads/patterns/progress-indicator-3.jpg
     -
         title: "Zooniverse"
-        thumbnail: /progress-indicator-4.jpg
-        large_image: /progress-indicator-4.jpg
+        thumbnail: /uploads/patterns/progress-indicator-4.jpg
+        large_image: /uploads/patterns/progress-indicator-4.jpg
     -
         title: "HOT OSM"
-        thumbnail: /progress-indicator-5.jpg
-        large_image: /progress-indicator-5.jpg
-    
+        thumbnail: /uploads/patterns/progress-indicator-5.jpg
+        large_image: /uploads/patterns/progress-indicator-5.jpg
+
 related:
     - deliver-individual-value
     - gamify-contributions
@@ -44,9 +44,9 @@ Progress indicators also help you monitor the activity around your project.
 
 Progress indicators are also helpful when acknowledging contributions, as you can help an individual contributor directly see how their work is contributing to the project.
 
-Progress indicators might take different forms, depending on the type of project, but they are usually based on specific metrics, for example i a project has a discrete task list that contributors are working through, then a progress indicator might be a chart showing the percentage completion of the overall task list. 
+Progress indicators might take different forms, depending on the type of project, but they are usually based on specific metrics, for example i a project has a discrete task list that contributors are working through, then a progress indicator might be a chart showing the percentage completion of the overall task list.
 
-If a project is more open-ended, progress indicators might focus on overall growth and activity around the dataset and the community. 
+If a project is more open-ended, progress indicators might focus on overall growth and activity around the dataset and the community.
 
 Progress indicators are important when you **[Organise Campaigns](/patterns/encouraging-contributions/organise-campaigns)** as these are usually designed around specific tasks, eg increasing coverage of a certain type of data or information about a local area.
 

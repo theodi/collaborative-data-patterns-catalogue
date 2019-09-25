@@ -11,15 +11,15 @@ solution: |
 examples:
     -
         title: "Wikidata"
-        thumbnail: /clear-licensing-1.jpg
-        large_image: /clear-licensing-1.jpg
+        thumbnail: /uploads/patterns/clear-licensing-1.jpg
+        large_image: /uploads/patterns/clear-licensing-1.jpg
     -
         title: "MusicBrainz"
-        thumbnail: /clear-licensing-2.jpg
-        large_image: /clear-licensing-2.jpg
+        thumbnail: /uploads/patterns/clear-licensing-2.jpg
+        large_image: /uploads/patterns/clear-licensing-2.jpg
         description: >-
             A licence describing the rights under which both _data_ and _image_ contributions will be made available to users of the data
-    
+
 related:
     - visible-processes
 ---
@@ -32,8 +32,8 @@ Some projects also choose to support multiple licences as part of a business mod
 
 Reusing existing standard licences helps users understand how data from the project can be combined with other sources.
 
-Collaboratively maintained datasets are typically created so that they provide value to all stakeholders, so the licence that is chosen should be as open as possible. 
+Collaboratively maintained datasets are typically created so that they provide value to all stakeholders, so the licence that is chosen should be as open as possible.
 
-The success of large, collaboratively maintained datasets such as OpenStreetMap is due to its open licensing. The fact that anyone can access, use and share data that has been contributed builds confidence that the data cannot later be switched to a more closed licence. 
+The success of large, collaboratively maintained datasets such as OpenStreetMap is due to its open licensing. The fact that anyone can access, use and share data that has been contributed builds confidence that the data cannot later be switched to a more closed licence.
 
 Lack of clarity around rights, eg because of the lack of a **[Clear Licencing](/patterns/project-governance/clear-licensing)** has meant that some projects have struggled to become more open over time.

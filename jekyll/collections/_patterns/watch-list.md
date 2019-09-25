@@ -11,16 +11,16 @@ solution: |
 examples:
     -
         title: "Wikipedia"
-        thumbnail: /watch-list-1.jpg
-        large_image: /watch-list-1.jpg
+        thumbnail: /uploads/patterns/watch-list-1.jpg
+        large_image: /uploads/patterns/watch-list-1.jpg
         description: >-
             An example of a watchlist that shows recent changes made to pages
-    
+
 related:
     - track-changes
 ---
 
-Users may be interested in following changes and comments made on a particular record. For example, they may be: 
+Users may be interested in following changes and comments made on a particular record. For example, they may be:
 
 * Interested in the evolution of records they have created themselves
 * A subject expert who is interested in reviewing changes, as a means to connect with other subject experts

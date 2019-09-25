@@ -3,19 +3,19 @@ category: encouraging-contributions
 title: Invite All Contributions
 nav_order: 1
 description: >-
-    Contributors aren’t always aware of where you need help in your project. 
+    Contributors aren’t always aware of where you need help in your project.
 context: >-
-    You may be looking for contributors to do more than just contribute, edit and review data. 
+    You may be looking for contributors to do more than just contribute, edit and review data.
 solution: >-
     Be clear about the variety of ways contributors may help to make your project a success.
 examples:
     -
         title: "Open Plaques"
-        thumbnail: /invite-all-contributions-1.jpg
-        large_image: /invite-all-contributions-1.jpg
+        thumbnail: /uploads/patterns/invite-all-contributions-1.jpg
+        large_image: /uploads/patterns/invite-all-contributions-1.jpg
         description: >-
             Examples of contributions are given on Open Plaques’ “Contribute” page
-    
+
 related:
     - suggested-edits
     - organise-campaigns

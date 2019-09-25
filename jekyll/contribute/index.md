@@ -3,7 +3,7 @@ layout: content-page
 title: How to contribute
 hero:
   show_breadcrumb: true
-  bg: img/contribute.png
+  bg: /uploads/heros/contribute.png
 description: 'We hope that this guidebook will become a resource that is collaboratively maintained and improved by the community.'
 ---
 
@@ -38,10 +38,10 @@ All of the patterns in this website use the following template. Use the structur
     *   should be a statement, or possibly a question if a statement doesn’t work
     *   the problem statement should ‘describe the visible manifestation of something wrong’ and not presuppose the solution
 *   **Context**
-    *   explains when to use this pattern 
-*   **Solution** 
+    *   explains when to use this pattern
+*   **Solution**
     *   provides a solution that answers the problem
-*   **Discussion** 
+*   **Discussion**
     *   provide more background and detail to the proposed solution
     *   a good discussion will introduce some of the underlying causes for the problem and may add more in-depth ideas around implementation of the solution
     *   the discussion might also address edge cases, outliers, or design trade-offs, for example when you might instead apply an alternative pattern

@@ -11,11 +11,11 @@ solution: >-
 examples:
     -
         title: "MusicBrainz"
-        thumbnail: /visibly-editable-1.jpg
-        large_image: /visibly-editable-1.jpg
+        thumbnail: /uploads/patterns/visibly-editable-1.jpg
+        large_image: /uploads/patterns/visibly-editable-1.jpg
         description: >-
             Each page of details displays a prominent edit button
-    
+
 related:
     - suggested-edits
 ---

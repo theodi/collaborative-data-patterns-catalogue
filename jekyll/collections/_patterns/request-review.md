@@ -11,11 +11,11 @@ solution: |
 examples:
     -
         title: "OpenStreetMap"
-        thumbnail: /request-review-1.jpg
-        large_image: /request-review-1.jpg
+        thumbnail: /uploads/patterns/request-review-1.jpg
+        large_image: /uploads/patterns/request-review-1.jpg
         description: >-
             At the point the contributor uploads their changes they can request a review.  The request will be added as a tag on the Changeset.
-    
+
 related:
     - moderation
     - flag-for-review

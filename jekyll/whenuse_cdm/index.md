@@ -3,18 +3,18 @@ layout: content-page
 title: When is collaborative maintenance useful?
 hero:
   show_breadcrumb: true
-  bg: img/homepage.png
+  bg: /uploads/heros/homepage.png
 description: 'Collaborative data maintenance has been successfully used in a wide variety of projects. Looking at successful projects helps identify some common characteristics and challenges.'
 footer:
   items:
     - url: patterns/index
       button_text: Browse patterns
       title: Tempor tincidunt leo
-      description:   
+      description:
     - url: /contribute/
       button_text: Contribute
       title: Vulputate euismod elit inceptos
-      description:   
+      description:
 ---
 
 ## Examples of collaborative data maintenance projects
@@ -26,11 +26,11 @@ There are a number of examples of collaborative data maintenance projects that i
 *   The UK Government’s [Get information about schools](https://get-information-schools.service.gov.uk/) service is a collaboratively maintained dataset of around 65,000 educational establishments. The work of maintaining the data is spread across authorised people working in the individual organisations. The data is available under an open licence.
 *   Google’s [My Business](https://www.google.com/business/?ppsrc=GPDA2) service allows individual businesses to contribute and manage information about their company and services so that they are discoverable in Google Maps and Google Search. This is an example of public data as Google limits reuse of the contributions.
 *   [Discogs](https://www.discogs.com/) is an online marketplace for music collectors and traders. The commercial service relies on a collaboratively maintained music database which is maintained by its community of users. The data has been placed in the public domain.
-*   [Zooniverse](https://www.zooniverse.org/) hosts a collection of citizen-science projects.. These encourage the public to contribute to the collection and cataloguing of data that is used to support academic research. The projects cover a wide range of topics, from astronomy to zoology. The collected data is licensed and used in a variety of ways. 
+*   [Zooniverse](https://www.zooniverse.org/) hosts a collection of citizen-science projects.. These encourage the public to contribute to the collection and cataloguing of data that is used to support academic research. The projects cover a wide range of topics, from astronomy to zoology. The collected data is licensed and used in a variety of ways.
 *   [OpenStreetMap](https://www.openstreetmap.org) is an openly licensed geospatial database that is currently maintained by a global community of individuals, community groups, small businesses [and large organisations like Facebook, Apple and Microsoft](https://theodi.org/article/how-are-facebook-apple-and-microsoft-contributing-to-openstreetmap/)
 
 
-## Common applications of collaborative maintenance 
+## Common applications of collaborative maintenance
 
 By looking at the range of successful collaborative maintenance projects we can identify some scenarios where the techniques are commonly applied:
 
@@ -77,8 +77,8 @@ The choice of who can contribute to a project can have impacts on its success. F
 
 Many of the challenges around collaboratively maintained datasets involve dealing with recruiting, mentoring and sustaining a community of contributors. Small-scale projects where people are encouraged to –or are required to – contribute as part of their existing role may find it easier to maintain a community.
 
-Some projects have a specific set of tasks that need to be completed, eg cataloguing a set of documents, or identifying animals in a specific collection of photos. These projects may have a fixed lifespan, ending when the set of tasks are completed. This means there is less need to maintain a community in the long term and it becomes easier to train users on a fixed set of tasks. 
+Some projects have a specific set of tasks that need to be completed, eg cataloguing a set of documents, or identifying animals in a specific collection of photos. These projects may have a fixed lifespan, ending when the set of tasks are completed. This means there is less need to maintain a community in the long term and it becomes easier to train users on a fixed set of tasks.
 
-Other projects are more open ended. Perhaps because the information to be collected is constantly changing, eg a stream of new photos to catalogue, or an ever-changing set of addresses or list of companies. Or maybe the scope is changing because people keep finding new information to add to the dataset. 
+Other projects are more open ended. Perhaps because the information to be collected is constantly changing, eg a stream of new photos to catalogue, or an ever-changing set of addresses or list of companies. Or maybe the scope is changing because people keep finding new information to add to the dataset.
 
 Projects that are long running and which have an evolving data model, will experience extra challenges, because they need to find ways to motivate contributors over time and manage the impacts of its changing scope on its community of contributors and reusers. The community may need new tools to help them contribute. Reusers may be concerned that data they rely on may no longer be collected or maintained, and it is important to respond to these concerns by being transparent about processes and future plans.

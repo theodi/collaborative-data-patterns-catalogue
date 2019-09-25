@@ -11,15 +11,15 @@ solution: |
 examples:
     -
         title: "Democracy Club"
-        thumbnail: /contributor-licence-1.jpg
-        large_image: /contributor-licence-1.jpg
+        thumbnail: /uploads/patterns/contributor-licence-1.jpg
+        large_image: /uploads/patterns/contributor-licence-1.jpg
     -
         title: "OpenStreetMap"
-        thumbnail: /contributor-licence-2.jpg
-        large_image: /contributor-licence-2.jpg
+        thumbnail: /uploads/patterns/contributor-licence-2.jpg
+        large_image: /uploads/patterns/contributor-licence-2.jpg
         description: >-
             OpenStreetMap’s policy described the rights granted by the contributor to the organisation
-    
+
 related:
     - visible-processes
     - clear-licencing
@@ -31,7 +31,7 @@ Without clear rights to reuse data, the project may face issues around licensing
 
 A good contributor licence will cover the full range of contributions that users can make. For example over both the data and any related content (eg photographs, audio, comments).
 
-The licence should only ask for the rights that the project needs, eg to support onward sharing of the data and to manage the service. 
+The licence should only ask for the rights that the project needs, eg to support onward sharing of the data and to manage the service.
 
 The licence should reuse existing open licences, for example by asking contributors to say whether the data and photographs are submitted under a Creative Commons licence.
 
