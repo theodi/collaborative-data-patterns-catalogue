@@ -7,6 +7,9 @@ output_filename () {
   echo $FILENAME".md"
 }
 
+# google docs forces us to put an http:// at the start of of an embedded link.  Delete this string so we're left with a relative link.
+perl -i -0pe 's/http:\/\/replace.me//gms' "$INPUT_MD_FILE"
+
 #loop through the keys (=pattern names), copy the pattern name to the json body, and then for each pattern send the json to j2 command, creating a file for each
 MD_TOJSON=$(md_to_json "$INPUT_MD_FILE")
 printf '%s' "$MD_TOJSON" | jq -r 'keys[]' | while read key ; do
@@ -15,5 +18,6 @@ printf '%s' "$MD_TOJSON" | jq -r 'keys[]' | while read key ; do
     | jq 'select(.Examples).Examples |= (to_entries | map_values({ Title: .key, Description: .value }))' \
     | jq 'select(.Examples).Examples |= map(.Description |= (sub("<p.*\n\n"; "") | sub("\\!.*\\)"; "") | sub("^\n*"; "") ) )' \
     | jq 'with_entries( if .key == "Related patterns" then .key |= sub("Related patterns";"Related") else . end)' \
+    | jq 'with_entries( if .key == "Related" then .value |= (sub("^. "; "") | split("\n* ")) else . end)' \
     | j2 --format=json pattern-template.j2 > outputs/$(output_filename "$key")
 done

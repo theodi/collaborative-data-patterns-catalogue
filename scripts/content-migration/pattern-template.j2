@@ -6,19 +6,25 @@ description: >-
     {{ Problem }}
 context: >-
     {{ Context }}
-solution: >-
-    {{ Solution }}
+solution: |
+    {{ Solution | indent}}
 examples:
     {% if Examples is defined -%}
     {%- for example in Examples -%}
     -
-        title: {{ example.Title }}
-        thumbnail: https://wheretheimageswilllive.com/{{ loop.index }}
-        large_image: https://wheretheimageswilllive/{{ loop.index -}}
-        {%- if example.Description -%}
+        title: "{{ example.Title }}"
+        thumbnail: /{{Name | lower | replace(" ", "-")}}-{{ loop.index }}.jpg
+        large_image: /{{Name | lower | replace(" ", "-")}}-{{ loop.index -}}.jpg
+        {%- if example.Description %}
         description: >-
-            {{ example.Description -}}
-        {% endif %}
+            {{ example.Description }}
+        {%- endif %}
+    {% endfor -%}
+    {% endif %}
+related:
+    {%- if Related is defined -%}
+    {%- for related in Related %}
+    - {{ related -}}
     {% endfor -%}
     {% endif %}
 ---
