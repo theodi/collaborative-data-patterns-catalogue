@@ -26,7 +26,7 @@ examples:
         thumbnail: /uploads/patterns/progress-indicator-4.jpg
         large_image: /uploads/patterns/progress-indicator-4.jpg
     -
-        title: "HOT OSM"
+        title: "Humanitarian OpenStreetMap"
         thumbnail: /uploads/patterns/progress-indicator-5.jpg
         large_image: /uploads/patterns/progress-indicator-5.jpg
 

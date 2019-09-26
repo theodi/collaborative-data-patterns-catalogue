@@ -16,7 +16,7 @@ examples:
         description: >-
             Summary of the contents of a changeset
     -
-        title: "OSM"
+        title: "OpenStreetMap"
         thumbnail: /uploads/patterns/changeset-2.jpg
         large_image: /uploads/patterns/changeset-2.jpg
         description: >-

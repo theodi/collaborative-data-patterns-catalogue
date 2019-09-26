@@ -12,7 +12,7 @@ solution: |-
     Organise and promote a campaign asking the community to work together to complete these tasks.
 examples:
     -
-        title: "HOT OSM"
+        title: "Humanitarian OpenStreetMap"
         thumbnail: /uploads/patterns/organise-campaigns-1.jpg
         large_image: /uploads/patterns/organise-campaigns-1.jpg
         description: >-

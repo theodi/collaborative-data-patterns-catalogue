@@ -16,7 +16,7 @@ examples:
         thumbnail: /uploads/patterns/encourage-interest-groups-1.jpg
         large_image: /uploads/patterns/encourage-interest-groups-1.jpg
         description: >-
-            created by a subgroup of volunteers from MissingMaps + HOT OSM
+            created by a subgroup of volunteers from MissingMaps and the Humanitarian OpenStreetMap Team
     -
         title: "eBird"
         thumbnail: /uploads/patterns/encourage-interest-groups-2.jpg
