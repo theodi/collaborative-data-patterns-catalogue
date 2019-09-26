@@ -4,6 +4,14 @@ title: What is collaborative data maintenance?
 hero:
   show_breadcrumb: true
   bg: /uploads/heros/homepage.png
+  nav:
+    title: Getting Started
+    items:
+      - aboutpatterns/index
+      - whenuse_cdm/index
+      - workedexample/index      
+      - glossary/index
+  bg: img/homepage.png
 description: 'When individuals, organisations and communities work together to share the work of collecting and maintaining shared data assets this is described as ‘collaborative data maintenance’.'
 footer:
   items:

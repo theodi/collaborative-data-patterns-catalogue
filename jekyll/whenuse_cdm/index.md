@@ -4,6 +4,13 @@ title: When is collaborative maintenance useful?
 hero:
   show_breadcrumb: true
   bg: /uploads/heros/homepage.png
+  nav:
+    title: Getting Started
+    items:
+      - aboutpatterns/index
+      - whatis_cdm/index
+      - workedexample/index      
+      - glossary/index
 description: 'Collaborative data maintenance has been successfully used in a wide variety of projects. Looking at successful projects helps identify some common characteristics and challenges.'
 footer:
   items:

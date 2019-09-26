@@ -4,6 +4,13 @@ title: Glossary
 hero:
   show_breadcrumb: true
   bg: /uploads/heros/homepage.png
+  nav:
+    title: Getting Started
+    items:
+      - aboutpatterns/index
+      - whatis_cdm/index
+      - whenuse_cdm/index
+      - workedexample/index      
 description: 'To ensure we cover a range of project styles, tools and methodologies, we use the following general terms across this website.'
 footer:
   items:

@@ -4,6 +4,14 @@ title: About this guidebook
 hero:
   show_breadcrumb: false
   bg: /uploads/heros/about-us.png
+  nav:
+    title: Getting Started
+    items:
+      - aboutpatterns/index
+      - whatis_cdm/index
+      - whenuse_cdm/index
+      - workedexample/index      
+      - glossary/index
 description: 'This guidebook helps people design and run projects that involve the collaborative maintenance of data'
 sidebar:
   sections:

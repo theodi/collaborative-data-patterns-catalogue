@@ -1,3 +1,15 @@
+<!--<nav class="m-accordion-nav u-hide-print" role="navigation">-->
+<!--    <a href="{{ category.url }}"  class="m-accordion-nav__item"-->
+<!--       aria-controls="#pattern-nav-123-1">-->
+<!--        Getting Started <b class="chevron"></b></a>-->
+
+<!--    <nav class="m-accordion-nav&#45;&#45;level2" id="pattern-nav-123-1">-->
+<!--        <a href="/workedexample/index" class="m-accordion-nav__item">Using The Patterns<b class="chevron chevron&#45;&#45;right"></b></a>-->
+<!--    </nav>-->
+<!--</nav>-->
+
+<h3>All categories</h3>
+
 {% assign categories = site.categories | sort: 'nav_order' %}
 
 <nav class="m-accordion-nav u-hide-print" role="navigation">
@@ -10,7 +22,7 @@
         class="m-accordion-nav__item {% if category.slug == page.category %} is--open {% endif %}"
         {% if items.size > 0 %} data-toggle="#pattern-nav-{{ include.nav_id }}-{{ forloop.index }}" aria-controls="#pattern-nav-{{ include.nav_id }}-{{ forloop.index }}" {% endif %}>
         {{ category.title }} <b class="chevron"></b></a>
-    
+
     {% if items.size > 0 %}
     <nav class="m-accordion-nav--level2 {% if category.slug == page.category %} is--open {% endif %}" {% if category.slug != page.category %} aria-hidden="true" {% endif %} id="pattern-nav-{{ include.nav_id }}-{{ forloop.index }}">
         {% for item in items %}

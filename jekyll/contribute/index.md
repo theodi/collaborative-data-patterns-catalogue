@@ -4,6 +4,14 @@ title: How to contribute
 hero:
   show_breadcrumb: true
   bg: /uploads/heros/contribute.png
+  nav:
+    title: Getting Started
+    items:
+      - aboutpatterns/index
+      - whatis_cdm/index
+      - whenuse_cdm/index
+      - workedexample/index      
+      - glossary/index
 description: 'We hope that this guidebook will become a resource that is collaboratively maintained and improved by the community.'
 ---
 

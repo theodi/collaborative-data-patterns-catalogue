@@ -2,7 +2,13 @@
 layout: content-page
 title: About patterns
 hero:
-  show_breadcrumb: true
+  nav:
+    title: Getting Started
+    items:
+      - whatis_cdm/index
+      - whenuse_cdm/index
+      - workedexample/index      
+      - glossary/index
 description: '“Once is chance, twice is a coincidence, three times is a pattern”'
 footer:
   items:

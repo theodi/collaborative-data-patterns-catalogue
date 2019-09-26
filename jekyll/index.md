@@ -3,15 +3,16 @@ layout: home
 title: Welcome to the patterns catalogue
 hero:
   nav:
-    title: Introduction
+    title: Getting Started
     items:
-      - about/index
       - aboutpatterns/index
-      - workedexample/index
-      - contribute/index
-  bg: /uploads/heros/homepage.png
-description: >-
-    This guidebook helps people design and run projects that involve the collaborative
+      - whatis_cdm/index
+      - whenuse_cdm/index
+      - workedexample/index      
+      - glossary/index
+  bg: /uploads/heros/homepage.png  
+description: >- 
+    This guidebook helps people design and run projects that involve the collaborative 
     maintenance of data
 
 sections:

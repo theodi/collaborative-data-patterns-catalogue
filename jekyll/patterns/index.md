@@ -2,11 +2,13 @@
 hero:
   bg: /uploads/heros/patterns-heading.png
   nav:
-    title: Introduction
+    title: Getting Started
     items:
-      - glossary/index
       - aboutpatterns/index
-      - workedexample/index
+      - whatis_cdm/index
+      - whenuse_cdm/index
+      - workedexample/index      
+      - glossary/index
 layout: listing
 title: Pattern Catalogue
 description: >-

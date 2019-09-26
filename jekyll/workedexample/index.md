@@ -1,9 +1,16 @@
 ---
 layout: content-page
-title: Using the patterns
+title: An example project
 hero:
   show_breadcrumb: true
   bg: /uploads/heros/worked-example.png
+  nav:
+    title: Getting Started
+    items:
+      - aboutpatterns/index
+      - whatis_cdm/index
+      - whenuse_cdm/index   
+      - glossary/index
 description: 'To help illustrate how a dataset might be collaboratively maintained we have created an example based on a fictional project.'
 footer:
   items:
