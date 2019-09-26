@@ -1,6 +1,7 @@
 ---
 layout: content-page
 title: About patterns
+bg: /uploads/heros/homepage.png
 hero:
   nav:
     title: Getting Started
