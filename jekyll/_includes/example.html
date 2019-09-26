@@ -3,8 +3,8 @@
 
         <div class="g__cell g__cell-12 {% if include.example.description %} g__cell-7--large {% endif %}">
             <h2 class="h4">{{ include.example.title }}</h2>
-            {% if include.example.description %}
-                <p>{{ include.example.description }}</p>
+            {% if include.example.description | markdownify %}
+                <p>{{ include.example.description | markdownify }}</p>
             {% endif %}
         </div>
         <div class="g__cell g__cell-12 {% if include.example.description %} g__cell-5--large {% endif%}">
