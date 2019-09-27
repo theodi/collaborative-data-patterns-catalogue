@@ -2,6 +2,7 @@
 category: project-governance
 title: Project Governance
 description: >-
+    Transparency, clear policies and licences can help to build trust. What approaches to governance can support collaborative maintenance?
 
 nav_order: 6
 hero:

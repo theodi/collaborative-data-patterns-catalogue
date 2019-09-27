@@ -2,6 +2,7 @@
 category: editing
 title: Editing
 description: >-
+    How will users approach editing records in your database?
 
 nav_order: 2
 hero:

@@ -2,6 +2,7 @@
 category: encouraging-contributions
 title: Encouraging Contributions
 description: >-
+    Design elements and approaches that encourage contributors to engage, make changes and coordinate around specific tasks
 
 nav_order: 8
 hero:

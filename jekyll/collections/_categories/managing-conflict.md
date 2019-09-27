@@ -2,6 +2,7 @@
 category: managing-conflict
 title: Managing Conflict
 description: >-
+    A collection of approaches that supports managing disputes and negative contributions to a dataset
 
 nav_order: 5
 hero:
