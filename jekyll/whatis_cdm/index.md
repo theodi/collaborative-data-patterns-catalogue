@@ -13,15 +13,6 @@ hero:
       - glossary/index
 description: 'When individuals, organisations and communities work together to share the work of collecting and maintaining shared data assets this is described as ‘collaborative data maintenance’.'
 footer:
-  items:
-    - url: patterns/index
-      button_text: Browse patterns
-      title: Tempor tincidunt leo
-      description:
-    - url: /contribute/
-      button_text: Contribute
-      title: Vulputate euismod elit inceptos
-      description:
 ---
 
 ## What is a collaborative maintenance project?

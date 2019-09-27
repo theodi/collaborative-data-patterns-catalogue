@@ -13,15 +13,6 @@ hero:
       - workedexample/index      
 description: 'To ensure we cover a range of project styles, tools and methodologies, we use the following general terms across this website.'
 footer:
-  items:
-    - url: patterns/index
-      button_text: Browse patterns
-      title: Tempor tincidunt leo
-      description: Nullam condimentum massa a est volutpat gravida. Donec hendrerit orci arcu, eu fermentum arcu malesuada nec.
-    - url: /contribute/
-      button_text: Contribute
-      title: Vulputate euismod elit inceptos
-      description: Phasellus condimentum, dolor pellentesque elementum gravida, nulla lorem ullamcorper felis, quis sodales nibh tellus a magna.
 ---
 
 This website is intended to support the design of projects that involve collaboratively maintaining data. Those projects might involve the collection, management and use of different types of data. Users might maintain that data using a variety of tools.
@@ -46,7 +37,7 @@ The community of people who are participating in a project. We distinguish betwe
 
 Removing a record.
 
-**Edit **(or **Editing**)
+**Edit** (or **Editing**)
 
 Changing an existing record. For example, to add a new field or revise the value of an existing field.
 
@@ -66,7 +57,7 @@ When we refer to ‘the project’, we refer to both the platform used to manage
 
 A description of something that is held in the database that a project is maintaining. A record might be a building, road, a sighting of a bird or a description of a company. A record is made up of multiple fields.
 
-**Review **(or **Reviewing**)
+**Review** (or **Reviewing**)
 
 Checking entries made by other contributors, eg to spot errors, suggest improvements or to give feedback.
 

@@ -13,15 +13,6 @@ hero:
       - glossary/index
 description: 'Collaborative data maintenance has been successfully used in a wide variety of projects. Looking at successful projects helps identify some common characteristics and challenges.'
 footer:
-  items:
-    - url: patterns/index
-      button_text: Browse patterns
-      title: Tempor tincidunt leo
-      description:
-    - url: /contribute/
-      button_text: Contribute
-      title: Vulputate euismod elit inceptos
-      description:
 ---
 
 ## Examples of collaborative data maintenance projects
