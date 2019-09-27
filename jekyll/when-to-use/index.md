@@ -7,21 +7,12 @@ hero:
   nav:
     title: Getting Started
     items:
-      - aboutpatterns/index
-      - whatis_cdm/index
-      - workedexample/index      
+      - about-patterns/index
+      - what-is-collaborative-maintenance/index
+      - worked-example/index      
       - glossary/index
 description: 'Collaborative data maintenance has been successfully used in a wide variety of projects. Looking at successful projects helps identify some common characteristics and challenges.'
 footer:
-  items:
-    - url: patterns/index
-      button_text: Browse patterns
-      title: Tempor tincidunt leo
-      description:
-    - url: /contribute/
-      button_text: Contribute
-      title: Vulputate euismod elit inceptos
-      description:
 ---
 
 ## Examples of collaborative data maintenance projects
@@ -42,16 +33,15 @@ There are a number of examples of collaborative data maintenance projects that i
 By looking at the range of successful collaborative maintenance projects we can identify some scenarios where the techniques are commonly applied:
 
 
-
 *   **When completing a discrete set of tasks to produce structured data.** For example, to transcribe audio or text, inspect images, or review and catalogue media. Collaborative maintenance helps by sharing these tasks across a community of contributors.
 *   **When collecting a set of observations** to create a useful, aggregate dataset that provides insight into the environment, a community or other area of interest.
-*   **When producing a directory of companies, services or other resources** where multiple people need to contribute to create a more comprehensive output.
+*   **When producing a directory of organisations, services or other resources** where multiple people need to contribute to create a more comprehensive output.
 *   **When collecting contributions from a diverse communit**y to create a more representative dataset for training machine-learning algorithms.
 *   **When creating a common database or register** that supports a community in creating new products and services, or to improve decision-making.
 
-If your project fits into one of these categories then collaborative maintenance may be a useful approach. See our notes on <span style="text-decoration:underline;">when to use collaborative maintenance</span> and the <span style="text-decoration:underline;">project type patterns</span> in our pattern catalogue.
+If your project fits into one of these categories then collaborative maintenance may be a useful approach. For more information see the [project type patterns](/patterns/project-types/) in our pattern catalogue.
 
-The above examples describe where collaborative data maintenance is a primary feature of the project. But the approach might be useful in other contexts. It may be helpful to apply techniques from collaborative maintenance projects to develop features for users or partners to contribute to other types of services. For example, any product or service that provides data to users would benefit from implementing a process for reporting data errors and omissions, as outlined in the guide.
+The above examples describe where collaborative data maintenance is a primary feature of the project. But the approach might be useful in other contexts. It may be helpful to apply techniques from collaborative maintenance projects to develop features for users or partners to contribute to other types of services. For example, any product or service that provides data to users would benefit from implementing a process for [reporting data errors and omissions](/patterns/maintaining-quality/submit-error-report), as outlined in the guide.
 
 
 ## When not to use collaborative maintenance?
@@ -61,7 +51,7 @@ Collaborative maintenance may not be suitable for all types of data assets. This
 
 
 *   **When the data to be stewarded is primarily coming from a single source**, so the work of collecting and maintaining it is difficult to distribute.
-*   **When there are legal or ethical reasons** which mean increasing access to the data across a community of contributors is not appropriate.
+*   **When there are legal or ethical reasons** which mean increasing access to the data across a community or encouraging contributors to collect it is not appropriate.
 *   **When the work of collecting and combining data can be entirely automated**, eg where there are a stream of sensors readings being collected into a common dataset.
 *   **When the goal is to simply increase access to data**, rather distribute the work of collecting and maintaining it. There are [a range of different approaches](https://theodi.org/project/the-data-access-map/) that help to increase access to data, it is important to choose one that is best suited to achieve the desired outcome.
 
@@ -71,8 +61,7 @@ Collaborative maintenance may not be suitable for all types of data assets. This
 Collaborative maintenance projects can be designed in different ways. Some of the key criteria to consider when designing a project include:
 
 
-
-*   **The scope and focus of the data to stewarded in the project**. For example, is the project a simple directory or register, or a more comprehensive database? What types of record will it contain?
+*   **The scope and purpose for collecting the data to be stewarded in the project**. For example, is the project a simple directory or register, or a more comprehensive database? What types of record will it contain?
 *   **The approach to governance and decision-making**. For example, how will decisions around the scope and technical aspects of the community be made? Will the project team make decisions in consultation with the community, or will it be a community-driven process?
 *   **The openness of the project to different contributors**. For example, can any member of the public sign up to participate, or is it only open to specific participants, eg researchers, employees of partner organisations, or designated people in specific organisations?
 *   **Whether contributors are completing tasks or undertaking other work**. For example some projects allow contributors to add new data, eg by completing specific tasks, but other work is managed more centrally.

@@ -2,6 +2,7 @@
 category: project-types
 title: Project Types
 description: >-
+    Patterns that describe some common applications of collaborative maintenance.
 
 nav_order: 9
 hero:
@@ -9,9 +10,9 @@ hero:
   nav:
     title: Getting Started
     items:
-      - aboutpatterns/index
-      - whatis_cdm/index
-      - whenuse_cdm/index
-      - workedexample/index      
+      - about-patterns/index
+      - what-is-collaborative-maintenance/index
+      - when-to-use/index
+      - worked-example/index      
       - glossary/index 
 ---

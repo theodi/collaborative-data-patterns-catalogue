@@ -14,23 +14,6 @@ layout: application
             </div>
             <div class="g__cell g__cell-12 g__cell-8--large">
 
-                <div class="pad-bottom-medium">
-
-                    {% comment %} Hardcoded to get around pages vs collections issue {% endcomment %}
-
-                    {% assign category = site.categories | where: 'category', page.category | first %}
-
-                    <div class="m-breadcrumb">
-                        <a class="m-breadcrumb__item" href="{{ site.baseurl }}/">Home</a>
-                        <span class="m-breadcrumb__separator">/</span>
-                        <a class="m-breadcrumb__item" href="/patterns/">Patterns</a>
-                        <span class="m-breadcrumb__separator">/</span>
-                        <a class="m-breadcrumb__item" href="{{ category.url }}">{{ category.title }}</a>
-                        <span class="m-breadcrumb__separator">/</span>
-                        <span class="m-breadcrumb__item is--active">{{ page.title }}</span>
-                    </div>
-                </div>
-
                 <div class="u-trim--all">
                     <h1>{{ page.title }}</h1>
                 </div>
@@ -85,7 +68,7 @@ layout: application
                                     {% endif %}">
                             <h4 class="m-section-listing__title"><a class="link" href="{{ itemPage.url | strip | relative_url }}">{{ itemPage.title | improve }}</a></h4>
                             {% if itemPage.description %}
-                            <p>{{ itemPage.description | improve }}</p>
+                            <p>{{ itemPage.description | markdownify | improve }}</p>
                             {% endif %}
                         </div>
                         {% endif %}

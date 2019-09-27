@@ -4,10 +4,10 @@ hero:
   nav:
     title: Getting Started
     items:
-      - aboutpatterns/index
-      - whatis_cdm/index
-      - whenuse_cdm/index
-      - workedexample/index      
+      - about-patterns/index
+      - what-is-collaborative-maintenance/index
+      - when-to-use/index
+      - worked-example/index      
       - glossary/index
 layout: listing
 title: Pattern Catalogue

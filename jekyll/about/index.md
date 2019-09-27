@@ -7,10 +7,10 @@ hero:
   nav:
     title: Getting Started
     items:
-      - aboutpatterns/index
-      - whatis_cdm/index
-      - whenuse_cdm/index
-      - workedexample/index      
+      - about-patterns/index
+      - what-is-collaborative-maintenance/index
+      - when-to-use/index
+      - worked-example/index      
       - glossary/index
 description: 'This guidebook helps people design and run projects that involve the collaborative maintenance of data'
 sidebar:
@@ -34,9 +34,9 @@ In our project we:
 *   directly participated in a variety of open projects to learn more about the practice of collaborative maintenance
 </div>
 
-We used the insights from this research to produce guidance on this website and create a collection of <span style="text-decoration:underline;">design patterns</span> to support those in developing new projects and improving existing services.
+We used the insights from this research to produce guidance on this website and create a collection of [design patterns](/about-patterns/) to support those in developing new projects and improving existing services.
 
-The website is openly licensed and we <span style="text-decoration:underline;">invite contributions from the community</span>.
+The website is openly licensed and we [invite contributions from the community](/contribute/).
 
 ## Acknowledgements
 

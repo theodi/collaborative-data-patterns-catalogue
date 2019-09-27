@@ -2,6 +2,7 @@
 category: community-management
 title: Community Management
 description: >-
+    Insights and approaches that can help build and maintain a community of contributors
 
 nav_order: 7
 hero:
@@ -9,9 +10,9 @@ hero:
   nav:
     title: Getting Started
     items:
-      - aboutpatterns/index
-      - whatis_cdm/index
-      - whenuse_cdm/index
-      - workedexample/index      
+      - about-patterns/index
+      - what-is-collaborative-maintenance/index
+      - when-to-use/index
+      - worked-example/index      
       - glossary/index  
 ---

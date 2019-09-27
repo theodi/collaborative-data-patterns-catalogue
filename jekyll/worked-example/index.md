@@ -7,21 +7,12 @@ hero:
   nav:
     title: Getting Started
     items:
-      - aboutpatterns/index
-      - whatis_cdm/index
-      - whenuse_cdm/index   
+      - about-patterns/index
+      - what-is-collaborative-maintenance/index
+      - when-to-use/index   
       - glossary/index
 description: 'To help illustrate how a dataset might be collaboratively maintained we have created an example based on a fictional project.'
 footer:
-  items:
-    - url: patterns/index
-      button_text: Browse patterns
-      title:
-      description:
-    - url: /contribute/
-      button_text: Contribute
-      title:
-      description:
 ---
 
 The example aims to illustrate how some of the ‘patterns’ (a repeatable solution to a commonly occurring problem) described in this guide can be applied in the context of a real application. The example should help you to understand and apply the patterns in your own projects.
