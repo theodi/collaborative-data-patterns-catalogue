@@ -15,7 +15,7 @@ description: 'To ensure we cover a range of project styles, tools and methodolog
 footer:
 ---
 
-This website is intended to support the design of projects that involve collaboratively maintaining data. Those projects might involve the collection, management and use of different types of data. Users might maintain that data using a variety of tools.
+This website is supports the design of projects that involve collaboratively maintaining data. Those projects might involve the collection, management and use of different types of data, for a variety of purposes. Users might maintain that data using a variety of tools.
 
 The projects might also be built using a range of different technologies and use different ways to store the data that is being maintained. For example they might use conventional relational databases, graph databases or other platforms.
 

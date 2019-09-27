@@ -17,7 +17,7 @@ related:
     - know-your-community
 ---
 
-Like all data infrastructure, a collaborative maintenance project involves several different communities. There is the community of contributors, a community of data users and, depending on the dataset, a community that is represented in the data. All of these communities might benefit from, and be impacted by, use of the data.
+Like all data infrastructure, a collaborative maintenance project involves several different communities. There is the community of contributors, a community of data users, a community of people impacted by how the data is collected, shared and used and, depending on the dataset, a community that is represented in the data. These communities might overlap with a single individual present in multiple communities. All of these communities might benefit from, or be naegatively impacted by the project or use of the data.
 
 It is important to ensure that data is being ethically and legally collected, shared and used.
 
