@@ -7,10 +7,10 @@ hero:
   nav:
     title: Getting Started
     items:
-      - aboutpatterns/index
-      - whatis_cdm/index
-      - whenuse_cdm/index
-      - workedexample/index      
+      - about-patterns/index
+      - what-is-collaborative-maintenance/index
+      - when-to-use/index
+      - worked-example/index      
 description: 'To ensure we cover a range of project styles, tools and methodologies, we use the following general terms across this website.'
 footer:
 ---

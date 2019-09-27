@@ -7,9 +7,9 @@ hero:
   nav:
     title: Getting Started
     items:
-      - aboutpatterns/index
-      - whatis_cdm/index
-      - workedexample/index      
+      - about-patterns/index
+      - what-is-collaborative-maintenance/index
+      - worked-example/index      
       - glossary/index
 description: 'Collaborative data maintenance has been successfully used in a wide variety of projects. Looking at successful projects helps identify some common characteristics and challenges.'
 footer:
@@ -39,7 +39,7 @@ By looking at the range of successful collaborative maintenance projects we can 
 *   **When collecting contributions from a diverse communit**y to create a more representative dataset for training machine-learning algorithms.
 *   **When creating a common database or register** that supports a community in creating new products and services, or to improve decision-making.
 
-If your project fits into one of these categories then collaborative maintenance may be a useful approach. See our notes on [when to use collaborative maintenance](/whenuse_cdm/) and the [project type patterns](/patterns/project-types/) in our pattern catalogue.
+If your project fits into one of these categories then collaborative maintenance may be a useful approach. For more information see the [project type patterns](/patterns/project-types/) in our pattern catalogue.
 
 The above examples describe where collaborative data maintenance is a primary feature of the project. But the approach might be useful in other contexts. It may be helpful to apply techniques from collaborative maintenance projects to develop features for users or partners to contribute to other types of services. For example, any product or service that provides data to users would benefit from implementing a process for [reporting data errors and omissions](/patterns/maintaining-quality/submit-error-report), as outlined in the guide.
 

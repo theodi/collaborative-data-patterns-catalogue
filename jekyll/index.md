@@ -5,10 +5,10 @@ hero:
   nav:
     title: Getting Started
     items:
-      - aboutpatterns/index
-      - whatis_cdm/index
-      - whenuse_cdm/index
-      - workedexample/index      
+      - about-patterns/index
+      - what-is-collaborative-maintenance/index
+      - when-to-use/index
+      - worked-example/index      
       - glossary/index
   bg: /uploads/heros/homepage.png  
 description: >- 
@@ -22,16 +22,16 @@ sections:
     description: >-
       When individuals, organisations and communities work together to collect and maintaining shared data assets this is described as collaborative data maintenance.
     items:
-      - whatis_cdm/index
-      - whenuse_cdm/index
-      - workedexample/index
+      - what-is-collaborative-maintenance/index
+      - when-to-use/index
+      - worked-example/index
   - type: grid # full, grid, short
     title: The pattern catalogue
     description: >-
       Our pattern catalogue provides guidance on how to design and build products and services that use collaborative maintenance
     items:
       - glossary/index
-      - aboutpatterns/index
+      - about-patterns/index
       - patterns/index
 
 ---

@@ -6,9 +6,9 @@ hero:
   nav:
     title: Getting Started
     items:
-      - whatis_cdm/index
-      - whenuse_cdm/index
-      - workedexample/index      
+      - what-is-collaborative-maintenance/index
+      - when-to-use/index
+      - worked-example/index      
       - glossary/index
 description: '“Once is chance, twice is a coincidence, three times is a pattern”'
 footer:
