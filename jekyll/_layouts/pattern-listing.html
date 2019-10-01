@@ -14,19 +14,18 @@ hero:
                 {% include section-listing.html type=section.type %}
             {% endfor %}
 
-            {% assign list_title = 'All patterns in this category' %}
+            {% assign categories = site.categories | sort: 'nav_order' %}
 
-            {% if page.list_title %}
-                {% assign list_title = page.list_title %}
-            {% endif %}
+            {% for cat in categories %}
 
-            {% if page.category %}
-                {% assign items = site.patterns | where: "category", page.category | sort: 'nav_order' %}
+                {% assign items = site.patterns | where: "category", cat.slug | sort: 'nav_order' %}
 
 
                 <div class="m-section-listing {% if modifier %}{{ modifier }}{% endif %}">
                     <div class="u-trim--all">
-                        <h2 class="h4">{{ list_title }}</h2>
+                        <h2 class="h3">{{ cat.title }}</h2>
+                        
+                        <p>{{ cat.description | markdownify }}</p>
                     </div>
 
                     <div class="g pad-top-small pad-top--medium">
@@ -45,7 +44,7 @@ hero:
                         {% endfor %}
                     </div>
                 </div>
-            {% endif %}
+            {% endfor %}
 
         </div>
     </div>
