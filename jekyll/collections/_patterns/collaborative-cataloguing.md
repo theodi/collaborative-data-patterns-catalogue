@@ -27,6 +27,6 @@ This type of project will typically have a **[Fixed Schema](/patterns/data-model
 
 It is unlikely that a contributor will need to **[Submit Evidence](/patterns/maintaining-quality/submit-evidence)**, as the system provides evidence in the form of the resources to be catalogued.
 
-The **[Onboarding Process](http://www.replace.me/patterns/community-management/onboarding-process)** and **[Learning Curve](/patterns/community-management/learning-curve)** for contributors will focus on registering  people and training them to complete their first few tasks. To encourage participation, it can be helpful to **[Gamify Contributions](/patterns/encouraging-contributions/gamify-contributions)**.
+The **[Onboarding Process](/patterns/community-management/onboarding-process)** and **[Learning Curve](/patterns/community-management/learning-curve)** for contributors will focus on registering  people and training them to complete their first few tasks. To encourage participation, it can be helpful to **[Gamify Contributions](/patterns/encouraging-contributions/gamify-contributions)**.
 
 The project itself is likely run as a campaign (**[Organise Campaigns](/patterns/encouraging-contributions/organise-campaigns)**) and may have a fixed lifespan that ends when the cataloguing work is completed.

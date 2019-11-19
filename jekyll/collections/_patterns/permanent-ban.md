@@ -10,7 +10,7 @@ solution: |
     Permanently ban a particular contributor from contributing to the project.
 examples:
     -
-        title: "OpenStreetMap"
+        title: "Wikipedia"
         thumbnail: /uploads/patterns/permanent-ban-1.jpg
         large_image: /uploads/patterns/permanent-ban-1.jpg
         description: >-

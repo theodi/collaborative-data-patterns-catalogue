@@ -40,4 +40,4 @@ Edits must be reversed in accordance with the project’s **[Published Policy](/
 
 Usually mistakes will be caught and reversed by project administrators or moderators. But it is possible for a project to allow anyone to revert any entry, even if it was made by someone else. The nature of the project will determine whether a permissions-based system is needed, so that only administrators, moderators or the original editor can revert changes.
 
-If a contributor makes repeated incorrect or malicious edits then **[Escalating Blocking](/patterns/managing-conflict/escalating-blocking)**. Might be applied.
+If a contributor makes repeated incorrect or malicious edits then **[Escalating Blocking](/patterns/managing-conflict/escalating-blocking)** might be applied.

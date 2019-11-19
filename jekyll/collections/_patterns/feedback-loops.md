@@ -30,6 +30,6 @@ These messages might include:
 * Thanking users for contributing new data or fixing errors
 * Recognising significant contributions, eg making a number of edits over the course of the day
 * **[Suggested Edits](/patterns/encouraging-contributions/suggested-edits)** to indicate to users how they can improve a record they have added to the database
-* Prompting for missing information, for example by asking user to **[Submit Evidence](/patterns/maintaining-quality/submit-evidence)**
+* Prompting for missing information, for example by asking users to **[Submit Evidence](/patterns/maintaining-quality/submit-evidence)**
 
 In addition, ad hoc feedback might be given through **[Changeset Discussions](/patterns/workflow/changeset-discussion)** that happen during **[Moderation](/patterns/editing/moderation)** workflows, or through community events and discussions.

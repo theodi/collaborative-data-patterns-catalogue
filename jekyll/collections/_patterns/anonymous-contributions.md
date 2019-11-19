@@ -22,7 +22,7 @@ related:
 
 Anonymous, open contributions can help to quickly collect data from a wider community. People can be quickly converted into contributors.
 
-By allowing anyone to edit anything, you are the community will be able to quickly react to poor quality data, spam or malicious edits, through **[Retrospective Review](/patterns/maintaining-quality/retrospective-review)**.
+By allowing anyone to edit anything, you and the community will be able to quickly react to poor quality data, spam or malicious edits, through **[Retrospective Review](/patterns/maintaining-quality/retrospective-review)**.
 
 While this can be a useful approach, particularly in small groups or team of contributors, in practice it has many downsides. By not having **[Attributable Contributions](/patterns/editing/attributable-contributions)** you are unable to recognise the work that people do, apply **[Escalating Blocking](/patterns/managing-conflict/escalating-blocking)** or build **[Moderation](/patterns/editing/moderation)** and other workflows that require some knowledge of the contributor.
 

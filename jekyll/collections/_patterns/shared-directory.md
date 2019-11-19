@@ -30,7 +30,7 @@ A Shared Directory is a specific type of **[Communal Database](/patterns/project
 
 * there is typically a single or small number of record types, its **[Fixed Schema](/patterns/editing/fixed-schema)** reflecting the focus on compiling a list of resources
 * contributors may be participating on behalf of their organisation to provide data about that organisation or its activities, rather than collecting data about a broader range of resources
-* people contribute data directly, so there may be less need for **[Extendable Tooling](www.replace.me/patterns/workflow/extendable-tooling)** or **[Bulk Changes](/patterns/workflow/bulk-changes)**
+* people contribute data directly, so there may be less need for **[Extendable Tooling](/patterns/workflow/extendable-tooling)** or **[Bulk Changes](/patterns/workflow/bulk-changes)**
 
 These projects might be run as a fully collaborative project, allowing anyone to add or update records eg to add a missing business into a local listing.
 
@@ -40,4 +40,4 @@ As a directory may be limited in size, the project might choose to require **[Ma
 
 As individual contributors are participating on behalf of their organisations it is important to **[Deliver Individual Value](/patterns/encouraging-contributions/deliver-individual-value)**, for example by demonstrating the benefit of keeping information up to date.
 
-While many datasets rely on this type of collaborative approach there may be little insight into the underlying workflow. Exposing of the details and activity of the shared work – eg via **[Tracked Changes](/patterns/workflow/track-changes)**, **[Published Policies](/patterns/project-governance/published-policies)** and using a **[Progress Indicator](/patterns/encouraging-contributions/progress-indicator)** – might help to build confidence in the data.
+While many datasets rely on this type of collaborative approach there may be little insight into the underlying workflow. Exposing the details and activity of the shared work – eg via **[Tracked Changes](/patterns/workflow/track-changes)**, **[Published Policies](/patterns/project-governance/published-policies)** and using a **[Progress Indicator](/patterns/encouraging-contributions/progress-indicator)** – might help to build confidence in the data.
