@@ -32,3 +32,7 @@ Provide some background and detail to the solution
 # Related Patterns
 
 Provide some bullet points with links to existing patterns.
+
+# Examples
+
+Where appropriate provide some examples (ideally with links and/or screenshots) of where you can see this pattern being applied
