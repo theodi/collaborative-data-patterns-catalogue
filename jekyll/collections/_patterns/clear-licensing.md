@@ -26,7 +26,7 @@ related:
 
 There is a complex set of [rights that apply to data](https://theodi.org/article/data-rights-we-need-to-build-a-coherent-framework/) and content. It is important that data is [clearly licensed to enable reuse](https://theodi.org/article/publishers-guide-to-open-data-licensing/).
 
-Collaborative maintenance projects might involved the creation of datasets that sit anywhere on [the data spectrum](https://theodi.org/about-the-odi/the-data-spectrum/). It is possible that a project might publish and share multiple datasets. For example, some sensitive data might only be shared with certain users or contributors; but other data might be openly licensed.
+Collaborative maintenance projects might involve the creation of datasets that sit anywhere on [the data spectrum](https://theodi.org/about-the-odi/the-data-spectrum/). It is possible that a project might publish and share multiple datasets. For example, some sensitive data might only be shared with certain users or contributors; but other data might be openly licensed.
 
 Some projects also choose to support multiple licences as part of a business model designed to make the project sustainable. For example, data might be openly available under a licence that requires attribution and sharing of changes, or it might be available under a more liberal licence under commercial terms.
 

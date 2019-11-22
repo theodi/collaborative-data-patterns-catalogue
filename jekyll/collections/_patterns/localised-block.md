@@ -3,9 +3,9 @@ category: managing-conflict
 title: Localised Block
 nav_order: 1
 description: >-
-    A contributor is not adhering the project’s **[Published Policies](/patterns/project-governance/published-policies)**, but this is only happening when contributing to a certain topic.
+    A contributor is not adhering to the project’s **[Published Policies](/patterns/project-governance/published-policies)**, but this is only happening when contributing to a certain topic.
 context: >-
-    Some databases contain contentious topics that are prone to repeated contradictory edits (an ‘edit war’), or contain localised topics of interest that lend themselves to focused attention. The contributor in question will have ignored Warning Messages to stop disruptive or improper activities.
+    Some databases contain contentious topics that are prone to repeated contradictory edits (an ‘edit war’), or contain localised topics of interest that lend themselves to focused attention. The contributor in question will have ignored **[Warning Messages](/patterns/managing-conflict/warning-messages)** to stop disruptive or improper activities.
 solution: |
     Permanently or temporarily ban a contributor from a certain topic.
 examples:

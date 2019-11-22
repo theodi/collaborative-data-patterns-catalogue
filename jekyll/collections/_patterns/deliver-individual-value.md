@@ -33,6 +33,6 @@ For example, a project to build an open catalogue of music, literature, photogra
 
 Projects that involve contributors from organisations could provide tools and APIs that provide some value for that organisation. For example, a project that is cataloguing store locations could provide organisations with a map of their individual stores that can be embedded on their website.
 
-If you **[Know Your Community](/patterns/community-management/know-your-community)** it will be easier to understand their needs, goals and interests, which will help you to create these features or tools. An **[Evolving Schema](/patterns/data-model/evolving-schema) **could help you to collect additional data that will provide value to individual contributors and not just the project as a whole.
+If you **[Know Your Community](/patterns/community-management/know-your-community)** it will be easier to understand their needs, goals and interests, which will help you to create these features or tools. An **[Evolving Schema](/patterns/data-model/evolving-schema)** could help you to collect additional data that will provide value to individual contributors and not just the project as a whole.
 
 Another way to provide value to individual contributors is to **[Gamify Contributions](/patterns/encouraging-contributions/gamify-contributions)**.

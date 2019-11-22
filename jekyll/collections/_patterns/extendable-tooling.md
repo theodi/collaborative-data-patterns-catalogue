@@ -35,17 +35,17 @@ Web and mobile based tools to edit and contribute data will typically be impleme
 
 Exposing an API is a great way to **[Invite All Contributions](/patterns/encouraging-contributions/invite-all-contributions)** from your community. An API provides developers with the ability to create open source software that can help both contributors and data users to maximise the value and quality of the data you are collecting.
 
-Encouraging an ecosystem of third-party tools will make your project richer, make it easier for different people to contributor, and will allow the community to be more autonomous.
+Encouraging an ecosystem of third-party tools will make your project richer, make it easier for different people to contribute, and will allow the community to be more autonomous.
 
 Third-party tools might provide:
 
 * custom editing interfaces to support collection of specific types of data
 * tools that support offline editing for people with restricted bandwidth
-* tools that simplifies the process of importing and reviewing data from other sources to carry out **[Bulk Changes](/patterns/workflow/bulk-changes)**
+* tools that simplify the process of importing and reviewing data from other sources to carry out **[Bulk Changes](/patterns/workflow/bulk-changes)**
 * reporting to help provide insight into the quality and coverage of the dataset
 * provide insight into the patterns of contribution across the community
 * automated tools that carry out **[Machine Editing](/patterns/editing/machine-editing)** of data
 
-Design the API so that is exposes the same range of data collection and editing options that are available in the core project tools. This will ensure that developers can benefit from the same functionality.
+Design the API so that it exposes the same range of data collection and editing options that are available in the core project tools. This will ensure that developers can benefit from the same functionality.
 
 Showcasing third-party tools will help your community find the tools they need.

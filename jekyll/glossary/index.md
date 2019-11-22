@@ -15,7 +15,7 @@ description: 'To ensure we cover a range of project styles, tools and methodolog
 footer:
 ---
 
-This website is supports the design of projects that involve collaboratively maintaining data. Those projects might involve the collection, management and use of different types of data, for a variety of purposes. Users might maintain that data using a variety of tools.
+This website supports the design of projects that involve collaboratively maintaining data. Those projects might involve the collection, management and use of different types of data, for a variety of purposes. Users might maintain that data using a variety of tools.
 
 The projects might also be built using a range of different technologies and use different ways to store the data that is being maintained. For example they might use conventional relational databases, graph databases or other platforms.
 
@@ -43,7 +43,7 @@ Changing an existing record. For example, to add a new field or revise the value
 
 **Entry** (or **Entries**)
 
-A contribution that results in a change to the database. An entry might involve adding a new record, updating an existing record or deleting a record. It might also involve changes to multiple records in one update. Making entries is a subset of the ways in which contributors can help with a project. A synonym for ‘Change (or Changes). We might use ‘entry’ instead of ‘change’ for clarity or, for example, to give patterns more relevant names.
+A contribution that results in a change to the database. An entry might involve adding a new record, updating an existing record or deleting a record. It might also involve changes to multiple records in one update. Making entries is a subset of the ways in which contributors can help with a project. A synonym for ‘Change’ (or Changes). We might use ‘entry’ instead of ‘change’ for clarity or, for example, to give patterns more relevant names.
 
 **Field**
 

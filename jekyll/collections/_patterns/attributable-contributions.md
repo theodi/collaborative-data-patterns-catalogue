@@ -36,6 +36,6 @@ One downside of requiring users to register to contribute to a project is that i
 
 The other major downside of relating contributions to individual user accounts is that there are increased privacy risks. For example contributors might be incidentally giving away personal information, e.g. home or work location, as a side effect of contributing to the project or **[Submitting Evidence](/patterns/maintaining-quality/submit-evidence)**.
 
-Ensure you are minimising the amount of data collected from contributors and that sensitive information is only shared as required. Ensure that you are applying with appropriate data protection laws and regulation, e.g the [GDPR](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/).
+Ensure you are minimising the amount of data collected from contributors and that sensitive information is only shared as required. Ensure that you are complying with appropriate data protection laws and regulation, e.g the [GDPR](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/).
 
 Your Onboarding Process should ensure that you have explained to a user why signing up is necessary and that you have clearly displayed your privacy policy.

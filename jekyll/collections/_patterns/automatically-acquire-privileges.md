@@ -33,9 +33,9 @@ Different projects use different ways to automatically assess contributors. For 
 * the quality of contributed data, e.g. entries that have been accepted without amendments
 * consistency of contribution over a sustained period
 
-These metrics often overlaps with methods to **[Gamify Contributions](/patterns/encouraging-contributions/gamify-contributions)**.
+These metrics often overlap with methods to **[Gamify Contributions](/patterns/encouraging-contributions/gamify-contributions)**.
 
-Acquiring privileges isn’t necessarily about gaining an administrator role. A project limit choose to restrict the features available to a new contributor until they have demonstrated that they are a trustworthy contributor.
+Acquiring privileges isn’t necessarily about gaining an administrator role. A project might choose to restrict the features available to a new contributor until they have demonstrated that they are a trustworthy contributor.
 
 For example, to limit entries from spam accounts, a project might limit new users to a maximum number of entries in the first 24 hours of registering. Or they may only acquire the ability to undo a change made by another user (**[Revert Change](/patterns/editing/revert-change))** after making a number of their own contributions.
 

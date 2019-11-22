@@ -22,6 +22,6 @@ All collaborative projects have a community of contributors. These communities a
 
 Trying to build a sense of community across a distributed group is challenging. One approach that has proven successful in some collaborative projects and in [building communities of practice](https://www.researchgate.net/publication/265678077_Seven_Principles_for_Cultivating_Communities_of_Practice) is to build a rhythm around community events and engagement.
 
-Providing regular communication, regularly recurring events such as monthly conference calls, online discussions, and face-to-face meetings can help bring your community together, and build social connections and a stronger sense of purpose.These events are a great way to recruit new contributors, provide training and encourage collaboration.
+Providing regular communication, regularly recurring events such as monthly conference calls, online discussions, and face-to-face meetings can help bring your community together, and build social connections and a stronger sense of purpose. These events are a great way to recruit new contributors, provide training and encourage collaboration.
 
 Keeping to a fixed schedule of events is important for consistency. Contributors can skip a meeting knowing that the next one will happen next week or next month.

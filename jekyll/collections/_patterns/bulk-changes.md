@@ -36,7 +36,7 @@ Implementing a bulk update tool will require thinking about the workflow of appl
 * the system will need to confirm that the identified records exist and prompt the contributor for what to do if there are gaps. For example, should new records be added, or should elements of the import be ignored? How will conflicts be handled?
 * the contributor should be prompted to confirm that they are happy that the import will be applied correctly, so they are clear about what changes will be applied
 * large imports may take time to complete, so may need to be carried out as a background task that can be monitored by the contributor
-* the system should consider handling the update as a single **[Changeset](/patterns/data-model/changeset)** so that it can be reverted (**[Revert Change](/patterns/editing/revert-change)**) is a single update
+* the system should consider handling the update as a single **[Changeset](/patterns/data-model/changeset)** so that it can be reverted (**[Revert Change](/patterns/editing/revert-change)**) in a single update
 
 The ability to make large scale changes to a database means that a single update could potentially damage a large number of records. A project may choose to impose limits on the size and frequency of bulk updates, or limit access to the tool to trusted contributors.
 

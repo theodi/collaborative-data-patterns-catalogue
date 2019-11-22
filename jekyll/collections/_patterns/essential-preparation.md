@@ -34,4 +34,4 @@ related:
 ---
 
 * The contributor might not have visited your site before, and barriers like installing software, or needing evidence can create friction and frustration. They may not complete the process and/or and may not return.
-* While your project may introduce requirements to help improve quality, the contributors may not be able//willing to prepare the required information.
+* While your project may introduce requirements to help improve quality, the contributors may not be able/willing to prepare the required information.

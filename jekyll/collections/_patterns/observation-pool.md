@@ -16,7 +16,7 @@ related:
 
 There is often a need to create better insights about the current state of the world. Data about sightings of animals or reports of weather conditions might inform research, support conservation or raise awareness of environmental issues. Reports of problems in cities and the built environment can help improve decision making and prioritisation of resources.
 
-Filling these gaps in our understanding can be time consuming. To be useful, the data needs to be current and have good coverage across a geographic area or community..
+Filling these gaps in our understanding can be time consuming. To be useful, the data needs to be current and have good coverage across a geographic area or community.
 
 Sharing the work of collecting these observations across a community of contributors and pooling them into a common database can help to reduce costs and demonstrate the benefits of better data.
 
